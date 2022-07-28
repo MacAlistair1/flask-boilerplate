@@ -11,11 +11,13 @@
   - `pip install -r requirements.txt` **install requirements dependency modules**
   - `flask run` **serve the project**
 
-- Api EndPoint
+- User & Auth Api EndPoint
   - `{BASE_URI}/api/v1/auth/register` `POST` **Register User**
   - `{BASE_URI}/api/v1/auth/verify-otp` `POST` **verify otp**
   - `{BASE_URI}/api/v1/auth/login` `POST` **User Login**
   - `{BASE_URI}/api/v1/auth/my-profile` `GET` **Auth Route For User Profile**
+
+- Other Api EndPoint
 
 <p align="center">
                    
