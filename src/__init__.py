@@ -5,10 +5,11 @@ from flask_cors import CORS
 from flask_bcrypt import Bcrypt
 from flask_limiter import Limiter, RateLimitExceeded
 from flask_jwt_extended import JWTManager
-from flask_jwt_extended.exceptions import NoAuthorizationError, InvalidHeaderError
+from flask_jwt_extended.exceptions import NoAuthorizationError
 
 from src.database import db
 from src.auth import auth
+from src.bookmark import bookmark
 from src.constants.http_status_codes import HTTP_401_UNAUTHORIZED
 
 
@@ -22,11 +23,10 @@ def create_app(test_config=None):
         )
 
         app.config["MONGODB_SETTINGS"] = {
-            "db": "User",
+            "db": "Boilerplate",
             "host": environ.get('MONGO_DB_URL'),
             "port": 27017,
         }
-
     else:
         app.config.from_mapping(test_config)
 
@@ -42,11 +42,10 @@ def create_app(test_config=None):
 
     # jwt things init
     jwt = JWTManager(app)
-    jwt._set_error_handler_callbacks(app)
 
     # register blueprints
     app.register_blueprint(auth)
-
+    app.register_blueprint(bookmark)
     # calls when someone hit the route before sending to the methods
 
     @app.before_request
@@ -76,6 +75,6 @@ def create_app(test_config=None):
 
     @jwt.expired_token_loader
     def my_expired_token_callback(jwt_header, jwt_payload):
-        return jsonify({"status": False, "message": "Token Expired.", "statusCode": 401}), 401
+        return jsonify({"status": False, "message": "Token Expired.", "statusCode": HTTP_401_UNAUTHORIZED}), HTTP_401_UNAUTHORIZED
 
     return app
