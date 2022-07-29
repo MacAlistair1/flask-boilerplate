@@ -111,3 +111,51 @@ class VerifyOtpSchema(Schema):
     otp = fields.Str(
         required=True, validate=[validate.Length(min=6, max=6)], load_only=True
     )
+
+
+class Bookmark(db.Document):
+    name = db.StringField(Required=True)
+    url = db.URLField(Required=True)
+    user = db.ReferenceField(User, required=True)
+    short_url = db.StringField(Required=True, min=3, max=3)
+    createdAt = db.DateTimeField(default=datetime.now())
+    updatedAt = db.DateTimeField(default=datetime.now())
+
+    def generate_short_characters(self):
+        picked_chars = ''.join(random.choices(
+            string.digits+string.ascii_letters, k=3))
+
+        link = Bookmark.objects(short_url=picked_chars).first()
+
+        if link:
+            self.generate_short_characters()
+        else:
+            return picked_chars
+
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+
+        self.short_url = self.generate_short_characters()
+
+    def __repr__(self) -> str:
+        return 'Boomark>>> {self.url}'
+
+    def object(self):
+        return {
+            "id": str(self.pk),
+            "name": self.name,
+            "url": self.url,
+            "shortUrl": self.short_url,
+            "createdAt": (str(self.createdAt)),
+            "updatedAt": (str(self.updatedAt)),
+        }
+
+
+class BookmarkSchema(Schema):
+    name = fields.String(required=True, error_messages={
+        "required": "Name field is required."})
+    url = fields.URL(required=True, error_messages={
+        "invalid": "Please provide valid url."})
+    # user = fields.Nested(UserSchema(only=("id",)))
+    # fields.Nested(UserSchema(only=("pk")), required=True)
+    # fields.Nested(UserSchema(only=("email",)))

@@ -40,6 +40,30 @@
         "documentation": {}
     },
     {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "abort",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
         "label": "check_password_hash",
         "importPath": "werkzeug.security",
         "description": "werkzeug.security",
@@ -104,11 +128,75 @@
         "documentation": {}
     },
     {
+        "label": "jwt_required",
+        "importPath": "flask_jwt_extended",
+        "description": "flask_jwt_extended",
+        "isExtraImport": true,
+        "detail": "flask_jwt_extended",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "importPath": "flask_jwt_extended",
+        "description": "flask_jwt_extended",
+        "isExtraImport": true,
+        "detail": "flask_jwt_extended",
+        "documentation": {}
+    },
+    {
+        "label": "create_refresh_token",
+        "importPath": "flask_jwt_extended",
+        "description": "flask_jwt_extended",
+        "isExtraImport": true,
+        "detail": "flask_jwt_extended",
+        "documentation": {}
+    },
+    {
+        "label": "get_jwt_identity",
+        "importPath": "flask_jwt_extended",
+        "description": "flask_jwt_extended",
+        "isExtraImport": true,
+        "detail": "flask_jwt_extended",
+        "documentation": {}
+    },
+    {
+        "label": "verify_jwt_in_request",
+        "importPath": "flask_jwt_extended",
+        "description": "flask_jwt_extended",
+        "isExtraImport": true,
+        "detail": "flask_jwt_extended",
+        "documentation": {}
+    },
+    {
+        "label": "get_jwt",
+        "importPath": "flask_jwt_extended",
+        "description": "flask_jwt_extended",
+        "isExtraImport": true,
+        "detail": "flask_jwt_extended",
+        "documentation": {}
+    },
+    {
         "label": "environ",
         "importPath": "os",
         "description": "os",
         "isExtraImport": true,
         "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "environ",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "marshmallow",
+        "description": "marshmallow",
+        "isExtraImport": true,
+        "detail": "marshmallow",
         "documentation": {}
     },
     {
@@ -195,6 +283,30 @@
         "documentation": {}
     },
     {
+        "label": "NoAuthorizationError",
+        "importPath": "flask_jwt_extended.exceptions",
+        "description": "flask_jwt_extended.exceptions",
+        "isExtraImport": true,
+        "detail": "flask_jwt_extended.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidHeaderError",
+        "importPath": "flask_jwt_extended.exceptions",
+        "description": "flask_jwt_extended.exceptions",
+        "isExtraImport": true,
+        "detail": "flask_jwt_extended.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "wraps",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
         "label": "wraps",
         "importPath": "functools",
         "description": "functools",
@@ -228,6 +340,46 @@
     },
     {
         "label": "LoginSchema",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "Bookmark",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "BookmarkSchema",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "UserSchema",
         "importPath": "src.database",
         "description": "src.database",
         "isExtraImport": true,
@@ -299,11 +451,67 @@
         "documentation": {}
     },
     {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
+        "label": "HTTP_200_OK",
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
         "isExtraImport": true,
-        "detail": "datetime",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_201_CREATED",
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "isExtraImport": true,
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_409_CONFLICT",
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "isExtraImport": true,
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_422_UNPROCESSABLE_ENTITY",
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "isExtraImport": true,
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_404_NOT_FOUND",
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "isExtraImport": true,
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_403_FORBIDDEN",
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "isExtraImport": true,
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_503_SERVICE_UNAVAILABLE",
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "isExtraImport": true,
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "Pagination",
+        "importPath": "flask_mongoengine",
+        "description": "flask_mongoengine",
+        "isExtraImport": true,
+        "detail": "flask_mongoengine",
         "documentation": {}
     },
     {
@@ -312,6 +520,22 @@
         "description": "flask_mongoengine",
         "isExtraImport": true,
         "detail": "flask_mongoengine",
+        "documentation": {}
+    },
+    {
+        "label": "app_jwt_required",
+        "importPath": "src.auth",
+        "description": "src.auth",
+        "isExtraImport": true,
+        "detail": "src.auth",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
         "documentation": {}
     },
     {
@@ -945,6 +1169,33 @@
         "documentation": {}
     },
     {
+        "label": "bookmark_list",
+        "kind": 2,
+        "importPath": "src.bookmark",
+        "description": "src.bookmark",
+        "peekOfCode": "def bookmark_list():\n    user = User.objects(id=get_jwt_identity()).first()\n    # bookmarks = Bookmark.objects(user=get_jwt_identity()).order_by('+createdAt', '-name') #first order by created date and desc by name\n    # bookmarks = Bookmark.objects.all().count()\n    paginator = Pagination(Bookmark.objects(\n        user=get_jwt_identity()).order_by('+createdAt', '-name'), 1, 2)\n    # \"links\": {\n    #     \"first\": \"http://upstar.test/api/v1/misc/blog-categories?page=1\",\n    #     \"last\": \"http://upstar.test/api/v1/misc/blog-categories?page=1\",\n    #     \"prev\": null,",
+        "detail": "src.bookmark",
+        "documentation": {}
+    },
+    {
+        "label": "create",
+        "kind": 2,
+        "importPath": "src.bookmark",
+        "description": "src.bookmark",
+        "peekOfCode": "def create():\n    user = User.objects(id=get_jwt_identity()).first()\n    body = request.get_json()\n    schema = BookmarkSchema()\n    try:\n        data = schema.load(body)\n        body['user'] = user\n        bookmark = Bookmark(**body).save()\n        return jsonify({\n            \"data\": bookmark.object(),",
+        "detail": "src.bookmark",
+        "documentation": {}
+    },
+    {
+        "label": "bookmark",
+        "kind": 5,
+        "importPath": "src.bookmark",
+        "description": "src.bookmark",
+        "peekOfCode": "bookmark = Blueprint(\"bookmark\", __name__, url_prefix=\"/api/v1/bookmark\")\n@bookmark.get(\"/\")\n@app_jwt_required()\ndef bookmark_list():\n    user = User.objects(id=get_jwt_identity()).first()\n    # bookmarks = Bookmark.objects(user=get_jwt_identity()).order_by('+createdAt', '-name') #first order by created date and desc by name\n    # bookmarks = Bookmark.objects.all().count()\n    paginator = Pagination(Bookmark.objects(\n        user=get_jwt_identity()).order_by('+createdAt', '-name'), 1, 2)\n    # \"links\": {",
+        "detail": "src.bookmark",
+        "documentation": {}
+    },
+    {
         "label": "User",
         "kind": 6,
         "importPath": "src.database",
@@ -977,6 +1228,24 @@
         "importPath": "src.database",
         "description": "src.database",
         "peekOfCode": "class VerifyOtpSchema(Schema):\n    countryCode = fields.Str(\n        required=True, validate=[validate.Length(min=1, max=5)], load_only=True\n    )\n    phone = fields.Str(\n        required=True, validate=[validate.Length(min=10, max=10)], load_only=True\n    )\n    otp = fields.Str(\n        required=True, validate=[validate.Length(min=6, max=6)], load_only=True\n    )",
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "Bookmark",
+        "kind": 6,
+        "importPath": "src.database",
+        "description": "src.database",
+        "peekOfCode": "class Bookmark(db.Document):\n    name = db.StringField(Required=True)\n    url = db.URLField(Required=True)\n    user = db.ReferenceField(User, required=True)\n    short_url = db.StringField(Required=True, min=3, max=3)\n    createdAt = db.DateTimeField(default=datetime.now())\n    updatedAt = db.DateTimeField(default=datetime.now())\n    def generate_short_characters(self):\n        picked_chars = ''.join(random.choices(\n            string.digits+string.ascii_letters, k=3))",
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "BookmarkSchema",
+        "kind": 6,
+        "importPath": "src.database",
+        "description": "src.database",
+        "peekOfCode": "class BookmarkSchema(Schema):\n    name = fields.String(required=True, error_messages={\n        \"required\": \"Name field is required.\"})\n    url = fields.URL(required=True, error_messages={\n        \"invalid\": \"Please provide valid url.\"})\n    # user = fields.Nested(UserSchema(only=(\"id\",)))\n    # fields.Nested(UserSchema(only=(\"pk\")), required=True)\n    # fields.Nested(UserSchema(only=(\"email\",)))",
         "detail": "src.database",
         "documentation": {}
     },
