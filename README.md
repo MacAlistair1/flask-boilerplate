@@ -12,12 +12,20 @@
   - `flask run` **serve the project**
 
 - User & Auth Api EndPoint
+
   - `{BASE_URI}/api/v1/auth/register` `POST` **Register User**
   - `{BASE_URI}/api/v1/auth/verify-otp` `POST` **verify otp**
   - `{BASE_URI}/api/v1/auth/login` `POST` **User Login**
   - `{BASE_URI}/api/v1/auth/my-profile` `GET` **Auth Route For User Profile**
+  - `{BASE_URI}/api/v1/auth/token/refresh` `GET` **Refresh accessToken using RefreshToken**
 
-- Other Api EndPoint
+  - Bookmark Api EndPoint
+  - `{BASE_URI}/api/v1/bookmark` `GET` **Bookmark List**
+  - `{BASE_URI}/api/v1/bookmark` `POST` **Store Bookmark**
+
+- Swagger Api Docs
+
+  - `{BASE_URI}/apidocs` **_Api document using Swagger_**
 
 <p align="center">
                    

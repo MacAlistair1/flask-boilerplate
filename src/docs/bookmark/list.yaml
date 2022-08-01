@@ -2,19 +2,8 @@ Bookmark List
 ---
 tags:
   - Bookmark
-parameters:
-  - name: header
-    description: The header should contain the user accessToken
-    in: header
-    required: true
-    schema:
-      type: object
-      required:
-        - "Authorization"
-      properties:
-        Authorization:
-          type: token
-          example: "Bearer <TOKEN>"
+security:
+  - Bearer: []
 
 responses:
   200:

@@ -66,21 +66,31 @@ def create_app(test_config=None):
 
     @app.before_request
     def log_request_info():
-        app.logger.info('Headers: %s', request.headers)
-        app.logger.debug('Body: %s', request.get_data())
 
         accept_header = request.headers.get("Accept", None)
 
-        # return 404 if the accept header is not json except for the swagger json path
-        if not accept_header == "application/json" and not request.path == "/apispec.json":
-            abort(404, "Direction you're looking for is unavailable.")
+        # store logs only if accept header is json
+        if accept_header == "application/json":
+            app.logger.info('Headers: %s', request.headers)
+            app.logger.debug('Body: %s', request.get_data())
 
-    # calls at the end of request fullfill
+        # d nothing for swagger end points
+        if request.path == "/apispec.json" or request.path == "/apidocs" or "flasgger_static" in request.path:
+            pass
+        else:
+            # return 404 if the accept header is not json except for the swagger json path
+            if not accept_header == "application/json":
+                abort(404, "Direction you're looking for is unavailable.")
+
+        # calls at the end of request fullfill
 
     @app.after_request
     def after_request(response):
-        app.logger.info(response.headers)
-        app.logger.debug(response.get_data())
+        accept_header = request.headers.get("Accept", None)
+        # store logs only if accept header is json
+        if accept_header == "application/json":
+            app.logger.info(response.headers)
+            app.logger.debug(response.get_data())
 
         return response
 
