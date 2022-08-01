@@ -13,6 +13,7 @@ from flasgger import Swagger, swag_from
 from src.database import db
 from src.auth import auth
 from src.bookmark import bookmark
+from src.restaurant import restaurant
 from src.constants.http_status_codes import HTTP_401_UNAUTHORIZED
 from src.config.swagger import template, swagger_config
 
@@ -54,6 +55,7 @@ def create_app(test_config=None):
     # register blueprints
     app.register_blueprint(auth)
     app.register_blueprint(bookmark)
+    app.register_blueprint(restaurant)
 
     # swagger init
     Swagger(app, config=swagger_config, template=template)
