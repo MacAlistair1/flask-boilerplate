@@ -3,6 +3,9 @@ import string
 import random
 from flask_mongoengine import MongoEngine
 from marshmallow import Schema, fields, validate, ValidationError
+from geojson import MultiPoint, Point, Polygon
+from marshmallow.fields import Constant, Float, List
+from marshmallow.validate import Validator
 
 db = MongoEngine()
 
@@ -159,3 +162,46 @@ class BookmarkSchema(Schema):
     # user = fields.Nested(UserSchema(only=("id",)))
     # fields.Nested(UserSchema(only=("pk")), required=True)
     # fields.Nested(UserSchema(only=("email",)))
+
+
+class Restaurant(db.Document):
+    name = db.StringField(Required=True)
+    point = db.GeoPointField(required=True)
+    createdAt = db.DateTimeField(default=datetime.now())
+    updatedAt = db.DateTimeField(default=datetime.now())
+
+    def __repr__(self) -> str:
+        return 'Restaurant>>> {self.name}'
+
+    def object(self):
+        return {
+            "id": str(self.pk),
+            "name": self.name,
+            "point": self.point,
+            "createdAt": (str(self.createdAt)),
+            "updatedAt": (str(self.updatedAt)),
+        }
+
+
+class GeometryValidator(Validator):
+    """Validator for GeoJSON geometry objects."""
+
+    def __init__(self, geometry_cls):
+        """Initialize the validator.
+
+        :param geometry_cls: The GeoJSON geometry class to validate against.
+        """
+        self.geometry_cls = geometry_cls
+
+    def __call__(self, value):
+        """Validate a geometry object."""
+        obj = self.geometry_cls(value)
+        if not obj.is_valid:
+            errors = obj.errors()
+            raise ValidationError({"geojson": {"coordinates": errors}})
+        return value
+
+class RestaurantSchema(Schema):
+    name = fields.String(required=True, error_messages={
+        "required": "Name field is required."})
+    point = List(Float, required=True, validate=GeometryValidator(Point))

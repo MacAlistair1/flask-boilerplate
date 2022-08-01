@@ -1,0 +1,1678 @@
+[
+    {
+        "label": "environ",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "environ",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "environ",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "environ",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "abort",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "abort",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "abort",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "check_password_hash",
+        "importPath": "werkzeug.security",
+        "description": "werkzeug.security",
+        "isExtraImport": true,
+        "detail": "werkzeug.security",
+        "documentation": {}
+    },
+    {
+        "label": "generate_password_hash",
+        "importPath": "werkzeug.security",
+        "description": "werkzeug.security",
+        "isExtraImport": true,
+        "detail": "werkzeug.security",
+        "documentation": {}
+    },
+    {
+        "label": "jwt_required",
+        "importPath": "flask_jwt_extended",
+        "description": "flask_jwt_extended",
+        "isExtraImport": true,
+        "detail": "flask_jwt_extended",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "importPath": "flask_jwt_extended",
+        "description": "flask_jwt_extended",
+        "isExtraImport": true,
+        "detail": "flask_jwt_extended",
+        "documentation": {}
+    },
+    {
+        "label": "create_refresh_token",
+        "importPath": "flask_jwt_extended",
+        "description": "flask_jwt_extended",
+        "isExtraImport": true,
+        "detail": "flask_jwt_extended",
+        "documentation": {}
+    },
+    {
+        "label": "get_jwt_identity",
+        "importPath": "flask_jwt_extended",
+        "description": "flask_jwt_extended",
+        "isExtraImport": true,
+        "detail": "flask_jwt_extended",
+        "documentation": {}
+    },
+    {
+        "label": "verify_jwt_in_request",
+        "importPath": "flask_jwt_extended",
+        "description": "flask_jwt_extended",
+        "isExtraImport": true,
+        "detail": "flask_jwt_extended",
+        "documentation": {}
+    },
+    {
+        "label": "get_jwt",
+        "importPath": "flask_jwt_extended",
+        "description": "flask_jwt_extended",
+        "isExtraImport": true,
+        "detail": "flask_jwt_extended",
+        "documentation": {}
+    },
+    {
+        "label": "jwt_required",
+        "importPath": "flask_jwt_extended",
+        "description": "flask_jwt_extended",
+        "isExtraImport": true,
+        "detail": "flask_jwt_extended",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "importPath": "flask_jwt_extended",
+        "description": "flask_jwt_extended",
+        "isExtraImport": true,
+        "detail": "flask_jwt_extended",
+        "documentation": {}
+    },
+    {
+        "label": "create_refresh_token",
+        "importPath": "flask_jwt_extended",
+        "description": "flask_jwt_extended",
+        "isExtraImport": true,
+        "detail": "flask_jwt_extended",
+        "documentation": {}
+    },
+    {
+        "label": "get_jwt_identity",
+        "importPath": "flask_jwt_extended",
+        "description": "flask_jwt_extended",
+        "isExtraImport": true,
+        "detail": "flask_jwt_extended",
+        "documentation": {}
+    },
+    {
+        "label": "verify_jwt_in_request",
+        "importPath": "flask_jwt_extended",
+        "description": "flask_jwt_extended",
+        "isExtraImport": true,
+        "detail": "flask_jwt_extended",
+        "documentation": {}
+    },
+    {
+        "label": "get_jwt",
+        "importPath": "flask_jwt_extended",
+        "description": "flask_jwt_extended",
+        "isExtraImport": true,
+        "detail": "flask_jwt_extended",
+        "documentation": {}
+    },
+    {
+        "label": "jwt_required",
+        "importPath": "flask_jwt_extended",
+        "description": "flask_jwt_extended",
+        "isExtraImport": true,
+        "detail": "flask_jwt_extended",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "importPath": "flask_jwt_extended",
+        "description": "flask_jwt_extended",
+        "isExtraImport": true,
+        "detail": "flask_jwt_extended",
+        "documentation": {}
+    },
+    {
+        "label": "create_refresh_token",
+        "importPath": "flask_jwt_extended",
+        "description": "flask_jwt_extended",
+        "isExtraImport": true,
+        "detail": "flask_jwt_extended",
+        "documentation": {}
+    },
+    {
+        "label": "get_jwt_identity",
+        "importPath": "flask_jwt_extended",
+        "description": "flask_jwt_extended",
+        "isExtraImport": true,
+        "detail": "flask_jwt_extended",
+        "documentation": {}
+    },
+    {
+        "label": "verify_jwt_in_request",
+        "importPath": "flask_jwt_extended",
+        "description": "flask_jwt_extended",
+        "isExtraImport": true,
+        "detail": "flask_jwt_extended",
+        "documentation": {}
+    },
+    {
+        "label": "get_jwt",
+        "importPath": "flask_jwt_extended",
+        "description": "flask_jwt_extended",
+        "isExtraImport": true,
+        "detail": "flask_jwt_extended",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "marshmallow",
+        "description": "marshmallow",
+        "isExtraImport": true,
+        "detail": "marshmallow",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "marshmallow",
+        "description": "marshmallow",
+        "isExtraImport": true,
+        "detail": "marshmallow",
+        "documentation": {}
+    },
+    {
+        "label": "Schema",
+        "importPath": "marshmallow",
+        "description": "marshmallow",
+        "isExtraImport": true,
+        "detail": "marshmallow",
+        "documentation": {}
+    },
+    {
+        "label": "fields",
+        "importPath": "marshmallow",
+        "description": "marshmallow",
+        "isExtraImport": true,
+        "detail": "marshmallow",
+        "documentation": {}
+    },
+    {
+        "label": "validate",
+        "importPath": "marshmallow",
+        "description": "marshmallow",
+        "isExtraImport": true,
+        "detail": "marshmallow",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "marshmallow",
+        "description": "marshmallow",
+        "isExtraImport": true,
+        "detail": "marshmallow",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "marshmallow",
+        "description": "marshmallow",
+        "isExtraImport": true,
+        "detail": "marshmallow",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "string",
+        "description": "string",
+        "detail": "string",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "NoAuthorizationError",
+        "importPath": "flask_jwt_extended.exceptions",
+        "description": "flask_jwt_extended.exceptions",
+        "isExtraImport": true,
+        "detail": "flask_jwt_extended.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidHeaderError",
+        "importPath": "flask_jwt_extended.exceptions",
+        "description": "flask_jwt_extended.exceptions",
+        "isExtraImport": true,
+        "detail": "flask_jwt_extended.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "NoAuthorizationError",
+        "importPath": "flask_jwt_extended.exceptions",
+        "description": "flask_jwt_extended.exceptions",
+        "isExtraImport": true,
+        "detail": "flask_jwt_extended.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidHeaderError",
+        "importPath": "flask_jwt_extended.exceptions",
+        "description": "flask_jwt_extended.exceptions",
+        "isExtraImport": true,
+        "detail": "flask_jwt_extended.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "NoAuthorizationError",
+        "importPath": "flask_jwt_extended.exceptions",
+        "description": "flask_jwt_extended.exceptions",
+        "isExtraImport": true,
+        "detail": "flask_jwt_extended.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidHeaderError",
+        "importPath": "flask_jwt_extended.exceptions",
+        "description": "flask_jwt_extended.exceptions",
+        "isExtraImport": true,
+        "detail": "flask_jwt_extended.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "wraps",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "wraps",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "wraps",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "swag_from",
+        "importPath": "flasgger",
+        "description": "flasgger",
+        "isExtraImport": true,
+        "detail": "flasgger",
+        "documentation": {}
+    },
+    {
+        "label": "swag_from",
+        "importPath": "flasgger",
+        "description": "flasgger",
+        "isExtraImport": true,
+        "detail": "flasgger",
+        "documentation": {}
+    },
+    {
+        "label": "swag_from",
+        "importPath": "flasgger",
+        "description": "flasgger",
+        "isExtraImport": true,
+        "detail": "flasgger",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "UserSchema",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "VerifyOtpSchema",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "LoginSchema",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "Bookmark",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "BookmarkSchema",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "UserSchema",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "Restaurant",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "RestaurantSchema",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_200_OK",
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "isExtraImport": true,
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_201_CREATED",
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "isExtraImport": true,
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_409_CONFLICT",
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "isExtraImport": true,
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_422_UNPROCESSABLE_ENTITY",
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "isExtraImport": true,
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_404_NOT_FOUND",
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "isExtraImport": true,
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_403_FORBIDDEN",
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "isExtraImport": true,
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_503_SERVICE_UNAVAILABLE",
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "isExtraImport": true,
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_200_OK",
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "isExtraImport": true,
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_201_CREATED",
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "isExtraImport": true,
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_409_CONFLICT",
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "isExtraImport": true,
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_422_UNPROCESSABLE_ENTITY",
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "isExtraImport": true,
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_404_NOT_FOUND",
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "isExtraImport": true,
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_403_FORBIDDEN",
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "isExtraImport": true,
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_503_SERVICE_UNAVAILABLE",
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "isExtraImport": true,
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_200_OK",
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "isExtraImport": true,
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_201_CREATED",
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "isExtraImport": true,
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_409_CONFLICT",
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "isExtraImport": true,
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_422_UNPROCESSABLE_ENTITY",
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "isExtraImport": true,
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_404_NOT_FOUND",
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "isExtraImport": true,
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_403_FORBIDDEN",
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "isExtraImport": true,
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_503_SERVICE_UNAVAILABLE",
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "isExtraImport": true,
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "Pagination",
+        "importPath": "flask_mongoengine",
+        "description": "flask_mongoengine",
+        "isExtraImport": true,
+        "detail": "flask_mongoengine",
+        "documentation": {}
+    },
+    {
+        "label": "MongoEngine",
+        "importPath": "flask_mongoengine",
+        "description": "flask_mongoengine",
+        "isExtraImport": true,
+        "detail": "flask_mongoengine",
+        "documentation": {}
+    },
+    {
+        "label": "Pagination",
+        "importPath": "flask_mongoengine",
+        "description": "flask_mongoengine",
+        "isExtraImport": true,
+        "detail": "flask_mongoengine",
+        "documentation": {}
+    },
+    {
+        "label": "app_jwt_required",
+        "importPath": "src.auth",
+        "description": "src.auth",
+        "isExtraImport": true,
+        "detail": "src.auth",
+        "documentation": {}
+    },
+    {
+        "label": "app_jwt_required",
+        "importPath": "src.auth",
+        "description": "src.auth",
+        "isExtraImport": true,
+        "detail": "src.auth",
+        "documentation": {}
+    },
+    {
+        "label": "paginator_service",
+        "importPath": "common",
+        "description": "common",
+        "isExtraImport": true,
+        "detail": "common",
+        "documentation": {}
+    },
+    {
+        "label": "paginator_service",
+        "importPath": "common",
+        "description": "common",
+        "isExtraImport": true,
+        "detail": "common",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "MultiPoint",
+        "importPath": "geojson",
+        "description": "geojson",
+        "isExtraImport": true,
+        "detail": "geojson",
+        "documentation": {}
+    },
+    {
+        "label": "Point",
+        "importPath": "geojson",
+        "description": "geojson",
+        "isExtraImport": true,
+        "detail": "geojson",
+        "documentation": {}
+    },
+    {
+        "label": "Polygon",
+        "importPath": "geojson",
+        "description": "geojson",
+        "isExtraImport": true,
+        "detail": "geojson",
+        "documentation": {}
+    },
+    {
+        "label": "Constant",
+        "importPath": "marshmallow.fields",
+        "description": "marshmallow.fields",
+        "isExtraImport": true,
+        "detail": "marshmallow.fields",
+        "documentation": {}
+    },
+    {
+        "label": "Float",
+        "importPath": "marshmallow.fields",
+        "description": "marshmallow.fields",
+        "isExtraImport": true,
+        "detail": "marshmallow.fields",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "marshmallow.fields",
+        "description": "marshmallow.fields",
+        "isExtraImport": true,
+        "detail": "marshmallow.fields",
+        "documentation": {}
+    },
+    {
+        "label": "Validator",
+        "importPath": "marshmallow.validate",
+        "description": "marshmallow.validate",
+        "isExtraImport": true,
+        "detail": "marshmallow.validate",
+        "documentation": {}
+    },
+    {
+        "label": "bson.json_util",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "bson.json_util",
+        "description": "bson.json_util",
+        "detail": "bson.json_util",
+        "documentation": {}
+    },
+    {
+        "label": "template",
+        "kind": 5,
+        "importPath": "src.config.swagger",
+        "description": "src.config.swagger",
+        "peekOfCode": "template = {\n    \"swagger\": \"2.0\",\n    \"info\": {\n        \"title\": environ.get('FLASK_APP_NAME') + \" Api\" if environ.get('FLASK_APP_NAME') != None else \"Boilerplate Api\",\n        \"description\": \"API for \" + environ.get('FLASK_APP_NAME') if environ.get('FLASK_APP_NAME') != None else \"Boilerplate\",\n        \"contact\": {\n            \"responsibleOrganization\": \"Eydean Inc.\",\n            \"responsibleDeveloper\": \"Jeeven Lamichhane\",\n            \"email\": \"lamichhaneaj@gmail.com\",\n            \"url\": \"https://jeevenlamichhane.com.np\",",
+        "detail": "src.config.swagger",
+        "documentation": {}
+    },
+    {
+        "label": "swagger_config",
+        "kind": 5,
+        "importPath": "src.config.swagger",
+        "description": "src.config.swagger",
+        "peekOfCode": "swagger_config = {\n    \"headers\": [\n    ],\n    \"specs\": [\n        {\n            \"endpoint\": 'apispec',\n            \"route\": '/apispec.json',\n            \"rule_filter\": lambda rule: True,  # all in\n            \"model_filter\": lambda tag: True,  # all in\n        }",
+        "detail": "src.config.swagger",
+        "documentation": {}
+    },
+    {
+        "label": "is_informational",
+        "kind": 2,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "def is_informational(status):\n    # 1xx\n    pass\ndef is_success(status):\n    # 2xx\n    pass\ndef is_redirect(status):\n    # 3xx\n    pass\ndef is_client_error():",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "is_success",
+        "kind": 2,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "def is_success(status):\n    # 2xx\n    pass\ndef is_redirect(status):\n    # 3xx\n    pass\ndef is_client_error():\n    # 4xx\n    pass\ndef is_server_error():",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "is_redirect",
+        "kind": 2,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "def is_redirect(status):\n    # 3xx\n    pass\ndef is_client_error():\n    # 4xx\n    pass\ndef is_server_error():\n    # 5xx\n    pass",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "is_client_error",
+        "kind": 2,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "def is_client_error():\n    # 4xx\n    pass\ndef is_server_error():\n    # 5xx\n    pass",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "is_server_error",
+        "kind": 2,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "def is_server_error():\n    # 5xx\n    pass",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_200_OK",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_200_OK = 200\nHTTP_201_CREATED = 201\nHTTP_202_ACCEPTED = 202\nHTTP_203_NON_AUTHORITATIVE_INFORMATION = 203\nHTTP_204_NO_CONTENT = 204\nHTTP_205_RESET_CONTENT = 205\nHTTP_206_PARTIAL_CONTENT = 206\nHTTP_207_MULTI_STATUS = 207\nHTTP_208_ALREADY_REPORTED = 208\nHTTP_226_IM_USED = 226",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_201_CREATED",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_201_CREATED = 201\nHTTP_202_ACCEPTED = 202\nHTTP_203_NON_AUTHORITATIVE_INFORMATION = 203\nHTTP_204_NO_CONTENT = 204\nHTTP_205_RESET_CONTENT = 205\nHTTP_206_PARTIAL_CONTENT = 206\nHTTP_207_MULTI_STATUS = 207\nHTTP_208_ALREADY_REPORTED = 208\nHTTP_226_IM_USED = 226\nHTTP_300_MULTIPLE_CHOICES = 300",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_202_ACCEPTED",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_202_ACCEPTED = 202\nHTTP_203_NON_AUTHORITATIVE_INFORMATION = 203\nHTTP_204_NO_CONTENT = 204\nHTTP_205_RESET_CONTENT = 205\nHTTP_206_PARTIAL_CONTENT = 206\nHTTP_207_MULTI_STATUS = 207\nHTTP_208_ALREADY_REPORTED = 208\nHTTP_226_IM_USED = 226\nHTTP_300_MULTIPLE_CHOICES = 300\nHTTP_301_MOVED_PERMANENTLY = 301",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_203_NON_AUTHORITATIVE_INFORMATION",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_203_NON_AUTHORITATIVE_INFORMATION = 203\nHTTP_204_NO_CONTENT = 204\nHTTP_205_RESET_CONTENT = 205\nHTTP_206_PARTIAL_CONTENT = 206\nHTTP_207_MULTI_STATUS = 207\nHTTP_208_ALREADY_REPORTED = 208\nHTTP_226_IM_USED = 226\nHTTP_300_MULTIPLE_CHOICES = 300\nHTTP_301_MOVED_PERMANENTLY = 301\nHTTP_302_FOUND = 302",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_204_NO_CONTENT",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_204_NO_CONTENT = 204\nHTTP_205_RESET_CONTENT = 205\nHTTP_206_PARTIAL_CONTENT = 206\nHTTP_207_MULTI_STATUS = 207\nHTTP_208_ALREADY_REPORTED = 208\nHTTP_226_IM_USED = 226\nHTTP_300_MULTIPLE_CHOICES = 300\nHTTP_301_MOVED_PERMANENTLY = 301\nHTTP_302_FOUND = 302\nHTTP_303_SEE_OTHER = 303",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_205_RESET_CONTENT",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_205_RESET_CONTENT = 205\nHTTP_206_PARTIAL_CONTENT = 206\nHTTP_207_MULTI_STATUS = 207\nHTTP_208_ALREADY_REPORTED = 208\nHTTP_226_IM_USED = 226\nHTTP_300_MULTIPLE_CHOICES = 300\nHTTP_301_MOVED_PERMANENTLY = 301\nHTTP_302_FOUND = 302\nHTTP_303_SEE_OTHER = 303\nHTTP_304_NOT_MODIFIED = 304",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_206_PARTIAL_CONTENT",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_206_PARTIAL_CONTENT = 206\nHTTP_207_MULTI_STATUS = 207\nHTTP_208_ALREADY_REPORTED = 208\nHTTP_226_IM_USED = 226\nHTTP_300_MULTIPLE_CHOICES = 300\nHTTP_301_MOVED_PERMANENTLY = 301\nHTTP_302_FOUND = 302\nHTTP_303_SEE_OTHER = 303\nHTTP_304_NOT_MODIFIED = 304\nHTTP_305_USE_PROXY = 305",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_207_MULTI_STATUS",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_207_MULTI_STATUS = 207\nHTTP_208_ALREADY_REPORTED = 208\nHTTP_226_IM_USED = 226\nHTTP_300_MULTIPLE_CHOICES = 300\nHTTP_301_MOVED_PERMANENTLY = 301\nHTTP_302_FOUND = 302\nHTTP_303_SEE_OTHER = 303\nHTTP_304_NOT_MODIFIED = 304\nHTTP_305_USE_PROXY = 305\nHTTP_306_RESERVED = 306",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_208_ALREADY_REPORTED",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_208_ALREADY_REPORTED = 208\nHTTP_226_IM_USED = 226\nHTTP_300_MULTIPLE_CHOICES = 300\nHTTP_301_MOVED_PERMANENTLY = 301\nHTTP_302_FOUND = 302\nHTTP_303_SEE_OTHER = 303\nHTTP_304_NOT_MODIFIED = 304\nHTTP_305_USE_PROXY = 305\nHTTP_306_RESERVED = 306\nHTTP_307_TEMPORARY_REDIRECT = 307",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_226_IM_USED",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_226_IM_USED = 226\nHTTP_300_MULTIPLE_CHOICES = 300\nHTTP_301_MOVED_PERMANENTLY = 301\nHTTP_302_FOUND = 302\nHTTP_303_SEE_OTHER = 303\nHTTP_304_NOT_MODIFIED = 304\nHTTP_305_USE_PROXY = 305\nHTTP_306_RESERVED = 306\nHTTP_307_TEMPORARY_REDIRECT = 307\nHTTP_308_PERMANENT_REDIRECT = 308",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_300_MULTIPLE_CHOICES",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_300_MULTIPLE_CHOICES = 300\nHTTP_301_MOVED_PERMANENTLY = 301\nHTTP_302_FOUND = 302\nHTTP_303_SEE_OTHER = 303\nHTTP_304_NOT_MODIFIED = 304\nHTTP_305_USE_PROXY = 305\nHTTP_306_RESERVED = 306\nHTTP_307_TEMPORARY_REDIRECT = 307\nHTTP_308_PERMANENT_REDIRECT = 308\nHTTP_400_BAD_REQUEST = 400",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_301_MOVED_PERMANENTLY",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_301_MOVED_PERMANENTLY = 301\nHTTP_302_FOUND = 302\nHTTP_303_SEE_OTHER = 303\nHTTP_304_NOT_MODIFIED = 304\nHTTP_305_USE_PROXY = 305\nHTTP_306_RESERVED = 306\nHTTP_307_TEMPORARY_REDIRECT = 307\nHTTP_308_PERMANENT_REDIRECT = 308\nHTTP_400_BAD_REQUEST = 400\nHTTP_401_UNAUTHORIZED = 401",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_302_FOUND",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_302_FOUND = 302\nHTTP_303_SEE_OTHER = 303\nHTTP_304_NOT_MODIFIED = 304\nHTTP_305_USE_PROXY = 305\nHTTP_306_RESERVED = 306\nHTTP_307_TEMPORARY_REDIRECT = 307\nHTTP_308_PERMANENT_REDIRECT = 308\nHTTP_400_BAD_REQUEST = 400\nHTTP_401_UNAUTHORIZED = 401\nHTTP_402_PAYMENT_REQUIRED = 402",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_303_SEE_OTHER",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_303_SEE_OTHER = 303\nHTTP_304_NOT_MODIFIED = 304\nHTTP_305_USE_PROXY = 305\nHTTP_306_RESERVED = 306\nHTTP_307_TEMPORARY_REDIRECT = 307\nHTTP_308_PERMANENT_REDIRECT = 308\nHTTP_400_BAD_REQUEST = 400\nHTTP_401_UNAUTHORIZED = 401\nHTTP_402_PAYMENT_REQUIRED = 402\nHTTP_403_FORBIDDEN = 403",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_304_NOT_MODIFIED",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_304_NOT_MODIFIED = 304\nHTTP_305_USE_PROXY = 305\nHTTP_306_RESERVED = 306\nHTTP_307_TEMPORARY_REDIRECT = 307\nHTTP_308_PERMANENT_REDIRECT = 308\nHTTP_400_BAD_REQUEST = 400\nHTTP_401_UNAUTHORIZED = 401\nHTTP_402_PAYMENT_REQUIRED = 402\nHTTP_403_FORBIDDEN = 403\nHTTP_404_NOT_FOUND = 404",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_305_USE_PROXY",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_305_USE_PROXY = 305\nHTTP_306_RESERVED = 306\nHTTP_307_TEMPORARY_REDIRECT = 307\nHTTP_308_PERMANENT_REDIRECT = 308\nHTTP_400_BAD_REQUEST = 400\nHTTP_401_UNAUTHORIZED = 401\nHTTP_402_PAYMENT_REQUIRED = 402\nHTTP_403_FORBIDDEN = 403\nHTTP_404_NOT_FOUND = 404\nHTTP_405_METHOD_NOT_ALLOWED = 405",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_306_RESERVED",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_306_RESERVED = 306\nHTTP_307_TEMPORARY_REDIRECT = 307\nHTTP_308_PERMANENT_REDIRECT = 308\nHTTP_400_BAD_REQUEST = 400\nHTTP_401_UNAUTHORIZED = 401\nHTTP_402_PAYMENT_REQUIRED = 402\nHTTP_403_FORBIDDEN = 403\nHTTP_404_NOT_FOUND = 404\nHTTP_405_METHOD_NOT_ALLOWED = 405\nHTTP_406_NOT_ACCEPTABLE = 406",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_307_TEMPORARY_REDIRECT",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_307_TEMPORARY_REDIRECT = 307\nHTTP_308_PERMANENT_REDIRECT = 308\nHTTP_400_BAD_REQUEST = 400\nHTTP_401_UNAUTHORIZED = 401\nHTTP_402_PAYMENT_REQUIRED = 402\nHTTP_403_FORBIDDEN = 403\nHTTP_404_NOT_FOUND = 404\nHTTP_405_METHOD_NOT_ALLOWED = 405\nHTTP_406_NOT_ACCEPTABLE = 406\nHTTP_407_PROXY_AUTHENTICATION_REQUIRED = 407",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_308_PERMANENT_REDIRECT",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_308_PERMANENT_REDIRECT = 308\nHTTP_400_BAD_REQUEST = 400\nHTTP_401_UNAUTHORIZED = 401\nHTTP_402_PAYMENT_REQUIRED = 402\nHTTP_403_FORBIDDEN = 403\nHTTP_404_NOT_FOUND = 404\nHTTP_405_METHOD_NOT_ALLOWED = 405\nHTTP_406_NOT_ACCEPTABLE = 406\nHTTP_407_PROXY_AUTHENTICATION_REQUIRED = 407\nHTTP_408_REQUEST_TIMEOUT = 408",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_400_BAD_REQUEST",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_400_BAD_REQUEST = 400\nHTTP_401_UNAUTHORIZED = 401\nHTTP_402_PAYMENT_REQUIRED = 402\nHTTP_403_FORBIDDEN = 403\nHTTP_404_NOT_FOUND = 404\nHTTP_405_METHOD_NOT_ALLOWED = 405\nHTTP_406_NOT_ACCEPTABLE = 406\nHTTP_407_PROXY_AUTHENTICATION_REQUIRED = 407\nHTTP_408_REQUEST_TIMEOUT = 408\nHTTP_409_CONFLICT = 409",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_401_UNAUTHORIZED",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_401_UNAUTHORIZED = 401\nHTTP_402_PAYMENT_REQUIRED = 402\nHTTP_403_FORBIDDEN = 403\nHTTP_404_NOT_FOUND = 404\nHTTP_405_METHOD_NOT_ALLOWED = 405\nHTTP_406_NOT_ACCEPTABLE = 406\nHTTP_407_PROXY_AUTHENTICATION_REQUIRED = 407\nHTTP_408_REQUEST_TIMEOUT = 408\nHTTP_409_CONFLICT = 409\nHTTP_410_GONE = 410",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_402_PAYMENT_REQUIRED",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_402_PAYMENT_REQUIRED = 402\nHTTP_403_FORBIDDEN = 403\nHTTP_404_NOT_FOUND = 404\nHTTP_405_METHOD_NOT_ALLOWED = 405\nHTTP_406_NOT_ACCEPTABLE = 406\nHTTP_407_PROXY_AUTHENTICATION_REQUIRED = 407\nHTTP_408_REQUEST_TIMEOUT = 408\nHTTP_409_CONFLICT = 409\nHTTP_410_GONE = 410\nHTTP_411_LENGTH_REQUIRED = 411",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_403_FORBIDDEN",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_403_FORBIDDEN = 403\nHTTP_404_NOT_FOUND = 404\nHTTP_405_METHOD_NOT_ALLOWED = 405\nHTTP_406_NOT_ACCEPTABLE = 406\nHTTP_407_PROXY_AUTHENTICATION_REQUIRED = 407\nHTTP_408_REQUEST_TIMEOUT = 408\nHTTP_409_CONFLICT = 409\nHTTP_410_GONE = 410\nHTTP_411_LENGTH_REQUIRED = 411\nHTTP_412_PRECONDITION_FAILED = 412",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_404_NOT_FOUND",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_404_NOT_FOUND = 404\nHTTP_405_METHOD_NOT_ALLOWED = 405\nHTTP_406_NOT_ACCEPTABLE = 406\nHTTP_407_PROXY_AUTHENTICATION_REQUIRED = 407\nHTTP_408_REQUEST_TIMEOUT = 408\nHTTP_409_CONFLICT = 409\nHTTP_410_GONE = 410\nHTTP_411_LENGTH_REQUIRED = 411\nHTTP_412_PRECONDITION_FAILED = 412\nHTTP_413_REQUEST_ENTITY_TOO_LARGE = 413",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_405_METHOD_NOT_ALLOWED",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_405_METHOD_NOT_ALLOWED = 405\nHTTP_406_NOT_ACCEPTABLE = 406\nHTTP_407_PROXY_AUTHENTICATION_REQUIRED = 407\nHTTP_408_REQUEST_TIMEOUT = 408\nHTTP_409_CONFLICT = 409\nHTTP_410_GONE = 410\nHTTP_411_LENGTH_REQUIRED = 411\nHTTP_412_PRECONDITION_FAILED = 412\nHTTP_413_REQUEST_ENTITY_TOO_LARGE = 413\nHTTP_414_REQUEST_URI_TOO_LONG = 414",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_406_NOT_ACCEPTABLE",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_406_NOT_ACCEPTABLE = 406\nHTTP_407_PROXY_AUTHENTICATION_REQUIRED = 407\nHTTP_408_REQUEST_TIMEOUT = 408\nHTTP_409_CONFLICT = 409\nHTTP_410_GONE = 410\nHTTP_411_LENGTH_REQUIRED = 411\nHTTP_412_PRECONDITION_FAILED = 412\nHTTP_413_REQUEST_ENTITY_TOO_LARGE = 413\nHTTP_414_REQUEST_URI_TOO_LONG = 414\nHTTP_415_UNSUPPORTED_MEDIA_TYPE = 415",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_407_PROXY_AUTHENTICATION_REQUIRED",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_407_PROXY_AUTHENTICATION_REQUIRED = 407\nHTTP_408_REQUEST_TIMEOUT = 408\nHTTP_409_CONFLICT = 409\nHTTP_410_GONE = 410\nHTTP_411_LENGTH_REQUIRED = 411\nHTTP_412_PRECONDITION_FAILED = 412\nHTTP_413_REQUEST_ENTITY_TOO_LARGE = 413\nHTTP_414_REQUEST_URI_TOO_LONG = 414\nHTTP_415_UNSUPPORTED_MEDIA_TYPE = 415\nHTTP_416_REQUESTED_RANGE_NOT_SATISFIABLE = 416",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_408_REQUEST_TIMEOUT",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_408_REQUEST_TIMEOUT = 408\nHTTP_409_CONFLICT = 409\nHTTP_410_GONE = 410\nHTTP_411_LENGTH_REQUIRED = 411\nHTTP_412_PRECONDITION_FAILED = 412\nHTTP_413_REQUEST_ENTITY_TOO_LARGE = 413\nHTTP_414_REQUEST_URI_TOO_LONG = 414\nHTTP_415_UNSUPPORTED_MEDIA_TYPE = 415\nHTTP_416_REQUESTED_RANGE_NOT_SATISFIABLE = 416\nHTTP_417_EXPECTATION_FAILED = 417",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_409_CONFLICT",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_409_CONFLICT = 409\nHTTP_410_GONE = 410\nHTTP_411_LENGTH_REQUIRED = 411\nHTTP_412_PRECONDITION_FAILED = 412\nHTTP_413_REQUEST_ENTITY_TOO_LARGE = 413\nHTTP_414_REQUEST_URI_TOO_LONG = 414\nHTTP_415_UNSUPPORTED_MEDIA_TYPE = 415\nHTTP_416_REQUESTED_RANGE_NOT_SATISFIABLE = 416\nHTTP_417_EXPECTATION_FAILED = 417\nHTTP_422_UNPROCESSABLE_ENTITY = 422",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_410_GONE",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_410_GONE = 410\nHTTP_411_LENGTH_REQUIRED = 411\nHTTP_412_PRECONDITION_FAILED = 412\nHTTP_413_REQUEST_ENTITY_TOO_LARGE = 413\nHTTP_414_REQUEST_URI_TOO_LONG = 414\nHTTP_415_UNSUPPORTED_MEDIA_TYPE = 415\nHTTP_416_REQUESTED_RANGE_NOT_SATISFIABLE = 416\nHTTP_417_EXPECTATION_FAILED = 417\nHTTP_422_UNPROCESSABLE_ENTITY = 422\nHTTP_423_LOCKED = 423",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_411_LENGTH_REQUIRED",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_411_LENGTH_REQUIRED = 411\nHTTP_412_PRECONDITION_FAILED = 412\nHTTP_413_REQUEST_ENTITY_TOO_LARGE = 413\nHTTP_414_REQUEST_URI_TOO_LONG = 414\nHTTP_415_UNSUPPORTED_MEDIA_TYPE = 415\nHTTP_416_REQUESTED_RANGE_NOT_SATISFIABLE = 416\nHTTP_417_EXPECTATION_FAILED = 417\nHTTP_422_UNPROCESSABLE_ENTITY = 422\nHTTP_423_LOCKED = 423\nHTTP_424_FAILED_DEPENDENCY = 424",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_412_PRECONDITION_FAILED",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_412_PRECONDITION_FAILED = 412\nHTTP_413_REQUEST_ENTITY_TOO_LARGE = 413\nHTTP_414_REQUEST_URI_TOO_LONG = 414\nHTTP_415_UNSUPPORTED_MEDIA_TYPE = 415\nHTTP_416_REQUESTED_RANGE_NOT_SATISFIABLE = 416\nHTTP_417_EXPECTATION_FAILED = 417\nHTTP_422_UNPROCESSABLE_ENTITY = 422\nHTTP_423_LOCKED = 423\nHTTP_424_FAILED_DEPENDENCY = 424\nHTTP_426_UPGRADE_REQUIRED = 426",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_413_REQUEST_ENTITY_TOO_LARGE",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_413_REQUEST_ENTITY_TOO_LARGE = 413\nHTTP_414_REQUEST_URI_TOO_LONG = 414\nHTTP_415_UNSUPPORTED_MEDIA_TYPE = 415\nHTTP_416_REQUESTED_RANGE_NOT_SATISFIABLE = 416\nHTTP_417_EXPECTATION_FAILED = 417\nHTTP_422_UNPROCESSABLE_ENTITY = 422\nHTTP_423_LOCKED = 423\nHTTP_424_FAILED_DEPENDENCY = 424\nHTTP_426_UPGRADE_REQUIRED = 426\nHTTP_428_PRECONDITION_REQUIRED = 428",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_414_REQUEST_URI_TOO_LONG",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_414_REQUEST_URI_TOO_LONG = 414\nHTTP_415_UNSUPPORTED_MEDIA_TYPE = 415\nHTTP_416_REQUESTED_RANGE_NOT_SATISFIABLE = 416\nHTTP_417_EXPECTATION_FAILED = 417\nHTTP_422_UNPROCESSABLE_ENTITY = 422\nHTTP_423_LOCKED = 423\nHTTP_424_FAILED_DEPENDENCY = 424\nHTTP_426_UPGRADE_REQUIRED = 426\nHTTP_428_PRECONDITION_REQUIRED = 428\nHTTP_429_TOO_MANY_REQUESTS = 429",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_415_UNSUPPORTED_MEDIA_TYPE",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_415_UNSUPPORTED_MEDIA_TYPE = 415\nHTTP_416_REQUESTED_RANGE_NOT_SATISFIABLE = 416\nHTTP_417_EXPECTATION_FAILED = 417\nHTTP_422_UNPROCESSABLE_ENTITY = 422\nHTTP_423_LOCKED = 423\nHTTP_424_FAILED_DEPENDENCY = 424\nHTTP_426_UPGRADE_REQUIRED = 426\nHTTP_428_PRECONDITION_REQUIRED = 428\nHTTP_429_TOO_MANY_REQUESTS = 429\nHTTP_431_REQUEST_HEADER_FIELDS_TOO_LARGE = 431",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_416_REQUESTED_RANGE_NOT_SATISFIABLE",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_416_REQUESTED_RANGE_NOT_SATISFIABLE = 416\nHTTP_417_EXPECTATION_FAILED = 417\nHTTP_422_UNPROCESSABLE_ENTITY = 422\nHTTP_423_LOCKED = 423\nHTTP_424_FAILED_DEPENDENCY = 424\nHTTP_426_UPGRADE_REQUIRED = 426\nHTTP_428_PRECONDITION_REQUIRED = 428\nHTTP_429_TOO_MANY_REQUESTS = 429\nHTTP_431_REQUEST_HEADER_FIELDS_TOO_LARGE = 431\nHTTP_451_UNAVAILABLE_FOR_LEGAL_REASONS = 451",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_417_EXPECTATION_FAILED",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_417_EXPECTATION_FAILED = 417\nHTTP_422_UNPROCESSABLE_ENTITY = 422\nHTTP_423_LOCKED = 423\nHTTP_424_FAILED_DEPENDENCY = 424\nHTTP_426_UPGRADE_REQUIRED = 426\nHTTP_428_PRECONDITION_REQUIRED = 428\nHTTP_429_TOO_MANY_REQUESTS = 429\nHTTP_431_REQUEST_HEADER_FIELDS_TOO_LARGE = 431\nHTTP_451_UNAVAILABLE_FOR_LEGAL_REASONS = 451\nHTTP_500_INTERNAL_SERVER_ERROR = 500",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_422_UNPROCESSABLE_ENTITY",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_422_UNPROCESSABLE_ENTITY = 422\nHTTP_423_LOCKED = 423\nHTTP_424_FAILED_DEPENDENCY = 424\nHTTP_426_UPGRADE_REQUIRED = 426\nHTTP_428_PRECONDITION_REQUIRED = 428\nHTTP_429_TOO_MANY_REQUESTS = 429\nHTTP_431_REQUEST_HEADER_FIELDS_TOO_LARGE = 431\nHTTP_451_UNAVAILABLE_FOR_LEGAL_REASONS = 451\nHTTP_500_INTERNAL_SERVER_ERROR = 500\nHTTP_501_NOT_IMPLEMENTED = 501",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_423_LOCKED",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_423_LOCKED = 423\nHTTP_424_FAILED_DEPENDENCY = 424\nHTTP_426_UPGRADE_REQUIRED = 426\nHTTP_428_PRECONDITION_REQUIRED = 428\nHTTP_429_TOO_MANY_REQUESTS = 429\nHTTP_431_REQUEST_HEADER_FIELDS_TOO_LARGE = 431\nHTTP_451_UNAVAILABLE_FOR_LEGAL_REASONS = 451\nHTTP_500_INTERNAL_SERVER_ERROR = 500\nHTTP_501_NOT_IMPLEMENTED = 501\nHTTP_502_BAD_GATEWAY = 502",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_424_FAILED_DEPENDENCY",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_424_FAILED_DEPENDENCY = 424\nHTTP_426_UPGRADE_REQUIRED = 426\nHTTP_428_PRECONDITION_REQUIRED = 428\nHTTP_429_TOO_MANY_REQUESTS = 429\nHTTP_431_REQUEST_HEADER_FIELDS_TOO_LARGE = 431\nHTTP_451_UNAVAILABLE_FOR_LEGAL_REASONS = 451\nHTTP_500_INTERNAL_SERVER_ERROR = 500\nHTTP_501_NOT_IMPLEMENTED = 501\nHTTP_502_BAD_GATEWAY = 502\nHTTP_503_SERVICE_UNAVAILABLE = 503",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_426_UPGRADE_REQUIRED",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_426_UPGRADE_REQUIRED = 426\nHTTP_428_PRECONDITION_REQUIRED = 428\nHTTP_429_TOO_MANY_REQUESTS = 429\nHTTP_431_REQUEST_HEADER_FIELDS_TOO_LARGE = 431\nHTTP_451_UNAVAILABLE_FOR_LEGAL_REASONS = 451\nHTTP_500_INTERNAL_SERVER_ERROR = 500\nHTTP_501_NOT_IMPLEMENTED = 501\nHTTP_502_BAD_GATEWAY = 502\nHTTP_503_SERVICE_UNAVAILABLE = 503\nHTTP_504_GATEWAY_TIMEOUT = 504",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_428_PRECONDITION_REQUIRED",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_428_PRECONDITION_REQUIRED = 428\nHTTP_429_TOO_MANY_REQUESTS = 429\nHTTP_431_REQUEST_HEADER_FIELDS_TOO_LARGE = 431\nHTTP_451_UNAVAILABLE_FOR_LEGAL_REASONS = 451\nHTTP_500_INTERNAL_SERVER_ERROR = 500\nHTTP_501_NOT_IMPLEMENTED = 501\nHTTP_502_BAD_GATEWAY = 502\nHTTP_503_SERVICE_UNAVAILABLE = 503\nHTTP_504_GATEWAY_TIMEOUT = 504\nHTTP_505_HTTP_VERSION_NOT_SUPPORTED = 505",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_429_TOO_MANY_REQUESTS",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_429_TOO_MANY_REQUESTS = 429\nHTTP_431_REQUEST_HEADER_FIELDS_TOO_LARGE = 431\nHTTP_451_UNAVAILABLE_FOR_LEGAL_REASONS = 451\nHTTP_500_INTERNAL_SERVER_ERROR = 500\nHTTP_501_NOT_IMPLEMENTED = 501\nHTTP_502_BAD_GATEWAY = 502\nHTTP_503_SERVICE_UNAVAILABLE = 503\nHTTP_504_GATEWAY_TIMEOUT = 504\nHTTP_505_HTTP_VERSION_NOT_SUPPORTED = 505\nHTTP_506_VARIANT_ALSO_NEGOTIATES = 506",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_431_REQUEST_HEADER_FIELDS_TOO_LARGE",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_431_REQUEST_HEADER_FIELDS_TOO_LARGE = 431\nHTTP_451_UNAVAILABLE_FOR_LEGAL_REASONS = 451\nHTTP_500_INTERNAL_SERVER_ERROR = 500\nHTTP_501_NOT_IMPLEMENTED = 501\nHTTP_502_BAD_GATEWAY = 502\nHTTP_503_SERVICE_UNAVAILABLE = 503\nHTTP_504_GATEWAY_TIMEOUT = 504\nHTTP_505_HTTP_VERSION_NOT_SUPPORTED = 505\nHTTP_506_VARIANT_ALSO_NEGOTIATES = 506\nHTTP_507_INSUFFICIENT_STORAGE = 507",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_451_UNAVAILABLE_FOR_LEGAL_REASONS",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_451_UNAVAILABLE_FOR_LEGAL_REASONS = 451\nHTTP_500_INTERNAL_SERVER_ERROR = 500\nHTTP_501_NOT_IMPLEMENTED = 501\nHTTP_502_BAD_GATEWAY = 502\nHTTP_503_SERVICE_UNAVAILABLE = 503\nHTTP_504_GATEWAY_TIMEOUT = 504\nHTTP_505_HTTP_VERSION_NOT_SUPPORTED = 505\nHTTP_506_VARIANT_ALSO_NEGOTIATES = 506\nHTTP_507_INSUFFICIENT_STORAGE = 507\nHTTP_508_LOOP_DETECTED = 508",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_500_INTERNAL_SERVER_ERROR",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_500_INTERNAL_SERVER_ERROR = 500\nHTTP_501_NOT_IMPLEMENTED = 501\nHTTP_502_BAD_GATEWAY = 502\nHTTP_503_SERVICE_UNAVAILABLE = 503\nHTTP_504_GATEWAY_TIMEOUT = 504\nHTTP_505_HTTP_VERSION_NOT_SUPPORTED = 505\nHTTP_506_VARIANT_ALSO_NEGOTIATES = 506\nHTTP_507_INSUFFICIENT_STORAGE = 507\nHTTP_508_LOOP_DETECTED = 508\nHTTP_509_BANDWIDTH_LIMIT_EXCEEDED = 509",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_501_NOT_IMPLEMENTED",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_501_NOT_IMPLEMENTED = 501\nHTTP_502_BAD_GATEWAY = 502\nHTTP_503_SERVICE_UNAVAILABLE = 503\nHTTP_504_GATEWAY_TIMEOUT = 504\nHTTP_505_HTTP_VERSION_NOT_SUPPORTED = 505\nHTTP_506_VARIANT_ALSO_NEGOTIATES = 506\nHTTP_507_INSUFFICIENT_STORAGE = 507\nHTTP_508_LOOP_DETECTED = 508\nHTTP_509_BANDWIDTH_LIMIT_EXCEEDED = 509\nHTTP_510_NOT_EXTENDED = 510",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_502_BAD_GATEWAY",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_502_BAD_GATEWAY = 502\nHTTP_503_SERVICE_UNAVAILABLE = 503\nHTTP_504_GATEWAY_TIMEOUT = 504\nHTTP_505_HTTP_VERSION_NOT_SUPPORTED = 505\nHTTP_506_VARIANT_ALSO_NEGOTIATES = 506\nHTTP_507_INSUFFICIENT_STORAGE = 507\nHTTP_508_LOOP_DETECTED = 508\nHTTP_509_BANDWIDTH_LIMIT_EXCEEDED = 509\nHTTP_510_NOT_EXTENDED = 510\nHTTP_511_NETWORK_AUTHENTICATION_REQUIRED = 511",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_503_SERVICE_UNAVAILABLE",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_503_SERVICE_UNAVAILABLE = 503\nHTTP_504_GATEWAY_TIMEOUT = 504\nHTTP_505_HTTP_VERSION_NOT_SUPPORTED = 505\nHTTP_506_VARIANT_ALSO_NEGOTIATES = 506\nHTTP_507_INSUFFICIENT_STORAGE = 507\nHTTP_508_LOOP_DETECTED = 508\nHTTP_509_BANDWIDTH_LIMIT_EXCEEDED = 509\nHTTP_510_NOT_EXTENDED = 510\nHTTP_511_NETWORK_AUTHENTICATION_REQUIRED = 511\ndef is_informational(status):",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_504_GATEWAY_TIMEOUT",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_504_GATEWAY_TIMEOUT = 504\nHTTP_505_HTTP_VERSION_NOT_SUPPORTED = 505\nHTTP_506_VARIANT_ALSO_NEGOTIATES = 506\nHTTP_507_INSUFFICIENT_STORAGE = 507\nHTTP_508_LOOP_DETECTED = 508\nHTTP_509_BANDWIDTH_LIMIT_EXCEEDED = 509\nHTTP_510_NOT_EXTENDED = 510\nHTTP_511_NETWORK_AUTHENTICATION_REQUIRED = 511\ndef is_informational(status):\n    # 1xx",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_505_HTTP_VERSION_NOT_SUPPORTED",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_505_HTTP_VERSION_NOT_SUPPORTED = 505\nHTTP_506_VARIANT_ALSO_NEGOTIATES = 506\nHTTP_507_INSUFFICIENT_STORAGE = 507\nHTTP_508_LOOP_DETECTED = 508\nHTTP_509_BANDWIDTH_LIMIT_EXCEEDED = 509\nHTTP_510_NOT_EXTENDED = 510\nHTTP_511_NETWORK_AUTHENTICATION_REQUIRED = 511\ndef is_informational(status):\n    # 1xx\n    pass",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_506_VARIANT_ALSO_NEGOTIATES",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_506_VARIANT_ALSO_NEGOTIATES = 506\nHTTP_507_INSUFFICIENT_STORAGE = 507\nHTTP_508_LOOP_DETECTED = 508\nHTTP_509_BANDWIDTH_LIMIT_EXCEEDED = 509\nHTTP_510_NOT_EXTENDED = 510\nHTTP_511_NETWORK_AUTHENTICATION_REQUIRED = 511\ndef is_informational(status):\n    # 1xx\n    pass\ndef is_success(status):",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_507_INSUFFICIENT_STORAGE",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_507_INSUFFICIENT_STORAGE = 507\nHTTP_508_LOOP_DETECTED = 508\nHTTP_509_BANDWIDTH_LIMIT_EXCEEDED = 509\nHTTP_510_NOT_EXTENDED = 510\nHTTP_511_NETWORK_AUTHENTICATION_REQUIRED = 511\ndef is_informational(status):\n    # 1xx\n    pass\ndef is_success(status):\n    # 2xx",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_508_LOOP_DETECTED",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_508_LOOP_DETECTED = 508\nHTTP_509_BANDWIDTH_LIMIT_EXCEEDED = 509\nHTTP_510_NOT_EXTENDED = 510\nHTTP_511_NETWORK_AUTHENTICATION_REQUIRED = 511\ndef is_informational(status):\n    # 1xx\n    pass\ndef is_success(status):\n    # 2xx\n    pass",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_509_BANDWIDTH_LIMIT_EXCEEDED",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_509_BANDWIDTH_LIMIT_EXCEEDED = 509\nHTTP_510_NOT_EXTENDED = 510\nHTTP_511_NETWORK_AUTHENTICATION_REQUIRED = 511\ndef is_informational(status):\n    # 1xx\n    pass\ndef is_success(status):\n    # 2xx\n    pass\ndef is_redirect(status):",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_510_NOT_EXTENDED",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_510_NOT_EXTENDED = 510\nHTTP_511_NETWORK_AUTHENTICATION_REQUIRED = 511\ndef is_informational(status):\n    # 1xx\n    pass\ndef is_success(status):\n    # 2xx\n    pass\ndef is_redirect(status):\n    # 3xx",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "HTTP_511_NETWORK_AUTHENTICATION_REQUIRED",
+        "kind": 5,
+        "importPath": "src.constants.http_status_codes",
+        "description": "src.constants.http_status_codes",
+        "peekOfCode": "HTTP_511_NETWORK_AUTHENTICATION_REQUIRED = 511\ndef is_informational(status):\n    # 1xx\n    pass\ndef is_success(status):\n    # 2xx\n    pass\ndef is_redirect(status):\n    # 3xx\n    pass",
+        "detail": "src.constants.http_status_codes",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 2,
+        "importPath": "src.auth",
+        "description": "src.auth",
+        "peekOfCode": "def register():\n    body = request.get_json()\n    register_schema = UserSchema()\n    try:\n        data = register_schema.load(body)\n        user_exist = User.objects(phone=body['phone']).first()\n        if user_exist:\n            abort(\n                HTTP_409_CONFLICT, \"User already exist with given phone number.\")\n        else:",
+        "detail": "src.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "src.auth",
+        "description": "src.auth",
+        "peekOfCode": "def login():\n    body = request.get_json()\n    login_schema = LoginSchema()\n    try:\n        data = login_schema.load(body)\n        user_exist = User.objects(\n            countryCode=body['countryCode'], phone=body['phone']).first()\n        if not user_exist:\n            abort(\n                HTTP_404_NOT_FOUND, \"Phone number is not found in our records.\")",
+        "detail": "src.auth",
+        "documentation": {}
+    },
+    {
+        "label": "verify_otp",
+        "kind": 2,
+        "importPath": "src.auth",
+        "description": "src.auth",
+        "peekOfCode": "def verify_otp():\n    body = request.get_json()\n    otp_schema = VerifyOtpSchema()\n    try:\n        data = otp_schema.load(body)\n        user_exist = User.objects(\n            countryCode=body['countryCode'], phone=body['phone'], otp=body['otp']).first()\n        if user_exist:\n            user_exist.otp = None\n            user_exist.verified = True",
+        "detail": "src.auth",
+        "documentation": {}
+    },
+    {
+        "label": "app_jwt_required",
+        "kind": 2,
+        "importPath": "src.auth",
+        "description": "src.auth",
+        "peekOfCode": "def app_jwt_required():\n    def wrapper(fn):\n        @wraps(fn)\n        def decorator(*args, **kwargs):\n            try:\n                verify_jwt_in_request()\n                claims = get_jwt()\n                return fn(*args, **kwargs)\n            except NoAuthorizationError as err:\n                abort(401, \"Unauthorized.\")",
+        "detail": "src.auth",
+        "documentation": {}
+    },
+    {
+        "label": "me",
+        "kind": 2,
+        "importPath": "src.auth",
+        "description": "src.auth",
+        "peekOfCode": "def me():\n    user_id = get_jwt_identity()\n    user = User.objects(id=user_id).first()\n    return jsonify({\n        \"data\": user.user_profile(),\n        \"status\": True,\n        \"message\": \"\",\n        \"statusCode\": HTTP_200_OK\n    }), HTTP_200_OK\n# generate  new access token using refresh token sent in login",
+        "detail": "src.auth",
+        "documentation": {}
+    },
+    {
+        "label": "refresh_users_token",
+        "kind": 2,
+        "importPath": "src.auth",
+        "description": "src.auth",
+        "peekOfCode": "def refresh_users_token():\n    identity = get_jwt_identity()\n    access_token = create_access_token(identity=identity)\n    return jsonify({\n        \"data\": {\"accessToken\": access_token},\n        \"status\": True,\n        \"message\": \"Token Refreshed.\",\n        \"statusCode\": HTTP_200_OK\n    }), HTTP_200_OK\n# send otp",
+        "detail": "src.auth",
+        "documentation": {}
+    },
+    {
+        "label": "send_otp",
+        "kind": 2,
+        "importPath": "src.auth",
+        "description": "src.auth",
+        "peekOfCode": "def send_otp(user):\n    try:\n        url = environ.get('SMS_URI')\n        payload = {\n            \"mobile_number\": user.phone,\n            \"message\": \"<#> Hello \" + user.format_name() +\n            \",\\n\"+\"Welcome to \"+environ.get(\"FLASK_APP_NAME\") +\n            \".\\nPlease use OTP \"+user.otp+\" to verify your account, it will be valid for 15 minutes.\\nThank You!\\n\" +\n            environ.get(\"FLASK_APP_NAME\"),\n            \"is_otp\": 1",
+        "detail": "src.auth",
+        "documentation": {}
+    },
+    {
+        "label": "auth",
+        "kind": 5,
+        "importPath": "src.auth",
+        "description": "src.auth",
+        "peekOfCode": "auth = Blueprint(\"auth\", __name__, url_prefix='/api/v1/auth')\n# Register Route\n@auth.post('/register')\n@swag_from('./docs/auth/register.yaml')\ndef register():\n    body = request.get_json()\n    register_schema = UserSchema()\n    try:\n        data = register_schema.load(body)\n        user_exist = User.objects(phone=body['phone']).first()",
+        "detail": "src.auth",
+        "documentation": {}
+    },
+    {
+        "label": "bookmark_list",
+        "kind": 2,
+        "importPath": "src.bookmark",
+        "description": "src.bookmark",
+        "peekOfCode": "def bookmark_list():\n    per_page = request.args.get('perPage') if request.args.get(\n        'perPage') != None else 10\n    current_page = request.args.get('currentPage') if request.args.get(\n        'currentPage') != None else 1\n    paginator = Pagination(Bookmark.objects(\n        user=get_jwt_identity()).order_by('+createdAt', '-name'), int(current_page), int(per_page))\n    items = [Bookmark.object(item) for item in paginator.items]\n    return paginator_service(paginator, items)\n@bookmark.post(\"/\")",
+        "detail": "src.bookmark",
+        "documentation": {}
+    },
+    {
+        "label": "create",
+        "kind": 2,
+        "importPath": "src.bookmark",
+        "description": "src.bookmark",
+        "peekOfCode": "def create():\n    user = User.objects(id=get_jwt_identity()).first()\n    body = request.get_json()\n    schema = BookmarkSchema()\n    try:\n        data = schema.load(body)\n        body['user'] = user\n        bookmark = Bookmark(**body).save()\n        return jsonify({\n            \"data\": bookmark.object(),",
+        "detail": "src.bookmark",
+        "documentation": {}
+    },
+    {
+        "label": "bookmark",
+        "kind": 5,
+        "importPath": "src.bookmark",
+        "description": "src.bookmark",
+        "peekOfCode": "bookmark = Blueprint(\"bookmark\", __name__, url_prefix=\"/api/v1/bookmark\")\n@bookmark.get(\"/\")\n@app_jwt_required()\n@swag_from(\"./docs/bookmark/list.yaml\")\ndef bookmark_list():\n    per_page = request.args.get('perPage') if request.args.get(\n        'perPage') != None else 10\n    current_page = request.args.get('currentPage') if request.args.get(\n        'currentPage') != None else 1\n    paginator = Pagination(Bookmark.objects(",
+        "detail": "src.bookmark",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "src.database",
+        "description": "src.database",
+        "peekOfCode": "class User(db.Document):\n    firstName = db.StringField(Required=True)\n    lastName = db.StringField(Required=True)\n    email = db.EmailField()\n    gender = db.StringField()\n    password = db.StringField(Required=True)\n    countryCode = db.StringField(Required=True, min=1, max=5)\n    phone = db.StringField(Required=True, min=10, max=10)\n    address = db.StringField()\n    otp = db.StringField()",
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "UserSchema",
+        "kind": 6,
+        "importPath": "src.database",
+        "description": "src.database",
+        "peekOfCode": "class UserSchema(Schema):\n    firstName = fields.String(required=True)\n    lastName = fields.String(required=True)\n    email = fields.Email(required=False)\n    password = fields.Str(\n        required=True, validate=[validate.Length(min=6, max=36)], load_only=True\n    )\n    countryCode = fields.Str(\n        required=True, validate=[validate.Length(min=1, max=5)], load_only=True\n    )",
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "LoginSchema",
+        "kind": 6,
+        "importPath": "src.database",
+        "description": "src.database",
+        "peekOfCode": "class LoginSchema(Schema):\n    countryCode = fields.Str(\n        required=True, validate=[validate.Length(min=1, max=5)], load_only=True\n    )\n    phone = fields.Str(\n        required=True, validate=[validate.Length(min=10, max=10)], load_only=True\n    )\n    password = fields.Str(\n        required=True, validate=[validate.Length(min=6, max=36)], load_only=True\n    )",
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "VerifyOtpSchema",
+        "kind": 6,
+        "importPath": "src.database",
+        "description": "src.database",
+        "peekOfCode": "class VerifyOtpSchema(Schema):\n    countryCode = fields.Str(\n        required=True, validate=[validate.Length(min=1, max=5)], load_only=True\n    )\n    phone = fields.Str(\n        required=True, validate=[validate.Length(min=10, max=10)], load_only=True\n    )\n    otp = fields.Str(\n        required=True, validate=[validate.Length(min=6, max=6)], load_only=True\n    )",
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "Bookmark",
+        "kind": 6,
+        "importPath": "src.database",
+        "description": "src.database",
+        "peekOfCode": "class Bookmark(db.Document):\n    name = db.StringField(Required=True)\n    url = db.URLField(Required=True)\n    user = db.ReferenceField(User, required=True)\n    short_url = db.StringField(Required=True, min=3, max=3)\n    createdAt = db.DateTimeField(default=datetime.now())\n    updatedAt = db.DateTimeField(default=datetime.now())\n    def generate_short_characters(self):\n        picked_chars = ''.join(random.choices(\n            string.digits+string.ascii_letters, k=3))",
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "BookmarkSchema",
+        "kind": 6,
+        "importPath": "src.database",
+        "description": "src.database",
+        "peekOfCode": "class BookmarkSchema(Schema):\n    name = fields.String(required=True, error_messages={\n        \"required\": \"Name field is required.\"})\n    url = fields.URL(required=True, error_messages={\n        \"invalid\": \"Please provide valid url.\"})\n    # user = fields.Nested(UserSchema(only=(\"id\",)))\n    # fields.Nested(UserSchema(only=(\"pk\")), required=True)\n    # fields.Nested(UserSchema(only=(\"email\",)))\nclass Restaurant(db.Document):\n    name = db.StringField(Required=True)",
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "Restaurant",
+        "kind": 6,
+        "importPath": "src.database",
+        "description": "src.database",
+        "peekOfCode": "class Restaurant(db.Document):\n    name = db.StringField(Required=True)\n    point = db.GeoPointField(required=True)\n    createdAt = db.DateTimeField(default=datetime.now())\n    updatedAt = db.DateTimeField(default=datetime.now())\n    def __repr__(self) -> str:\n        return 'Restaurant>>> {self.name}'\n    def object(self):\n        return {\n            \"id\": str(self.pk),",
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "GeometryValidator",
+        "kind": 6,
+        "importPath": "src.database",
+        "description": "src.database",
+        "peekOfCode": "class GeometryValidator(Validator):\n    \"\"\"Validator for GeoJSON geometry objects.\"\"\"\n    def __init__(self, geometry_cls):\n        \"\"\"Initialize the validator.\n        :param geometry_cls: The GeoJSON geometry class to validate against.\n        \"\"\"\n        self.geometry_cls = geometry_cls\n    def __call__(self, value):\n        \"\"\"Validate a geometry object.\"\"\"\n        obj = self.geometry_cls(value)",
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "RestaurantSchema",
+        "kind": 6,
+        "importPath": "src.database",
+        "description": "src.database",
+        "peekOfCode": "class RestaurantSchema(Schema):\n    name = fields.String(required=True, error_messages={\n        \"required\": \"Name field is required.\"})\n    point = List(Float, required=True, validate=GeometryValidator(Point))",
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "src.database",
+        "description": "src.database",
+        "peekOfCode": "db = MongoEngine()\nclass User(db.Document):\n    firstName = db.StringField(Required=True)\n    lastName = db.StringField(Required=True)\n    email = db.EmailField()\n    gender = db.StringField()\n    password = db.StringField(Required=True)\n    countryCode = db.StringField(Required=True, min=1, max=5)\n    phone = db.StringField(Required=True, min=10, max=10)\n    address = db.StringField()",
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "restaurant_list",
+        "kind": 2,
+        "importPath": "src.restaurant",
+        "description": "src.restaurant",
+        "peekOfCode": "def restaurant_list():\n    per_page = request.args.get('perPage') if request.args.get(\n        'perPage') != None else 10\n    current_page = request.args.get('currentPage') if request.args.get(\n        'currentPage') != None else 1\n# 27.719622795070237, 85.30442831534448\n    agg = [{\"$geoNear\": {\"near\": [85.30442831534448, 27.719622795070237],\n                         \"distanceField\":\"distance\", \"maxDistance\":3, \"spherical\":True}}]\n    data = Restaurant.objects().aggregate(*agg)\n    items = []",
+        "detail": "src.restaurant",
+        "documentation": {}
+    },
+    {
+        "label": "create",
+        "kind": 2,
+        "importPath": "src.restaurant",
+        "description": "src.restaurant",
+        "peekOfCode": "def create():\n    user = User.objects(id=get_jwt_identity()).first()\n    body = request.get_json()\n    schema = RestaurantSchema()\n    try:\n        data = schema.load(body)\n        restaurant = Restaurant(**body).save()\n        return jsonify({\n            \"data\": restaurant.object(),\n            \"status\": True,",
+        "detail": "src.restaurant",
+        "documentation": {}
+    },
+    {
+        "label": "restaurant",
+        "kind": 5,
+        "importPath": "src.restaurant",
+        "description": "src.restaurant",
+        "peekOfCode": "restaurant = Blueprint(\"restaurant\", __name__, url_prefix=\"/api/v1/restaurant\")\n@restaurant.get(\"/\")\n@app_jwt_required()\ndef restaurant_list():\n    per_page = request.args.get('perPage') if request.args.get(\n        'perPage') != None else 10\n    current_page = request.args.get('currentPage') if request.args.get(\n        'currentPage') != None else 1\n# 27.719622795070237, 85.30442831534448\n    agg = [{\"$geoNear\": {\"near\": [85.30442831534448, 27.719622795070237],",
+        "detail": "src.restaurant",
+        "documentation": {}
+    }
+]
