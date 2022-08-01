@@ -29,6 +29,7 @@ parameters:
           example: "lamichhaneaj@gmail.com"
         gender:
           type: "string"
+          enum: ["male", "female", "lgbtq+"]
           example: "male"
         countryCode:
           type: "string"

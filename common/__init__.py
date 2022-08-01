@@ -6,7 +6,7 @@ from src.constants.http_status_codes import HTTP_200_OK, HTTP_404_NOT_FOUND
 def paginator_service(paginate, items):
     links = {
         "first": environ.get('FLASK_URL') + request.path+"?currentPage=1",
-        "last": environ.get('FLASK_URL') + request.path+"?currentPage="+str(paginate.pages),
+        "last": environ.get('FLASK_URL') + request.path+"?currentPage="+str(paginate.pages) if paginate.pages > 1 else "",
         "prev": environ.get('FLASK_URL') + request.path+"?currentPage="+str(paginate.prev_num) if paginate.prev_num != 0 else "",
         "next": environ.get('FLASK_URL') + request.path+"?currentPage="+str(paginate.next_num) if paginate.page < paginate.pages else "",
     }

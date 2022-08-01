@@ -2,6 +2,8 @@ Bookmark Store
 ---
 tags:
   - Bookmark
+security:
+  - Bearer: []
 parameters:
   - name: body
     description: The body should contain the bookmark data
@@ -19,20 +21,6 @@ parameters:
         url:
           type: "url"
           example: "https://youtube.com"
-
-  - name: header
-    description: The header should contain the user accessToken
-    in: header
-    required: true
-    schema:
-      type: object
-      required:
-        - "Authorization"
-      properties:
-        Authorization:
-          type: token
-          example: "Bearer <TOKEN>"
-
 responses:
   200:
     description: When a bookmark stores return bookmark object
