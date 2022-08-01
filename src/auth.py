@@ -9,6 +9,7 @@ import random
 import requests
 from flask_jwt_extended.exceptions import NoAuthorizationError, InvalidHeaderError
 from functools import wraps
+from flasgger import swag_from
 
 from src.database import User, UserSchema, VerifyOtpSchema, LoginSchema, db
 from src.constants.http_status_codes import HTTP_200_OK, HTTP_201_CREATED, HTTP_409_CONFLICT, HTTP_422_UNPROCESSABLE_ENTITY, HTTP_404_NOT_FOUND, HTTP_403_FORBIDDEN, HTTP_503_SERVICE_UNAVAILABLE
@@ -17,7 +18,10 @@ from src.constants.http_status_codes import HTTP_200_OK, HTTP_201_CREATED, HTTP_
 auth = Blueprint("auth", __name__, url_prefix='/api/v1/auth')
 
 # Register Route
+
+
 @auth.post('/register')
+@swag_from('./docs/auth/register.yaml')
 def register():
     body = request.get_json()
     register_schema = UserSchema()
@@ -52,6 +56,7 @@ def register():
 
 # Login Route
 @auth.post('/login')
+@swag_from('./docs/auth/login.yaml')
 def login():
     body = request.get_json()
     login_schema = LoginSchema()
@@ -93,6 +98,7 @@ def login():
 
 # verify otp
 @auth.post('/verify-otp')
+@swag_from('./docs/auth/verify_otp.yaml')
 def verify_otp():
     body = request.get_json()
     otp_schema = VerifyOtpSchema()
@@ -138,6 +144,7 @@ def app_jwt_required():
 # get the user profile
 @auth.get("/my-profile")
 @app_jwt_required()
+@swag_from('./docs/auth/user_profile.yaml')
 def me():
     user_id = get_jwt_identity()
     user = User.objects(id=user_id).first()

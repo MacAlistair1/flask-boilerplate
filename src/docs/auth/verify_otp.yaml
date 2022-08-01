@@ -1,0 +1,35 @@
+Verify Otp
+---
+tags:
+  - Authentication
+parameters:
+  - name: body
+    description: The body should contain the user data
+    in: body
+    required: true
+    schema:
+      type: object
+      required:
+        - "countryCode"
+        - "phone"
+        - "otp"
+      properties:
+        countryCode:
+          type: "string"
+          example: "+977"
+        phone:
+          type: "string"
+          example: "9803610971"
+        password:
+          type: "string"
+          format: otp
+          example: "******"
+responses:
+  200:
+    description: When a otp match
+
+  404:
+    description: Fails due to otp incorrect or user not exist
+
+  422:
+    description: Fails due to validation error

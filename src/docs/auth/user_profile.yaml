@@ -1,0 +1,23 @@
+User Profile
+---
+tags:
+  - Authentication
+parameters:
+  - name: header
+    description: The header should contain the user accessToken
+    in: header
+    required: true
+    schema:
+      type: object
+      required:
+        - "Authorization"
+      properties:
+        Authorization:
+          type: token
+          example: "Bearer <TOKEN>"
+responses:
+  200:
+    description: When a accessToken valid returns the user Profile data
+
+  401:
+    description: Fails due to invalid accessToken or accessToken expire

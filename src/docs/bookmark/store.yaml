@@ -1,0 +1,44 @@
+Bookmark Store
+---
+tags:
+  - Bookmark
+parameters:
+  - name: body
+    description: The body should contain the bookmark data
+    in: body
+    required: true
+    schema:
+      type: object
+      required:
+        - "name"
+        - "url"
+      properties:
+        name:
+          type: "string"
+          example: "My URL"
+        url:
+          type: "url"
+          example: "https://youtube.com"
+
+  - name: header
+    description: The header should contain the user accessToken
+    in: header
+    required: true
+    schema:
+      type: object
+      required:
+        - "Authorization"
+      properties:
+        Authorization:
+          type: token
+          example: "Bearer <TOKEN>"
+
+responses:
+  200:
+    description: When a bookmark stores return bookmark object
+
+  400:
+    description: Fails to Login due to bad request data
+
+  422:
+    description: Fails due to validation error
