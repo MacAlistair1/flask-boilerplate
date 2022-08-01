@@ -29,8 +29,7 @@
   - `{BASE_URI}/apidocs` **_Api document using Swagger_**
   - `{BASE_URI}//apispec.json` **_Swagger json file_**
 
-- Major Dependencies
-  `flask`, `flask_cors`, `flask_bcrypt`, `flask_limiter`, `flask_jwt_extended`, `flasgger`, `marshmallow`, `flask_mongoengine`,
+- Major Dependencies: `flask` `flask_cors` `flask_bcrypt` `flask_limiter` `flask_jwt_extended` `flasgger` `marshmallow` `flask_mongoengine`
 
 <p align="center">
                    
