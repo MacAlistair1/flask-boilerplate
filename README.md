@@ -19,13 +19,14 @@
   - `{BASE_URI}/api/v1/auth/my-profile` `GET` **Auth Route For User Profile**
   - `{BASE_URI}/api/v1/auth/token/refresh` `GET` **Refresh accessToken using RefreshToken**
 
-  - Bookmark Api EndPoint
+- Bookmark Api EndPoint
   - `{BASE_URI}/api/v1/bookmark` `GET` **Bookmark List**
   - `{BASE_URI}/api/v1/bookmark` `POST` **Store Bookmark**
 
 - Swagger Api Docs
 
   - `{BASE_URI}/apidocs` **_Api document using Swagger_**
+  - `{BASE_URI}//apispec.json` **_Swagger json file_**
 
 <p align="center">
                    
