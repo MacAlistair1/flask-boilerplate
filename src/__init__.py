@@ -6,11 +6,15 @@ from flask_bcrypt import Bcrypt
 from flask_limiter import Limiter, RateLimitExceeded
 from flask_jwt_extended import JWTManager
 from flask_jwt_extended.exceptions import NoAuthorizationError
+from flask_jwt_extended import get_jwt
+import logging
+from flasgger import Swagger, swag_from
 
 from src.database import db
 from src.auth import auth
 from src.bookmark import bookmark
 from src.constants.http_status_codes import HTTP_401_UNAUTHORIZED
+from src.config.swagger import template, swagger_config
 
 
 def create_app(test_config=None):
@@ -19,7 +23,11 @@ def create_app(test_config=None):
     if test_config is None:
         app.config.from_mapping(
             SECRET_KEY=environ.get('SECRET_KEY'),
-            JWT_SECRET_KEY=environ.get('JWT_SECRET')
+            JWT_SECRET_KEY=environ.get('JWT_SECRET'),
+            SWAGGER={
+                'title': environ.get('FLASK_APP_NAME') if environ.get('FLASK_APP_NAME') != None else "Boilerplate Api",
+                'uiversion': 3
+            }
         )
 
         app.config["MONGODB_SETTINGS"] = {
@@ -46,6 +54,14 @@ def create_app(test_config=None):
     # register blueprints
     app.register_blueprint(auth)
     app.register_blueprint(bookmark)
+
+    # swagger init
+    Swagger(app, config=swagger_config, template=template)
+
+    # For Logging on Debug Mode
+    logging.basicConfig(filename='user.log', level=logging.DEBUG,
+                        format=f'%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')
+
     # calls when someone hit the route before sending to the methods
 
     @app.before_request
@@ -55,7 +71,8 @@ def create_app(test_config=None):
 
         accept_header = request.headers.get("Accept", None)
 
-        if not accept_header == "application/json":
+        # return 404 if the accept header is not json except for the swagger json path
+        if not accept_header == "application/json" and not request.path == "/apispec.json":
             abort(404, "Direction you're looking for is unavailable.")
 
     # calls at the end of request fullfill

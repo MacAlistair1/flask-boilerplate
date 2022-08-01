@@ -1,0 +1,38 @@
+User Login
+---
+tags:
+  - Authentication
+parameters:
+  - name: body
+    description: The body should contain the user Login data
+    in: body
+    required: true
+    schema:
+      type: object
+      required:
+        - "countryCode"
+        - "phone"
+        - "password"
+      properties:
+        countryCode:
+          type: "string"
+          example: "+977"
+        phone:
+          type: "string"
+          example: "9803610971"
+        password:
+          type: "string"
+          format: password
+          example: "********"
+responses:
+  200:
+    description: When a user successfully logs in
+
+  400:
+    description: Fails to Login due to bad request data
+
+  404:
+    description: Fails to Login due to user not exist
+
+  422:
+    description: Fails to Login due to validation error

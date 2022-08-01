@@ -1,5 +1,29 @@
 [
     {
+        "label": "environ",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "environ",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "environ",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
         "label": "Blueprint",
         "importPath": "flask",
         "description": "flask",
@@ -176,22 +200,6 @@
         "documentation": {}
     },
     {
-        "label": "environ",
-        "importPath": "os",
-        "description": "os",
-        "isExtraImport": true,
-        "detail": "os",
-        "documentation": {}
-    },
-    {
-        "label": "environ",
-        "importPath": "os",
-        "description": "os",
-        "isExtraImport": true,
-        "detail": "os",
-        "documentation": {}
-    },
-    {
         "label": "ValidationError",
         "importPath": "marshmallow",
         "description": "marshmallow",
@@ -312,6 +320,22 @@
         "description": "functools",
         "isExtraImport": true,
         "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "swag_from",
+        "importPath": "flasgger",
+        "description": "flasgger",
+        "isExtraImport": true,
+        "detail": "flasgger",
+        "documentation": {}
+    },
+    {
+        "label": "swag_from",
+        "importPath": "flasgger",
+        "description": "flasgger",
+        "isExtraImport": true,
+        "detail": "flasgger",
         "documentation": {}
     },
     {
@@ -531,11 +555,37 @@
         "documentation": {}
     },
     {
+        "label": "paginator_service",
+        "importPath": "common",
+        "description": "common",
+        "isExtraImport": true,
+        "detail": "common",
+        "documentation": {}
+    },
+    {
         "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
         "isExtraImport": true,
         "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "template",
+        "kind": 5,
+        "importPath": "src.config.swagger",
+        "description": "src.config.swagger",
+        "peekOfCode": "template = {\n    \"swagger\": \"2.0\",\n    \"info\": {\n        \"title\": environ.get('FLASK_APP_NAME') + \" Api\" if environ.get('FLASK_APP_NAME') != None else \"Boilerplate Api\",\n        \"description\": \"API for \" + environ.get('FLASK_APP_NAME') if environ.get('FLASK_APP_NAME') != None else \"Boilerplate\",\n        \"contact\": {\n            \"responsibleOrganization\": \"Eydean Inc.\",\n            \"responsibleDeveloper\": \"Jeeven Lamichhane\",\n            \"email\": \"lamichhaneaj@gmail.com\",\n            \"url\": \"https://jeevenlamichhane.com.np\",",
+        "detail": "src.config.swagger",
+        "documentation": {}
+    },
+    {
+        "label": "swagger_config",
+        "kind": 5,
+        "importPath": "src.config.swagger",
+        "description": "src.config.swagger",
+        "peekOfCode": "swagger_config = {\n    \"headers\": [\n    ],\n    \"specs\": [\n        {\n            \"endpoint\": 'apispec',\n            \"route\": '/apispec.json',\n            \"rule_filter\": lambda rule: True,  # all in\n            \"model_filter\": lambda tag: True,  # all in\n        }",
+        "detail": "src.config.swagger",
         "documentation": {}
     },
     {
@@ -1164,7 +1214,7 @@
         "kind": 5,
         "importPath": "src.auth",
         "description": "src.auth",
-        "peekOfCode": "auth = Blueprint(\"auth\", __name__, url_prefix='/api/v1/auth')\n# Register Route\n@auth.post('/register')\ndef register():\n    body = request.get_json()\n    register_schema = UserSchema()\n    try:\n        data = register_schema.load(body)\n        user_exist = User.objects(phone=body['phone']).first()\n        if user_exist:",
+        "peekOfCode": "auth = Blueprint(\"auth\", __name__, url_prefix='/api/v1/auth')\n# Register Route\n@auth.post('/register')\n@swag_from('./docs/auth/register.yaml')\ndef register():\n    body = request.get_json()\n    register_schema = UserSchema()\n    try:\n        data = register_schema.load(body)\n        user_exist = User.objects(phone=body['phone']).first()",
         "detail": "src.auth",
         "documentation": {}
     },
@@ -1173,7 +1223,7 @@
         "kind": 2,
         "importPath": "src.bookmark",
         "description": "src.bookmark",
-        "peekOfCode": "def bookmark_list():\n    user = User.objects(id=get_jwt_identity()).first()\n    # bookmarks = Bookmark.objects(user=get_jwt_identity()).order_by('+createdAt', '-name') #first order by created date and desc by name\n    # bookmarks = Bookmark.objects.all().count()\n    paginator = Pagination(Bookmark.objects(\n        user=get_jwt_identity()).order_by('+createdAt', '-name'), 1, 2)\n    # \"links\": {\n    #     \"first\": \"http://upstar.test/api/v1/misc/blog-categories?page=1\",\n    #     \"last\": \"http://upstar.test/api/v1/misc/blog-categories?page=1\",\n    #     \"prev\": null,",
+        "peekOfCode": "def bookmark_list():\n    per_page = request.args.get('perPage') if request.args.get(\n        'perPage') != None else 10\n    current_page = request.args.get('currentPage') if request.args.get(\n        'currentPage') != None else 1\n    paginator = Pagination(Bookmark.objects(\n        user=get_jwt_identity()).order_by('+createdAt', '-name'), int(current_page), int(per_page))\n    items = [Bookmark.object(item) for item in paginator.items]\n    return paginator_service(paginator, items)\n@bookmark.post(\"/\")",
         "detail": "src.bookmark",
         "documentation": {}
     },
@@ -1191,7 +1241,7 @@
         "kind": 5,
         "importPath": "src.bookmark",
         "description": "src.bookmark",
-        "peekOfCode": "bookmark = Blueprint(\"bookmark\", __name__, url_prefix=\"/api/v1/bookmark\")\n@bookmark.get(\"/\")\n@app_jwt_required()\ndef bookmark_list():\n    user = User.objects(id=get_jwt_identity()).first()\n    # bookmarks = Bookmark.objects(user=get_jwt_identity()).order_by('+createdAt', '-name') #first order by created date and desc by name\n    # bookmarks = Bookmark.objects.all().count()\n    paginator = Pagination(Bookmark.objects(\n        user=get_jwt_identity()).order_by('+createdAt', '-name'), 1, 2)\n    # \"links\": {",
+        "peekOfCode": "bookmark = Blueprint(\"bookmark\", __name__, url_prefix=\"/api/v1/bookmark\")\n@bookmark.get(\"/\")\n@app_jwt_required()\n@swag_from(\"./docs/bookmark/list.yaml\")\ndef bookmark_list():\n    per_page = request.args.get('perPage') if request.args.get(\n        'perPage') != None else 10\n    current_page = request.args.get('currentPage') if request.args.get(\n        'currentPage') != None else 1\n    paginator = Pagination(Bookmark.objects(",
         "detail": "src.bookmark",
         "documentation": {}
     },

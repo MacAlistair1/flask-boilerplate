@@ -1,0 +1,54 @@
+User Registration
+---
+tags:
+  - Authentication
+parameters:
+  - name: body
+    description: The body should contain the user Registration data
+    in: body
+    required: true
+    schema:
+      type: object
+      required:
+        - "firstName"
+        - "lastName"
+        - "email"
+        - "gender"
+        - "countryCode"
+        - "phone"
+        - "password"
+      properties:
+        firstName:
+          type: "string"
+          example: "Jeeven"
+        lastName:
+          type: "string"
+          example: "Lamichhane"
+        email:
+          type: "email"
+          example: "lamichhaneaj@gmail.com"
+        gender:
+          type: "string"
+          example: "male"
+        countryCode:
+          type: "string"
+          example: "+977"
+        phone:
+          type: "string"
+          example: "9803610971"
+        password:
+          type: "string"
+          format: password
+          example: "********"
+responses:
+  201:
+    description: When a user successfully logs in
+
+  400:
+    description: Fails to Register due to bad request data
+
+  409:
+    description: Fails to Register due to phone number duplicate
+
+  422:
+    description: Fails to Register due to validation error
