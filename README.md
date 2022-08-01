@@ -20,6 +20,7 @@
   - `{BASE_URI}/api/v1/auth/token/refresh` `GET` **Refresh accessToken using RefreshToken**
 
 - Bookmark Api EndPoint
+
   - `{BASE_URI}/api/v1/bookmark` `GET` **Bookmark List**
   - `{BASE_URI}/api/v1/bookmark` `POST` **Store Bookmark**
 
@@ -27,6 +28,9 @@
 
   - `{BASE_URI}/apidocs` **_Api document using Swagger_**
   - `{BASE_URI}//apispec.json` **_Swagger json file_**
+
+- Major Dependencies
+  `flask`, `flask_cors`, `flask_bcrypt`, `flask_limiter`, `flask_jwt_extended`, `flasgger`, `marshmallow`, `flask_mongoengine`,
 
 <p align="center">
                    
