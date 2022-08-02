@@ -104,6 +104,22 @@
         "documentation": {}
     },
     {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
         "label": "request",
         "importPath": "flask",
         "description": "flask",
@@ -248,47 +264,7 @@
         "documentation": {}
     },
     {
-        "label": "jwt_required",
-        "importPath": "flask_jwt_extended",
-        "description": "flask_jwt_extended",
-        "isExtraImport": true,
-        "detail": "flask_jwt_extended",
-        "documentation": {}
-    },
-    {
-        "label": "create_access_token",
-        "importPath": "flask_jwt_extended",
-        "description": "flask_jwt_extended",
-        "isExtraImport": true,
-        "detail": "flask_jwt_extended",
-        "documentation": {}
-    },
-    {
-        "label": "create_refresh_token",
-        "importPath": "flask_jwt_extended",
-        "description": "flask_jwt_extended",
-        "isExtraImport": true,
-        "detail": "flask_jwt_extended",
-        "documentation": {}
-    },
-    {
         "label": "get_jwt_identity",
-        "importPath": "flask_jwt_extended",
-        "description": "flask_jwt_extended",
-        "isExtraImport": true,
-        "detail": "flask_jwt_extended",
-        "documentation": {}
-    },
-    {
-        "label": "verify_jwt_in_request",
-        "importPath": "flask_jwt_extended",
-        "description": "flask_jwt_extended",
-        "isExtraImport": true,
-        "detail": "flask_jwt_extended",
-        "documentation": {}
-    },
-    {
-        "label": "get_jwt",
         "importPath": "flask_jwt_extended",
         "description": "flask_jwt_extended",
         "isExtraImport": true,
@@ -411,30 +387,6 @@
         "documentation": {}
     },
     {
-        "label": "NoAuthorizationError",
-        "importPath": "flask_jwt_extended.exceptions",
-        "description": "flask_jwt_extended.exceptions",
-        "isExtraImport": true,
-        "detail": "flask_jwt_extended.exceptions",
-        "documentation": {}
-    },
-    {
-        "label": "InvalidHeaderError",
-        "importPath": "flask_jwt_extended.exceptions",
-        "description": "flask_jwt_extended.exceptions",
-        "isExtraImport": true,
-        "detail": "flask_jwt_extended.exceptions",
-        "documentation": {}
-    },
-    {
-        "label": "wraps",
-        "importPath": "functools",
-        "description": "functools",
-        "isExtraImport": true,
-        "detail": "functools",
-        "documentation": {}
-    },
-    {
         "label": "wraps",
         "importPath": "functools",
         "description": "functools",
@@ -472,6 +424,22 @@
         "description": "flasgger",
         "isExtraImport": true,
         "detail": "flasgger",
+        "documentation": {}
+    },
+    {
+        "label": "Message",
+        "importPath": "flask_mail",
+        "description": "flask_mail",
+        "isExtraImport": true,
+        "detail": "flask_mail",
+        "documentation": {}
+    },
+    {
+        "label": "Message",
+        "importPath": "flask_mail",
+        "description": "flask_mail",
+        "isExtraImport": true,
+        "detail": "flask_mail",
         "documentation": {}
     },
     {
@@ -771,6 +739,14 @@
         "documentation": {}
     },
     {
+        "label": "QuerySet",
+        "importPath": "flask_mongoengine",
+        "description": "flask_mongoengine",
+        "isExtraImport": true,
+        "detail": "flask_mongoengine",
+        "documentation": {}
+    },
+    {
         "label": "Pagination",
         "importPath": "flask_mongoengine",
         "description": "flask_mongoengine",
@@ -811,11 +787,36 @@
         "documentation": {}
     },
     {
+        "label": "errorResponse",
+        "importPath": "common",
+        "description": "common",
+        "isExtraImport": true,
+        "detail": "common",
+        "documentation": {}
+    },
+    {
+        "label": "bson.json_util",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "bson.json_util",
+        "description": "bson.json_util",
+        "detail": "bson.json_util",
+        "documentation": {}
+    },
+    {
         "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
         "isExtraImport": true,
         "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "dis",
+        "importPath": "dis",
+        "description": "dis",
+        "isExtraImport": true,
+        "detail": "dis",
         "documentation": {}
     },
     {
@@ -875,12 +876,37 @@
         "documentation": {}
     },
     {
-        "label": "bson.json_util",
+        "label": "math",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "bson.json_util",
-        "description": "bson.json_util",
-        "detail": "bson.json_util",
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "send_async_email",
+        "importPath": "src.tasks",
+        "description": "src.tasks",
+        "isExtraImport": true,
+        "detail": "src.tasks",
+        "documentation": {}
+    },
+    {
+        "label": "Celery",
+        "importPath": "celery",
+        "description": "celery",
+        "isExtraImport": true,
+        "detail": "celery",
+        "documentation": {}
+    },
+    {
+        "label": "src",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "src",
+        "description": "src",
+        "detail": "src",
         "documentation": {}
     },
     {
@@ -1523,6 +1549,15 @@
         "documentation": {}
     },
     {
+        "label": "send_mail",
+        "kind": 2,
+        "importPath": "src.auth",
+        "description": "src.auth",
+        "peekOfCode": "def send_mail(user):\n    if user.email:\n        # msg = Message(\n        #     'Hello',\n        #     sender=environ.get('MAIL_ADDRESS'),\n        #     recipients=['lamichhaneaj@gmail.com']\n        # )\n        # msg.body = 'Hello Flask message sent from Flask-Mail'\n        # mailer.send(msg)\n        pass",
+        "detail": "src.auth",
+        "documentation": {}
+    },
+    {
         "label": "auth",
         "kind": 5,
         "importPath": "src.auth",
@@ -1608,7 +1643,16 @@
         "kind": 6,
         "importPath": "src.database",
         "description": "src.database",
-        "peekOfCode": "class BookmarkSchema(Schema):\n    name = fields.String(required=True, error_messages={\n        \"required\": \"Name field is required.\"})\n    url = fields.URL(required=True, error_messages={\n        \"invalid\": \"Please provide valid url.\"})\n    # user = fields.Nested(UserSchema(only=(\"id\",)))\n    # fields.Nested(UserSchema(only=(\"pk\")), required=True)\n    # fields.Nested(UserSchema(only=(\"email\",)))\nclass Restaurant(db.Document):\n    name = db.StringField(Required=True)",
+        "peekOfCode": "class BookmarkSchema(Schema):\n    name = fields.String(required=True, error_messages={\n        \"required\": \"Name field is required.\"})\n    url = fields.URL(required=True, error_messages={\n        \"invalid\": \"Please provide valid url.\"})\n    # user = fields.Nested(UserSchema(only=(\"id\",)))\n    # fields.Nested(UserSchema(only=(\"pk\")), required=True)\n    # fields.Nested(UserSchema(only=(\"email\",)))\nclass NearByQuerySet(QuerySet):\n    def get_restro_nearby(self, lat, lng, radius=4):",
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "NearByQuerySet",
+        "kind": 6,
+        "importPath": "src.database",
+        "description": "src.database",
+        "peekOfCode": "class NearByQuerySet(QuerySet):\n    def get_restro_nearby(self, lat, lng, radius=4):\n        aggregator = [\n            {\"$geoNear\":\n                {\"near\": [float(lng), float(lat)],\n                    \"distanceField\":\"distance\",\n                    # \"distanceMultiplier\": (0.001) / 6371,\n                    \"maxDistance\": radius,\n                    \"spherical\":True\n                 }},",
         "detail": "src.database",
         "documentation": {}
     },
@@ -1635,7 +1679,7 @@
         "kind": 6,
         "importPath": "src.database",
         "description": "src.database",
-        "peekOfCode": "class RestaurantSchema(Schema):\n    name = fields.String(required=True, error_messages={\n        \"required\": \"Name field is required.\"})\n    point = List(Float, required=True, validate=GeometryValidator(Point))",
+        "peekOfCode": "class RestaurantSchema(Schema):\n    name = fields.String(required=True, error_messages={\n        \"required\": \"Name field is required.\"})\n    point = List(Float, required=True, validate=GeometryValidator(Point))\n    class Meta:\n        model = Restaurant",
         "detail": "src.database",
         "documentation": {}
     },
@@ -1653,7 +1697,7 @@
         "kind": 2,
         "importPath": "src.restaurant",
         "description": "src.restaurant",
-        "peekOfCode": "def restaurant_list():\n    per_page = request.args.get('perPage') if request.args.get(\n        'perPage') != None else 10\n    current_page = request.args.get('currentPage') if request.args.get(\n        'currentPage') != None else 1\n# 27.719622795070237, 85.30442831534448\n    agg = [{\"$geoNear\": {\"near\": [85.30442831534448, 27.719622795070237],\n                         \"distanceField\":\"distance\", \"maxDistance\":3, \"spherical\":True}}]\n    data = Restaurant.objects().aggregate(*agg)\n    items = []",
+        "peekOfCode": "def restaurant_list():\n    per_page = request.args.get('perPage') if request.args.get(\n        'perPage') != None else 10\n    current_page = request.args.get('currentPage') if request.args.get(\n        'currentPage') != None else 1\n    lat = request.args.get('lat')\n    lng = request.args.get('lng')\n    if not lat or not lng:\n        return errorResponse(\"Lat & Lng Field is required.\", 422)\n    # 27.719622795070237, 85.30442831534448",
         "detail": "src.restaurant",
         "documentation": {}
     },
@@ -1667,12 +1711,66 @@
         "documentation": {}
     },
     {
+        "label": "send_mail",
+        "kind": 2,
+        "importPath": "src.restaurant",
+        "description": "src.restaurant",
+        "peekOfCode": "def send_mail():\n    data = {\n        'subject': 'Hello from the other side!',\n        'to': [\"lamichhaneaj@gmail.com\"],\n        'body': 'Hey Paul, sending you this email from my Flask app, lmk if it works'\n    }\n    task = send_async_email.delay(data)\n    return \"send mail worker started. Task id:\"+task.id, 200",
+        "detail": "src.restaurant",
+        "documentation": {}
+    },
+    {
         "label": "restaurant",
         "kind": 5,
         "importPath": "src.restaurant",
         "description": "src.restaurant",
-        "peekOfCode": "restaurant = Blueprint(\"restaurant\", __name__, url_prefix=\"/api/v1/restaurant\")\n@restaurant.get(\"/\")\n@app_jwt_required()\ndef restaurant_list():\n    per_page = request.args.get('perPage') if request.args.get(\n        'perPage') != None else 10\n    current_page = request.args.get('currentPage') if request.args.get(\n        'currentPage') != None else 1\n# 27.719622795070237, 85.30442831534448\n    agg = [{\"$geoNear\": {\"near\": [85.30442831534448, 27.719622795070237],",
+        "peekOfCode": "restaurant = Blueprint(\"restaurant\", __name__, url_prefix=\"/api/v1/restaurant\")\n@restaurant.get(\"/\")\n@app_jwt_required()\n@swag_from(\"./docs/restaurant/list.yaml\")\ndef restaurant_list():\n    per_page = request.args.get('perPage') if request.args.get(\n        'perPage') != None else 10\n    current_page = request.args.get('currentPage') if request.args.get(\n        'currentPage') != None else 1\n    lat = request.args.get('lat')",
         "detail": "src.restaurant",
+        "documentation": {}
+    },
+    {
+        "label": "send_async_email",
+        "kind": 2,
+        "importPath": "src.tasks",
+        "description": "src.tasks",
+        "peekOfCode": "def send_async_email(data):\n    msg = Message(data['subject'],\n                  sender=environ.get(\"MAIL_DEFAULT_SENDER\"),\n                  recipients=data['to'])\n    msg.body = data['body']\n    mail.send(msg)\n    return True",
+        "detail": "src.tasks",
+        "documentation": {}
+    },
+    {
+        "label": "mail",
+        "kind": 5,
+        "importPath": "src.tasks",
+        "description": "src.tasks",
+        "peekOfCode": "mail = src.create_app\ncelery = Celery(__name__)\ncelery.conf.broker_url = environ.get(\n    \"CELERY_BROKER_URL\", \"redis://localhost:6379\")\ncelery.conf.result_backend = environ.get(\n    \"CELERY_RESULT_BACKEND\", \"redis://localhost:6379\")\n@celery.task(name=\"send_async_email\")\ndef send_async_email(data):\n    msg = Message(data['subject'],\n                  sender=environ.get(\"MAIL_DEFAULT_SENDER\"),",
+        "detail": "src.tasks",
+        "documentation": {}
+    },
+    {
+        "label": "celery",
+        "kind": 5,
+        "importPath": "src.tasks",
+        "description": "src.tasks",
+        "peekOfCode": "celery = Celery(__name__)\ncelery.conf.broker_url = environ.get(\n    \"CELERY_BROKER_URL\", \"redis://localhost:6379\")\ncelery.conf.result_backend = environ.get(\n    \"CELERY_RESULT_BACKEND\", \"redis://localhost:6379\")\n@celery.task(name=\"send_async_email\")\ndef send_async_email(data):\n    msg = Message(data['subject'],\n                  sender=environ.get(\"MAIL_DEFAULT_SENDER\"),\n                  recipients=data['to'])",
+        "detail": "src.tasks",
+        "documentation": {}
+    },
+    {
+        "label": "celery.conf.broker_url",
+        "kind": 5,
+        "importPath": "src.tasks",
+        "description": "src.tasks",
+        "peekOfCode": "celery.conf.broker_url = environ.get(\n    \"CELERY_BROKER_URL\", \"redis://localhost:6379\")\ncelery.conf.result_backend = environ.get(\n    \"CELERY_RESULT_BACKEND\", \"redis://localhost:6379\")\n@celery.task(name=\"send_async_email\")\ndef send_async_email(data):\n    msg = Message(data['subject'],\n                  sender=environ.get(\"MAIL_DEFAULT_SENDER\"),\n                  recipients=data['to'])\n    msg.body = data['body']",
+        "detail": "src.tasks",
+        "documentation": {}
+    },
+    {
+        "label": "celery.conf.result_backend",
+        "kind": 5,
+        "importPath": "src.tasks",
+        "description": "src.tasks",
+        "peekOfCode": "celery.conf.result_backend = environ.get(\n    \"CELERY_RESULT_BACKEND\", \"redis://localhost:6379\")\n@celery.task(name=\"send_async_email\")\ndef send_async_email(data):\n    msg = Message(data['subject'],\n                  sender=environ.get(\"MAIL_DEFAULT_SENDER\"),\n                  recipients=data['to'])\n    msg.body = data['body']\n    mail.send(msg)\n    return True",
+        "detail": "src.tasks",
         "documentation": {}
     }
 ]

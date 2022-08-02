@@ -6,9 +6,9 @@ from flask_bcrypt import Bcrypt
 from flask_limiter import Limiter, RateLimitExceeded
 from flask_jwt_extended import JWTManager
 from flask_jwt_extended.exceptions import NoAuthorizationError
-from flask_jwt_extended import get_jwt
 import logging
-from flasgger import Swagger, swag_from
+from flasgger import Swagger
+from flask_mail import Mail
 
 from src.database import db
 from src.auth import auth
@@ -36,6 +36,14 @@ def create_app(test_config=None):
             "host": environ.get('MONGO_DB_URL'),
             "port": 27017,
         }
+
+        app.config['MAIL_SERVER'] = 'smtp.mailtrap.io'
+        app.config['MAIL_PORT'] = 2525
+        app.config['MAIL_USERNAME'] = '3e8f4d52a62a2a'
+        app.config['MAIL_PASSWORD'] = '5badb2a5c8bf03'
+        app.config['MAIL_USE_TLS'] = True
+        app.config['MAIL_USE_SSL'] = False
+
     else:
         app.config.from_mapping(test_config)
 
@@ -59,6 +67,9 @@ def create_app(test_config=None):
 
     # swagger init
     Swagger(app, config=swagger_config, template=template)
+
+    # mail init
+    mail = Mail(app)
 
     # For Logging on Debug Mode
     logging.basicConfig(filename='user.log', level=logging.DEBUG,

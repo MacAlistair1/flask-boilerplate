@@ -26,7 +26,7 @@ responses:
     description: When a bookmark stores return bookmark object
 
   400:
-    description: Fails to Login due to bad request data
+    description: Fails due to bad request data
 
   422:
     description: Fails due to validation error

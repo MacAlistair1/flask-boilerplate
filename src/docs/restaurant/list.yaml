@@ -1,0 +1,13 @@
+Restaurant List
+---
+tags:
+  - Restaurant
+security:
+  - Bearer: []
+
+responses:
+  200:
+    description: When a accessToken valid returns Restaurant List Resource
+
+  401:
+    description: Fails due to invalid accessToken or accessToken expire

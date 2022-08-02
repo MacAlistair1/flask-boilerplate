@@ -10,10 +10,11 @@ import requests
 from flask_jwt_extended.exceptions import NoAuthorizationError, InvalidHeaderError
 from functools import wraps
 from flasgger import swag_from
+from flask_mail import Message
+
 
 from src.database import User, UserSchema, VerifyOtpSchema, LoginSchema, db
 from src.constants.http_status_codes import HTTP_200_OK, HTTP_201_CREATED, HTTP_409_CONFLICT, HTTP_422_UNPROCESSABLE_ENTITY, HTTP_404_NOT_FOUND, HTTP_403_FORBIDDEN, HTTP_503_SERVICE_UNAVAILABLE
-
 
 auth = Blueprint("auth", __name__, url_prefix='/api/v1/auth')
 
@@ -40,6 +41,9 @@ def register():
 
             # send otp after user store
             send_otp(user=user)
+
+            # if email exist send email
+            send_mail(user=user)
 
             access_token = create_access_token(identity=str(user.pk))
             refresh_token = create_refresh_token(identity=str(user.pk))
@@ -190,3 +194,21 @@ def send_otp(user):
 
     except Exception as err:
         abort(HTTP_503_SERVICE_UNAVAILABLE, err.messages)
+
+# send mail
+
+
+def send_mail(user):
+    if user.email:
+        # msg = Message(
+        #     'Hello',
+        #     sender=environ.get('MAIL_ADDRESS'),
+        #     recipients=['lamichhaneaj@gmail.com']
+        # )
+        # msg.body = 'Hello Flask message sent from Flask-Mail'
+        # mailer.send(msg)
+        pass
+    else:
+        pass
+
+

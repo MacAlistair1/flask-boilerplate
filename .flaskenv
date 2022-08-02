@@ -2,3 +2,12 @@ FLASK_APP=src
 FLASK_ENV=development
 FLASK_APP_NAME=Boilerplate
 FLASK_URL=http://127.0.0.1:5000
+
+
+MAIL_SERVER=smtp.mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=3e8f4d52a62a2a
+MAIL_PASSWORD=5badb2a5c8bf03
+MAIL_USE_TLS='True'
+MAIL_USE_SSL='False'
+MAIL_DEFAULT_SENDER=info@boilerplate.com
