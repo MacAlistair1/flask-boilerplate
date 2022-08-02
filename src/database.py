@@ -1,11 +1,16 @@
+import bson.json_util
 from datetime import datetime
+from dis import dis
 import string
 import random
-from flask_mongoengine import MongoEngine
+from flask_mongoengine import MongoEngine, QuerySet
 from marshmallow import Schema, fields, validate, ValidationError
 from geojson import MultiPoint, Point, Polygon
 from marshmallow.fields import Constant, Float, List
 from marshmallow.validate import Validator
+from flask import Response, jsonify
+import math
+
 
 db = MongoEngine()
 
@@ -164,6 +169,21 @@ class BookmarkSchema(Schema):
     # fields.Nested(UserSchema(only=("email",)))
 
 
+class NearByQuerySet(QuerySet):
+    def get_restro_nearby(self, lat, lng, radius=4):
+        aggregator = [
+            {"$geoNear":
+                {"near": [float(lng), float(lat)],
+                    "distanceField":"distance",
+                    # "distanceMultiplier": (0.001) / 6371,
+                    "maxDistance": radius,
+                    "spherical":True
+                 }},
+            {"$sort": {"distance": 1}},
+        ]
+        return self.aggregate(aggregator)
+
+
 class Restaurant(db.Document):
     name = db.StringField(Required=True)
     point = db.GeoPointField(required=True)
@@ -181,6 +201,18 @@ class Restaurant(db.Document):
             "createdAt": (str(self.createdAt)),
             "updatedAt": (str(self.updatedAt)),
         }
+
+    def parser_object(self):
+        return {
+            "id": self['_id'],
+            "name": self['name'],
+            "point": self['point'],
+            "distance": self['distance'],
+            "createdAt": (str(self['createdAt'])),
+            "updatedAt": (str(self['updatedAt'])),
+        }
+
+    meta = {'queryset_class': NearByQuerySet}
 
 
 class GeometryValidator(Validator):
@@ -201,7 +233,11 @@ class GeometryValidator(Validator):
             raise ValidationError({"geojson": {"coordinates": errors}})
         return value
 
+
 class RestaurantSchema(Schema):
     name = fields.String(required=True, error_messages={
         "required": "Name field is required."})
     point = List(Float, required=True, validate=GeometryValidator(Point))
+
+    class Meta:
+        model = Restaurant
