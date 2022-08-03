@@ -1,26 +1,50 @@
 [
     {
-        "label": "environ",
-        "importPath": "os",
-        "description": "os",
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
         "isExtraImport": true,
-        "detail": "os",
+        "detail": "flask",
         "documentation": {}
     },
     {
-        "label": "environ",
-        "importPath": "os",
-        "description": "os",
+        "label": "flash",
+        "importPath": "flask",
+        "description": "flask",
         "isExtraImport": true,
-        "detail": "os",
+        "detail": "flask",
         "documentation": {}
     },
     {
-        "label": "environ",
-        "importPath": "os",
-        "description": "os",
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
         "isExtraImport": true,
-        "detail": "os",
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
         "documentation": {}
     },
     {
@@ -141,6 +165,63 @@
         "description": "flask",
         "isExtraImport": true,
         "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Mail",
+        "importPath": "flask_mail",
+        "description": "flask_mail",
+        "isExtraImport": true,
+        "detail": "flask_mail",
+        "documentation": {}
+    },
+    {
+        "label": "Message",
+        "importPath": "flask_mail",
+        "description": "flask_mail",
+        "isExtraImport": true,
+        "detail": "flask_mail",
+        "documentation": {}
+    },
+    {
+        "label": "Celery",
+        "importPath": "celery",
+        "description": "celery",
+        "isExtraImport": true,
+        "detail": "celery",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "environ",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "environ",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "environ",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
         "documentation": {}
     },
     {
@@ -890,6 +971,132 @@
         "importPath": "math",
         "description": "math",
         "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "jobs.app",
+        "description": "jobs.app",
+        "peekOfCode": "def index():\n    if request.method == 'GET':\n        return render_template('index.html')\n    elif request.method == 'POST':\n        data = {}\n        data['email'] = request.form['email']\n        data['first_name'] = request.form['first_name']\n        data['last_name'] = request.form['last_name']\n        data['message'] = request.form['message']\n        duration = int(request.form['duration'])",
+        "detail": "jobs.app",
+        "documentation": {}
+    },
+    {
+        "label": "send_my_mail",
+        "kind": 2,
+        "importPath": "jobs.app",
+        "description": "jobs.app",
+        "peekOfCode": "def send_my_mail():\n    data = request.get_json()\n    duration = 1\n    send_mail.apply_async(args=[data], countdown=duration)\n    return \"Message will be sent.\", 200\n# Add this decorator to our send_mail function\n@client.task\ndef send_mail(data):\n    \"\"\" Function to send emails.\n    \"\"\"",
+        "detail": "jobs.app",
+        "documentation": {}
+    },
+    {
+        "label": "send_mail",
+        "kind": 2,
+        "importPath": "jobs.app",
+        "description": "jobs.app",
+        "peekOfCode": "def send_mail(data):\n    \"\"\" Function to send emails.\n    \"\"\"\n    with app.app_context():\n        msg = Message(\"Ping!\",\n                      sender=\"admin.ping\",\n                      recipients=[data['email']])\n        msg.body = data['message']\n        mail.send(msg)\nif __name__ == '__main__':",
+        "detail": "jobs.app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "jobs.app",
+        "description": "jobs.app",
+        "peekOfCode": "app = Flask(__name__)\napp.config.from_object(\"config\")\napp.secret_key = app.config['SECRET_KEY']\n# set up Flask-Mail Integration\nmail = Mail(app)\n# Set up celery client\nclient = Celery(app.name, broker=app.config['CELERY_BROKER_URL'])\nclient.conf.update(app.config)\n# For Logging on Debug Mode\nlogging.basicConfig(filename='jobs.log', level=logging.DEBUG,",
+        "detail": "jobs.app",
+        "documentation": {}
+    },
+    {
+        "label": "app.secret_key",
+        "kind": 5,
+        "importPath": "jobs.app",
+        "description": "jobs.app",
+        "peekOfCode": "app.secret_key = app.config['SECRET_KEY']\n# set up Flask-Mail Integration\nmail = Mail(app)\n# Set up celery client\nclient = Celery(app.name, broker=app.config['CELERY_BROKER_URL'])\nclient.conf.update(app.config)\n# For Logging on Debug Mode\nlogging.basicConfig(filename='jobs.log', level=logging.DEBUG,\n                    format=f'%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')\n@app.route('/', methods=['GET', 'POST'])",
+        "detail": "jobs.app",
+        "documentation": {}
+    },
+    {
+        "label": "mail",
+        "kind": 5,
+        "importPath": "jobs.app",
+        "description": "jobs.app",
+        "peekOfCode": "mail = Mail(app)\n# Set up celery client\nclient = Celery(app.name, broker=app.config['CELERY_BROKER_URL'])\nclient.conf.update(app.config)\n# For Logging on Debug Mode\nlogging.basicConfig(filename='jobs.log', level=logging.DEBUG,\n                    format=f'%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')\n@app.route('/', methods=['GET', 'POST'])\ndef index():\n    if request.method == 'GET':",
+        "detail": "jobs.app",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "jobs.app",
+        "description": "jobs.app",
+        "peekOfCode": "client = Celery(app.name, broker=app.config['CELERY_BROKER_URL'])\nclient.conf.update(app.config)\n# For Logging on Debug Mode\nlogging.basicConfig(filename='jobs.log', level=logging.DEBUG,\n                    format=f'%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')\n@app.route('/', methods=['GET', 'POST'])\ndef index():\n    if request.method == 'GET':\n        return render_template('index.html')\n    elif request.method == 'POST':",
+        "detail": "jobs.app",
+        "documentation": {}
+    },
+    {
+        "label": "MAIL_SERVER",
+        "kind": 5,
+        "importPath": "jobs.config",
+        "description": "jobs.config",
+        "peekOfCode": "MAIL_SERVER = 'smtp.mailtrap.io'\nMAIL_PORT = 2525\nMAIL_USE_TLS = True\nMAIL_USERNAME = '3e8f4d52a62a2a'\nMAIL_PASSWORD = '5badb2a5c8bf03'\n#celery redis\nCELERY_BROKER_URL = 'redis://localhost:6379/0'\nCELERY_BACKEND_URL = 'redis://localhost:6379/0'",
+        "detail": "jobs.config",
+        "documentation": {}
+    },
+    {
+        "label": "MAIL_PORT",
+        "kind": 5,
+        "importPath": "jobs.config",
+        "description": "jobs.config",
+        "peekOfCode": "MAIL_PORT = 2525\nMAIL_USE_TLS = True\nMAIL_USERNAME = '3e8f4d52a62a2a'\nMAIL_PASSWORD = '5badb2a5c8bf03'\n#celery redis\nCELERY_BROKER_URL = 'redis://localhost:6379/0'\nCELERY_BACKEND_URL = 'redis://localhost:6379/0'",
+        "detail": "jobs.config",
+        "documentation": {}
+    },
+    {
+        "label": "MAIL_USE_TLS",
+        "kind": 5,
+        "importPath": "jobs.config",
+        "description": "jobs.config",
+        "peekOfCode": "MAIL_USE_TLS = True\nMAIL_USERNAME = '3e8f4d52a62a2a'\nMAIL_PASSWORD = '5badb2a5c8bf03'\n#celery redis\nCELERY_BROKER_URL = 'redis://localhost:6379/0'\nCELERY_BACKEND_URL = 'redis://localhost:6379/0'",
+        "detail": "jobs.config",
+        "documentation": {}
+    },
+    {
+        "label": "MAIL_USERNAME",
+        "kind": 5,
+        "importPath": "jobs.config",
+        "description": "jobs.config",
+        "peekOfCode": "MAIL_USERNAME = '3e8f4d52a62a2a'\nMAIL_PASSWORD = '5badb2a5c8bf03'\n#celery redis\nCELERY_BROKER_URL = 'redis://localhost:6379/0'\nCELERY_BACKEND_URL = 'redis://localhost:6379/0'",
+        "detail": "jobs.config",
+        "documentation": {}
+    },
+    {
+        "label": "MAIL_PASSWORD",
+        "kind": 5,
+        "importPath": "jobs.config",
+        "description": "jobs.config",
+        "peekOfCode": "MAIL_PASSWORD = '5badb2a5c8bf03'\n#celery redis\nCELERY_BROKER_URL = 'redis://localhost:6379/0'\nCELERY_BACKEND_URL = 'redis://localhost:6379/0'",
+        "detail": "jobs.config",
+        "documentation": {}
+    },
+    {
+        "label": "CELERY_BROKER_URL",
+        "kind": 5,
+        "importPath": "jobs.config",
+        "description": "jobs.config",
+        "peekOfCode": "CELERY_BROKER_URL = 'redis://localhost:6379/0'\nCELERY_BACKEND_URL = 'redis://localhost:6379/0'",
+        "detail": "jobs.config",
+        "documentation": {}
+    },
+    {
+        "label": "CELERY_BACKEND_URL",
+        "kind": 5,
+        "importPath": "jobs.config",
+        "description": "jobs.config",
+        "peekOfCode": "CELERY_BACKEND_URL = 'redis://localhost:6379/0'",
+        "detail": "jobs.config",
         "documentation": {}
     },
     {
