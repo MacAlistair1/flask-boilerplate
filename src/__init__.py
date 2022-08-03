@@ -9,6 +9,7 @@ from flask_jwt_extended.exceptions import NoAuthorizationError
 import logging
 from flasgger import Swagger
 from flask_mail import Mail, Message
+import requests
 
 from src.database import db
 from src.auth import auth
@@ -119,13 +120,22 @@ def create_app(test_config=None):
 
     @app.get('/')
     def send_mail():
-        msg = Message(
-            'Hello',
-            sender=environ.get('MAIL_DEFAULT_SENDER'),
-            recipients=['lamichhaneaj@gmail.com']
-        )
-        msg.body = 'Hello Flask message sent from Flask-Mail'
-        mail.send(msg)
+        # msg = Message(
+        #     'Hello',
+        #     sender=environ.get('MAIL_DEFAULT_SENDER'),
+        #     recipients=['lamichhaneaj@gmail.com']
+        # )
+        # msg.body = 'Hello Flask message sent from Flask-Mail'
+        # mail.send(msg)
+        data = {
+            "email": "lamichhaneaj@gmail.com",
+            "message": "sending mail"
+        }
+
+        response = requests.post("http://127.0.0.1:5001/send-mail",
+                                 headers={"Content-Type": "application/json"}, data=data)
+
+        print(response)
 
         return "Message Sent", 200
 
