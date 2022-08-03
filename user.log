@@ -1401,3 +1401,1156 @@ Content-Length: 70
 2022-08-02 17:53:49,452 INFO werkzeug MainThread :  * Restarting with stat
 2022-08-02 17:53:51,895 INFO werkzeug MainThread :  * Restarting with stat
 2022-08-02 17:53:54,319 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 09:55:03,642 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-08-03 09:55:03,678 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 09:55:55,620 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 09:55:55,967 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 09:56:09,456 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 09:56:09,559 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 09:56:19,994 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 09:56:20,182 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 09:56:22,528 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 09:56:47,186 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-08-03 09:56:47,187 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 09:58:12,804 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 09:58:12] "[33mGET /echo HTTP/1.1[0m" 404 -
+2022-08-03 09:58:15,312 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 09:58:15] "[33mGET /echo HTTP/1.1[0m" 404 -
+2022-08-03 09:58:24,192 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 09:58:24] "[33mGET /echo HTTP/1.1[0m" 404 -
+2022-08-03 09:58:40,628 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 09:58:40,874 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 09:58:49,295 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 09:58:49,466 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 09:59:03,037 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 09:59:07,392 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 09:59:07,608 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 09:59:09,965 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 09:59:40,637 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 09:59:41,112 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 09:59:42,427 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 09:59:48,810 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 09:59:49,024 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:00:38,314 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:00:38] "[33mGET / HTTP/1.1[0m" 404 -
+2022-08-03 10:00:38,592 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:00:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-08-03 10:01:07,203 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 10:01:07,703 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:01:09,041 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 10:01:09,275 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:01:11,910 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:01:11] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2022-08-03 10:01:12,004 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:01:12] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-08-03 10:01:12,005 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:01:12] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-08-03 10:01:12,044 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:01:12] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-08-03 10:01:12,117 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:01:12] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-08-03 10:03:56,067 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:03:56] "GET / HTTP/1.1" 200 -
+2022-08-03 10:03:56,123 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:03:56] "[33mGET /echo HTTP/1.1[0m" 404 -
+2022-08-03 10:04:32,636 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 10:04:33,081 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:04:34,419 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 10:04:34,671 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:04:38,373 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:04:38] "GET / HTTP/1.1" 200 -
+2022-08-03 10:04:38,422 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:04:38] "[33mGET /echo HTTP/1.1[0m" 404 -
+2022-08-03 10:04:47,101 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-08-03 10:04:47,102 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:06:23,866 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-08-03 10:06:23,867 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:06:35,652 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:06:35] "GET / HTTP/1.1" 200 -
+2022-08-03 10:06:35,715 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:06:35] "[33mGET /echo HTTP/1.1[0m" 404 -
+2022-08-03 10:06:53,260 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:06:53] "GET / HTTP/1.1" 200 -
+2022-08-03 10:06:53,318 ERROR werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:06:53] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x8f')
+2022-08-03 10:06:53,318 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:06:53] "[35m[1m  ü[0m" HTTPStatus.BAD_REQUEST -
+2022-08-03 10:06:53,329 ERROR werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:06:53] code 400, message Bad request version ('ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93zz\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+2022-08-03 10:06:53,329 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:06:53] "[35m[1m  üÒV=<ä!ôþ)=ûÂðîMÑ¾¾*½»hÓ©X U6QÇÊFÕDoWØôúp/m²ÁÌQ{Ç®¼Ül  ººÀ+À/À,À0Ì©Ì¨ÀÀ   / 5 zz     ÿ   [0m" HTTPStatus.BAD_REQUEST -
+2022-08-03 10:07:08,849 ERROR werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:07:08] code 400, message Bad request version ('ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93**\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+2022-08-03 10:07:08,850 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:07:08] "[35m[1m  üÏ ¯áh»øN)¡Xªï\öxRÃ+%êC¶ J¤¨³¦Û´L¿µ`µU¦¦ÞóÓPÉÇ«Ñ  ZZÀ+À/À,À0Ì©Ì¨ÀÀ   / 5 **     ÿ   [0m" HTTPStatus.BAD_REQUEST -
+2022-08-03 10:07:08,861 ERROR werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:07:08] code 400, message Bad request version ('K\\=\x04ìo\x8e')
+2022-08-03 10:07:08,861 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:07:08] "[35m[1m  üqáÅ>õît1kX "Å_E¤ÐXgkòÚó°}¶$ò ¬[M¥gÚük	K\=ìo[0m" HTTPStatus.BAD_REQUEST -
+2022-08-03 10:07:31,707 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:07:31] "[33mGET /echo HTTP/1.1[0m" 404 -
+2022-08-03 10:07:41,519 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:07:41] "[33mGET /echo HTTP/1.1[0m" 404 -
+2022-08-03 10:20:03,709 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-08-03 10:20:03,710 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:20:10,700 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:20:10] "GET / HTTP/1.1" 200 -
+2022-08-03 10:20:11,598 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:20:11] "GET /socket.io/?EIO=4&transport=polling&t=O9X_7Pf HTTP/1.1" 200 -
+2022-08-03 10:20:11,687 ERROR engineio.server Thread-7 (process_request_thread) : message handler error
+Traceback (most recent call last):
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/flask_socketio/__init__.py", line 762, in _handle_event
+    ret = handler(auth)
+TypeError: create_app.<locals>.connect() takes 0 positional arguments but 1 was given
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/engineio/server.py", line 622, in _trigger_event
+    return self.handlers[event](*args)
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/socketio/server.py", line 788, in _handle_eio_message
+    self._handle_connect(eio_sid, pkt.namespace, pkt.data)
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/socketio/server.py", line 678, in _handle_connect
+    success = self._trigger_event(
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/socketio/server.py", line 755, in _trigger_event
+    return self.handlers[namespace][event](*args)
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/flask_socketio/__init__.py", line 282, in _handler
+    return self._handle_event(handler, message, namespace, sid,
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/flask_socketio/__init__.py", line 764, in _handle_event
+    ret = handler()
+  File "/home/mac/Documents/flask/boilerplate/src/__init__.py", line 208, in connect
+    if thread is None:
+NameError: name 'thread' is not defined
+2022-08-03 10:20:11,690 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:20:11] "POST /socket.io/?EIO=4&transport=polling&t=O9X_7R4&sid=g_iYVQ9DRBVLX-EZAAAA HTTP/1.1" 200 -
+2022-08-03 10:20:11,711 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:20:11] "GET /socket.io/?EIO=4&transport=polling&t=O9X_7R5&sid=g_iYVQ9DRBVLX-EZAAAA HTTP/1.1" 200 -
+2022-08-03 10:21:00,365 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:21:00] "GET / HTTP/1.1" 200 -
+2022-08-03 10:21:00,502 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:21:00] "GET /socket.io/?EIO=4&transport=polling&t=O9X_JLo HTTP/1.1" 200 -
+2022-08-03 10:21:00,590 ERROR engineio.server Thread-16 (process_request_thread) : message handler error
+Traceback (most recent call last):
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/flask_socketio/__init__.py", line 762, in _handle_event
+    ret = handler(auth)
+TypeError: create_app.<locals>.connect() takes 0 positional arguments but 1 was given
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/engineio/server.py", line 622, in _trigger_event
+    return self.handlers[event](*args)
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/socketio/server.py", line 788, in _handle_eio_message
+    self._handle_connect(eio_sid, pkt.namespace, pkt.data)
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/socketio/server.py", line 678, in _handle_connect
+    success = self._trigger_event(
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/socketio/server.py", line 755, in _trigger_event
+    return self.handlers[namespace][event](*args)
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/flask_socketio/__init__.py", line 282, in _handler
+    return self._handle_event(handler, message, namespace, sid,
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/flask_socketio/__init__.py", line 764, in _handle_event
+    ret = handler()
+  File "/home/mac/Documents/flask/boilerplate/src/__init__.py", line 208, in connect
+    if thread is None:
+NameError: name 'thread' is not defined
+2022-08-03 10:21:00,591 INFO werkzeug Thread-16 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:21:00] "POST /socket.io/?EIO=4&transport=polling&t=O9X_JNA&sid=yq_1ELMAcWZR-nuMAAAC HTTP/1.1" 200 -
+2022-08-03 10:21:00,693 INFO werkzeug Thread-18 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:21:00] "GET /socket.io/?EIO=4&transport=polling&t=O9X_JNB&sid=yq_1ELMAcWZR-nuMAAAC HTTP/1.1" 200 -
+2022-08-03 10:22:11,509 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 10:22:11,966 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:22:13,168 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:22:13] "GET /socket.io/?EIO=4&transport=polling&t=O9X_b5C HTTP/1.1" 200 -
+2022-08-03 10:22:13,178 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:22:13] "GET /socket.io/?EIO=4&transport=polling&t=O9X_b5K&sid=p7xFxn1Q81JU87NbAAAA HTTP/1.1" 200 -
+2022-08-03 10:22:13,175 ERROR engineio.server Thread-6 (process_request_thread) : message handler error
+Traceback (most recent call last):
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/flask_socketio/__init__.py", line 762, in _handle_event
+    ret = handler(auth)
+TypeError: create_app.<locals>.connect() takes 0 positional arguments but 1 was given
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/engineio/server.py", line 622, in _trigger_event
+    return self.handlers[event](*args)
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/socketio/server.py", line 788, in _handle_eio_message
+    self._handle_connect(eio_sid, pkt.namespace, pkt.data)
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/socketio/server.py", line 678, in _handle_connect
+    success = self._trigger_event(
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/socketio/server.py", line 755, in _trigger_event
+    return self.handlers[namespace][event](*args)
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/flask_socketio/__init__.py", line 282, in _handler
+    return self._handle_event(handler, message, namespace, sid,
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/flask_socketio/__init__.py", line 764, in _handle_event
+    ret = handler()
+  File "/home/mac/Documents/flask/boilerplate/src/__init__.py", line 153, in connect
+    if thread is None:
+NameError: name 'thread' is not defined
+2022-08-03 10:22:13,178 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:22:13] "POST /socket.io/?EIO=4&transport=polling&t=O9X_b5J&sid=p7xFxn1Q81JU87NbAAAA HTTP/1.1" 200 -
+2022-08-03 10:22:13,286 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 10:22:13,587 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:22:14,696 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:22:14] "GET /socket.io/?EIO=4&transport=polling&t=O9X_bS- HTTP/1.1" 200 -
+2022-08-03 10:22:14,712 ERROR engineio.server Thread-6 (process_request_thread) : message handler error
+Traceback (most recent call last):
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/flask_socketio/__init__.py", line 762, in _handle_event
+    ret = handler(auth)
+TypeError: create_app.<locals>.connect() takes 0 positional arguments but 1 was given
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/engineio/server.py", line 622, in _trigger_event
+    return self.handlers[event](*args)
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/socketio/server.py", line 788, in _handle_eio_message
+    self._handle_connect(eio_sid, pkt.namespace, pkt.data)
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/socketio/server.py", line 678, in _handle_connect
+    success = self._trigger_event(
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/socketio/server.py", line 755, in _trigger_event
+    return self.handlers[namespace][event](*args)
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/flask_socketio/__init__.py", line 282, in _handler
+    return self._handle_event(handler, message, namespace, sid,
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/flask_socketio/__init__.py", line 764, in _handle_event
+    ret = handler()
+  File "/home/mac/Documents/flask/boilerplate/src/__init__.py", line 152, in connect
+    if thread is None:
+NameError: name 'thread' is not defined
+2022-08-03 10:22:14,714 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:22:14] "POST /socket.io/?EIO=4&transport=polling&t=O9X_bTG&sid=UlB6HssBaeqx097PAAAA HTTP/1.1" 200 -
+2022-08-03 10:22:14,715 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:22:14] "GET /socket.io/?EIO=4&transport=polling&t=O9X_bTJ&sid=UlB6HssBaeqx097PAAAA HTTP/1.1" 200 -
+2022-08-03 10:22:24,052 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 10:22:24,249 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:22:25,602 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:22:26,951 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:22:26] "GET /socket.io/?EIO=4&transport=polling&t=O9X_eSa HTTP/1.1" 200 -
+2022-08-03 10:22:26,961 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:22:26] "GET /socket.io/?EIO=4&transport=polling&t=O9X_eSi&sid=i_ISpWjz1B8P0TMeAAAA HTTP/1.1" 200 -
+2022-08-03 10:22:26,959 ERROR engineio.server Thread-6 (process_request_thread) : message handler error
+Traceback (most recent call last):
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/flask_socketio/__init__.py", line 762, in _handle_event
+    ret = handler(auth)
+TypeError: create_app.<locals>.connect() takes 0 positional arguments but 1 was given
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/engineio/server.py", line 622, in _trigger_event
+    return self.handlers[event](*args)
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/socketio/server.py", line 788, in _handle_eio_message
+    self._handle_connect(eio_sid, pkt.namespace, pkt.data)
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/socketio/server.py", line 678, in _handle_connect
+    success = self._trigger_event(
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/socketio/server.py", line 755, in _trigger_event
+    return self.handlers[namespace][event](*args)
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/flask_socketio/__init__.py", line 282, in _handler
+    return self._handle_event(handler, message, namespace, sid,
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/flask_socketio/__init__.py", line 764, in _handle_event
+    ret = handler()
+  File "/home/mac/Documents/flask/boilerplate/src/__init__.py", line 152, in connect
+    if thread is None:
+NameError: name 'thread' is not defined
+2022-08-03 10:22:26,963 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:22:26] "POST /socket.io/?EIO=4&transport=polling&t=O9X_eSg&sid=i_ISpWjz1B8P0TMeAAAA HTTP/1.1" 200 -
+2022-08-03 10:22:27,946 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 10:22:28,228 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:22:29,721 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:22:29] "GET /socket.io/?EIO=4&transport=polling&t=O9X_f7m HTTP/1.1" 200 -
+2022-08-03 10:22:29,738 ERROR engineio.server Thread-6 (process_request_thread) : message handler error
+Traceback (most recent call last):
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/flask_socketio/__init__.py", line 762, in _handle_event
+    ret = handler(auth)
+TypeError: create_app.<locals>.connect() takes 0 positional arguments but 1 was given
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/engineio/server.py", line 622, in _trigger_event
+    return self.handlers[event](*args)
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/socketio/server.py", line 788, in _handle_eio_message
+    self._handle_connect(eio_sid, pkt.namespace, pkt.data)
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/socketio/server.py", line 678, in _handle_connect
+    success = self._trigger_event(
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/socketio/server.py", line 755, in _trigger_event
+    return self.handlers[namespace][event](*args)
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/flask_socketio/__init__.py", line 282, in _handler
+    return self._handle_event(handler, message, namespace, sid,
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/flask_socketio/__init__.py", line 764, in _handle_event
+    ret = handler()
+  File "/home/mac/Documents/flask/boilerplate/src/__init__.py", line 151, in connect
+    if thread is None:
+NameError: name 'thread' is not defined
+2022-08-03 10:22:29,745 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:22:29] "GET /socket.io/?EIO=4&transport=polling&t=O9X_f83&sid=b7MrxvSEzOdvFphGAAAA HTTP/1.1" 200 -
+2022-08-03 10:22:29,746 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:22:29] "POST /socket.io/?EIO=4&transport=polling&t=O9X_f80&sid=b7MrxvSEzOdvFphGAAAA HTTP/1.1" 200 -
+2022-08-03 10:22:34,272 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-08-03 10:22:34,272 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:22:35,732 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:22:35] "GET /socket.io/?EIO=4&transport=polling&t=O9X_gbn HTTP/1.1" 200 -
+2022-08-03 10:22:35,739 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:22:35] "GET /socket.io/?EIO=4&transport=polling&t=O9X_gbt&sid=SIr29bHwM2PNrzPTAAAA HTTP/1.1" 200 -
+2022-08-03 10:22:35,737 ERROR engineio.server Thread-6 (process_request_thread) : message handler error
+Traceback (most recent call last):
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/flask_socketio/__init__.py", line 762, in _handle_event
+    ret = handler(auth)
+TypeError: create_app.<locals>.connect() takes 0 positional arguments but 1 was given
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/engineio/server.py", line 622, in _trigger_event
+    return self.handlers[event](*args)
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/socketio/server.py", line 788, in _handle_eio_message
+    self._handle_connect(eio_sid, pkt.namespace, pkt.data)
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/socketio/server.py", line 678, in _handle_connect
+    success = self._trigger_event(
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/socketio/server.py", line 755, in _trigger_event
+    return self.handlers[namespace][event](*args)
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/flask_socketio/__init__.py", line 282, in _handler
+    return self._handle_event(handler, message, namespace, sid,
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/flask_socketio/__init__.py", line 764, in _handle_event
+    ret = handler()
+  File "/home/mac/Documents/flask/boilerplate/src/__init__.py", line 151, in connect
+    if thread is None:
+NameError: name 'thread' is not defined
+2022-08-03 10:22:35,740 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:22:35] "POST /socket.io/?EIO=4&transport=polling&t=O9X_gbs&sid=SIr29bHwM2PNrzPTAAAA HTTP/1.1" 200 -
+2022-08-03 10:22:52,837 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 10:22:53,390 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:22:54,572 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:22:54] "GET /socket.io/?EIO=4&transport=polling&t=O9X_lC2 HTTP/1.1" 200 -
+2022-08-03 10:22:54,592 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:22:54] "GET /socket.io/?EIO=4&transport=polling&t=O9X_lCM&sid=1gjSqlS6tO_DVyLDAAAA HTTP/1.1" 200 -
+2022-08-03 10:22:54,588 ERROR engineio.server Thread-6 (process_request_thread) : message handler error
+Traceback (most recent call last):
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/flask_socketio/__init__.py", line 762, in _handle_event
+    ret = handler(auth)
+TypeError: create_app.<locals>.connect() takes 0 positional arguments but 1 was given
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/engineio/server.py", line 622, in _trigger_event
+    return self.handlers[event](*args)
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/socketio/server.py", line 788, in _handle_eio_message
+    self._handle_connect(eio_sid, pkt.namespace, pkt.data)
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/socketio/server.py", line 678, in _handle_connect
+    success = self._trigger_event(
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/socketio/server.py", line 755, in _trigger_event
+    return self.handlers[namespace][event](*args)
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/flask_socketio/__init__.py", line 282, in _handler
+    return self._handle_event(handler, message, namespace, sid,
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/flask_socketio/__init__.py", line 764, in _handle_event
+    ret = handler()
+  File "/home/mac/Documents/flask/boilerplate/src/__init__.py", line 149, in connect
+    def connect():
+NameError: name 'thread_lock' is not defined
+2022-08-03 10:22:54,594 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:22:54] "POST /socket.io/?EIO=4&transport=polling&t=O9X_lCK&sid=1gjSqlS6tO_DVyLDAAAA HTTP/1.1" 200 -
+2022-08-03 10:22:54,745 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 10:22:55,045 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:22:57,364 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:22:57,822 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:22:58,686 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:22:58] "GET /socket.io/?EIO=4&transport=polling&t=O9X_mCL HTTP/1.1" 200 -
+2022-08-03 10:22:58,708 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:22:58] "POST /socket.io/?EIO=4&transport=polling&t=O9X_mCb&sid=KTic5kDFSIn4jZ9UAAAA HTTP/1.1" 200 -
+2022-08-03 10:22:58,710 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:22:58] "GET /socket.io/?EIO=4&transport=polling&t=O9X_mCe&sid=KTic5kDFSIn4jZ9UAAAA HTTP/1.1" 200 -
+2022-08-03 10:22:58,777 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:22:58] "GET /socket.io/?EIO=4&transport=polling&t=O9X_mDo&sid=KTic5kDFSIn4jZ9UAAAA HTTP/1.1" 200 -
+2022-08-03 10:22:58,784 ERROR engineio.server Thread-12 (process_request_thread) : post request handler error
+Traceback (most recent call last):
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/engineio/server.py", line 431, in handle_request
+    socket.handle_post_request(environ)
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/engineio/socket.py", line 124, in handle_post_request
+    p = payload.Payload(encoded_payload=body)
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/engineio/payload.py", line 13, in __init__
+    self.decode(encoded_payload)
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/engineio/payload.py", line 44, in decode
+    raise ValueError('Too many packets in payload')
+ValueError: Too many packets in payload
+2022-08-03 10:22:58,786 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:22:58] "POST /socket.io/?EIO=4&transport=polling&t=O9X_mDu&sid=KTic5kDFSIn4jZ9UAAAA HTTP/1.1" 200 -
+2022-08-03 10:23:07,133 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-08-03 10:23:07,134 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:23:07,942 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:23:07] "GET /socket.io/?EIO=4&transport=polling&t=O9X_oSz HTTP/1.1" 200 -
+2022-08-03 10:23:07,962 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:23:07] "POST /socket.io/?EIO=4&transport=polling&t=O9X_oTE&sid=9cQ6GKA3KYQx3tabAAAA HTTP/1.1" 200 -
+2022-08-03 10:23:07,963 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:23:07] "GET /socket.io/?EIO=4&transport=polling&t=O9X_oTH&sid=9cQ6GKA3KYQx3tabAAAA HTTP/1.1" 200 -
+2022-08-03 10:23:19,726 INFO werkzeug Thread-29 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:23:19] "GET / HTTP/1.1" 200 -
+2022-08-03 10:23:19,847 INFO werkzeug Thread-30 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:23:19] "GET /socket.io/?EIO=4&transport=polling&t=O9X_rN4 HTTP/1.1" 200 -
+2022-08-03 10:23:19,941 INFO werkzeug Thread-32 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:23:19] "POST /socket.io/?EIO=4&transport=polling&t=O9X_rOV&sid=BLaShHtC_ak6n3JrAAAC HTTP/1.1" 200 -
+2022-08-03 10:23:19,942 INFO werkzeug Thread-34 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:23:19] "GET /socket.io/?EIO=4&transport=polling&t=O9X_rOW&sid=BLaShHtC_ak6n3JrAAAC HTTP/1.1" 200 -
+2022-08-03 10:23:20,042 INFO werkzeug Thread-36 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:23:20] "POST /socket.io/?EIO=4&transport=polling&t=O9X_rQ7&sid=BLaShHtC_ak6n3JrAAAC HTTP/1.1" 200 -
+2022-08-03 10:23:20,043 INFO werkzeug Thread-38 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:23:20] "GET /socket.io/?EIO=4&transport=polling&t=O9X_rQ9&sid=BLaShHtC_ak6n3JrAAAC HTTP/1.1" 200 -
+2022-08-03 10:24:00,033 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 10:24:00,332 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:24:01,032 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:24:01] "GET /socket.io/?EIO=4&transport=polling&t=O9X__Qa HTTP/1.1" 200 -
+2022-08-03 10:24:01,039 ERROR engineio.server Thread-6 (process_request_thread) : message handler error
+Traceback (most recent call last):
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/flask_socketio/__init__.py", line 762, in _handle_event
+    ret = handler(auth)
+TypeError: create_app.<locals>.connect() takes 0 positional arguments but 1 was given
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/engineio/server.py", line 622, in _trigger_event
+    return self.handlers[event](*args)
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/socketio/server.py", line 788, in _handle_eio_message
+    self._handle_connect(eio_sid, pkt.namespace, pkt.data)
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/socketio/server.py", line 678, in _handle_connect
+    success = self._trigger_event(
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/socketio/server.py", line 755, in _trigger_event
+    return self.handlers[namespace][event](*args)
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/flask_socketio/__init__.py", line 282, in _handler
+    return self._handle_event(handler, message, namespace, sid,
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/flask_socketio/__init__.py", line 764, in _handle_event
+    ret = handler()
+  File "/home/mac/Documents/flask/boilerplate/src/__init__.py", line 152, in connect
+    if thread is None:
+NameError: name 'thread' is not defined
+2022-08-03 10:24:01,042 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:24:01] "POST /socket.io/?EIO=4&transport=polling&t=O9X__Qh&sid=meL3JI36KgW-xprUAAAA HTTP/1.1" 200 -
+2022-08-03 10:24:01,042 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:24:01] "GET /socket.io/?EIO=4&transport=polling&t=O9X__Qj&sid=meL3JI36KgW-xprUAAAA HTTP/1.1" 200 -
+2022-08-03 10:24:01,689 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 10:24:01,993 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:24:03,388 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:24:03] "GET /socket.io/?EIO=4&transport=polling&t=O9X___L HTTP/1.1" 200 -
+2022-08-03 10:24:03,415 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:24:03] "GET /socket.io/?EIO=4&transport=polling&t=O9X___d&sid=L3SyQmwyZkhf-1YiAAAA HTTP/1.1" 200 -
+2022-08-03 10:24:03,406 ERROR engineio.server Thread-6 (process_request_thread) : message handler error
+Traceback (most recent call last):
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/flask_socketio/__init__.py", line 762, in _handle_event
+    ret = handler(auth)
+TypeError: create_app.<locals>.connect() takes 0 positional arguments but 1 was given
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/engineio/server.py", line 622, in _trigger_event
+    return self.handlers[event](*args)
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/socketio/server.py", line 788, in _handle_eio_message
+    self._handle_connect(eio_sid, pkt.namespace, pkt.data)
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/socketio/server.py", line 678, in _handle_connect
+    success = self._trigger_event(
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/socketio/server.py", line 755, in _trigger_event
+    return self.handlers[namespace][event](*args)
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/flask_socketio/__init__.py", line 282, in _handler
+    return self._handle_event(handler, message, namespace, sid,
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/flask_socketio/__init__.py", line 764, in _handle_event
+    ret = handler()
+  File "/home/mac/Documents/flask/boilerplate/src/__init__.py", line 153, in connect
+    if thread is None:
+NameError: name 'thread' is not defined
+2022-08-03 10:24:03,418 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:24:03] "POST /socket.io/?EIO=4&transport=polling&t=O9X___a&sid=L3SyQmwyZkhf-1YiAAAA HTTP/1.1" 200 -
+2022-08-03 10:24:04,353 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 10:24:04,651 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:24:06,017 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:24:06] "GET /socket.io/?EIO=4&transport=polling&t=O9Y00eU HTTP/1.1" 200 -
+2022-08-03 10:24:06,023 ERROR engineio.server Thread-6 (process_request_thread) : message handler error
+Traceback (most recent call last):
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/flask_socketio/__init__.py", line 762, in _handle_event
+    ret = handler(auth)
+TypeError: create_app.<locals>.connect() takes 0 positional arguments but 1 was given
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/engineio/server.py", line 622, in _trigger_event
+    return self.handlers[event](*args)
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/socketio/server.py", line 788, in _handle_eio_message
+    self._handle_connect(eio_sid, pkt.namespace, pkt.data)
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/socketio/server.py", line 678, in _handle_connect
+    success = self._trigger_event(
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/socketio/server.py", line 755, in _trigger_event
+    return self.handlers[namespace][event](*args)
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/flask_socketio/__init__.py", line 282, in _handler
+    return self._handle_event(handler, message, namespace, sid,
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/flask_socketio/__init__.py", line 764, in _handle_event
+    ret = handler()
+  File "/home/mac/Documents/flask/boilerplate/src/__init__.py", line 208, in connect
+    if thread is None:
+NameError: name 'thread' is not defined
+2022-08-03 10:24:06,026 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:24:06] "GET /socket.io/?EIO=4&transport=polling&t=O9Y00ea&sid=KupzQKC4vRCojgVnAAAA HTTP/1.1" 200 -
+2022-08-03 10:24:06,026 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:24:06] "POST /socket.io/?EIO=4&transport=polling&t=O9Y00eZ&sid=KupzQKC4vRCojgVnAAAA HTTP/1.1" 200 -
+2022-08-03 10:24:18,140 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 10:24:18,333 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:24:19,698 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 10:24:19,733 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:24:19] "GET /socket.io/?EIO=4&transport=polling&t=O9Y03-o HTTP/1.1" 200 -
+2022-08-03 10:24:19,741 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:24:19] "GET /socket.io/?EIO=4&transport=polling&t=O9Y03-u.0&sid=m9NQ2jmZUSb07gDRAAAA HTTP/1.1" 200 -
+2022-08-03 10:24:19,738 ERROR engineio.server Thread-6 (process_request_thread) : message handler error
+Traceback (most recent call last):
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/flask_socketio/__init__.py", line 762, in _handle_event
+    ret = handler(auth)
+TypeError: create_app.<locals>.connect() takes 0 positional arguments but 1 was given
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/engineio/server.py", line 622, in _trigger_event
+    return self.handlers[event](*args)
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/socketio/server.py", line 788, in _handle_eio_message
+    self._handle_connect(eio_sid, pkt.namespace, pkt.data)
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/socketio/server.py", line 678, in _handle_connect
+    success = self._trigger_event(
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/socketio/server.py", line 755, in _trigger_event
+    return self.handlers[namespace][event](*args)
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/flask_socketio/__init__.py", line 282, in _handler
+    return self._handle_event(handler, message, namespace, sid,
+  File "/home/mac/.virtualenvs/boilerplate/lib/python3.10/site-packages/flask_socketio/__init__.py", line 764, in _handle_event
+    ret = handler()
+  File "/home/mac/Documents/flask/boilerplate/src/__init__.py", line 206, in connect
+    global thread
+NameError: name 'thread_lock' is not defined
+2022-08-03 10:24:19,742 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:24:19] "POST /socket.io/?EIO=4&transport=polling&t=O9Y03-u&sid=m9NQ2jmZUSb07gDRAAAA HTTP/1.1" 200 -
+2022-08-03 10:24:20,036 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:24:21,219 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:24:21] "GET /socket.io/?EIO=4&transport=polling&t=O9Y04M0 HTTP/1.1" 200 -
+2022-08-03 10:24:21,226 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:24:21] "POST /socket.io/?EIO=4&transport=polling&t=O9Y04M6&sid=vEPj5hBNb4r7iTSIAAAA HTTP/1.1" 200 -
+2022-08-03 10:24:21,228 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:24:21] "GET /socket.io/?EIO=4&transport=polling&t=O9Y04M8&sid=vEPj5hBNb4r7iTSIAAAA HTTP/1.1" 200 -
+2022-08-03 10:24:25,165 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-08-03 10:24:25,165 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:24:27,046 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:24:27] "GET /socket.io/?EIO=4&transport=polling&t=O9Y05my HTTP/1.1" 200 -
+2022-08-03 10:24:27,060 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:24:27] "GET /socket.io/?EIO=4&transport=polling&t=O9Y05nG&sid=7hx4-PFx7lhzJphwAAAA HTTP/1.1" 200 -
+2022-08-03 10:24:27,061 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:24:27] "POST /socket.io/?EIO=4&transport=polling&t=O9Y05nE&sid=7hx4-PFx7lhzJphwAAAA HTTP/1.1" 200 -
+2022-08-03 10:24:27,351 INFO werkzeug Thread-17 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:24:27] "GET / HTTP/1.1" 200 -
+2022-08-03 10:24:27,450 INFO werkzeug Thread-18 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:24:27] "GET /socket.io/?EIO=4&transport=polling&t=O9Y05tO HTTP/1.1" 200 -
+2022-08-03 10:24:27,555 INFO werkzeug Thread-20 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:24:27] "POST /socket.io/?EIO=4&transport=polling&t=O9Y05u_&sid=Ahm6evkkrViKERfIAAAC HTTP/1.1" 200 -
+2022-08-03 10:24:27,557 INFO werkzeug Thread-22 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:24:27] "GET /socket.io/?EIO=4&transport=polling&t=O9Y05v1&sid=Ahm6evkkrViKERfIAAAC HTTP/1.1" 200 -
+2022-08-03 10:24:27,662 INFO werkzeug Thread-24 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:24:27] "POST /socket.io/?EIO=4&transport=polling&t=O9Y05wh&sid=Ahm6evkkrViKERfIAAAC HTTP/1.1" 200 -
+2022-08-03 10:24:27,663 INFO werkzeug Thread-26 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:24:27] "GET /socket.io/?EIO=4&transport=polling&t=O9Y05wj&sid=Ahm6evkkrViKERfIAAAC HTTP/1.1" 200 -
+2022-08-03 10:25:38,352 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 10:25:38,895 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:25:39,790 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:25:39] "GET /socket.io/?EIO=4&transport=polling&t=O9Y0NXh HTTP/1.1" 200 -
+2022-08-03 10:25:39,797 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:25:39] "POST /socket.io/?EIO=4&transport=polling&t=O9Y0NXo&sid=8_Kt1mdmY4OL2-xCAAAA HTTP/1.1" 200 -
+2022-08-03 10:25:39,799 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:25:39] "GET /socket.io/?EIO=4&transport=polling&t=O9Y0NXp&sid=8_Kt1mdmY4OL2-xCAAAA HTTP/1.1" 200 -
+2022-08-03 10:26:10,543 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/socket.py', reloading
+2022-08-03 10:26:11,070 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:26:12,354 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:26:12] "GET /socket.io/?EIO=4&transport=polling&t=O9Y0VUP HTTP/1.1" 200 -
+2022-08-03 10:26:12,377 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:26:12] "POST /socket.io/?EIO=4&transport=polling&t=O9Y0VUf&sid=s4by11ICYi0CMVF5AAAA HTTP/1.1" 200 -
+2022-08-03 10:26:12,379 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:26:12] "GET /socket.io/?EIO=4&transport=polling&t=O9Y0VUi&sid=s4by11ICYi0CMVF5AAAA HTTP/1.1" 200 -
+2022-08-03 10:26:12,408 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/socket.py', reloading
+2022-08-03 10:26:12,725 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:26:14,210 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:26:14] "GET /socket.io/?EIO=4&transport=polling&t=O9Y0VxP HTTP/1.1" 200 -
+2022-08-03 10:26:14,233 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:26:14] "POST /socket.io/?EIO=4&transport=polling&t=O9Y0Vxg&sid=mhzvj0X_qphKLTy7AAAA HTTP/1.1" 200 -
+2022-08-03 10:26:14,236 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:26:14] "GET /socket.io/?EIO=4&transport=polling&t=O9Y0Vxj&sid=mhzvj0X_qphKLTy7AAAA HTTP/1.1" 200 -
+2022-08-03 10:26:16,074 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/socket.py', reloading
+2022-08-03 10:26:16,388 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:26:16,975 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:26:16] "GET /socket.io/?EIO=4&transport=polling&t=O9Y0Wch HTTP/1.1" 200 -
+2022-08-03 10:26:16,981 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:26:16] "POST /socket.io/?EIO=4&transport=polling&t=O9Y0Wco&sid=DJqylxmv0zxeOb3FAAAA HTTP/1.1" 200 -
+2022-08-03 10:26:16,983 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:26:16] "GET /socket.io/?EIO=4&transport=polling&t=O9Y0Wco.0&sid=DJqylxmv0zxeOb3FAAAA HTTP/1.1" 200 -
+2022-08-03 10:26:18,742 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/socket.py', reloading
+2022-08-03 10:26:19,044 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:26:20,035 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:26:20] "GET /socket.io/?EIO=4&transport=polling&t=O9Y0XMQ HTTP/1.1" 200 -
+2022-08-03 10:26:20,052 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:26:20] "POST /socket.io/?EIO=4&transport=polling&t=O9Y0XMg&sid=VGguu8i0ygIs6mlBAAAA HTTP/1.1" 200 -
+2022-08-03 10:26:20,053 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:26:20] "GET /socket.io/?EIO=4&transport=polling&t=O9Y0XMj&sid=VGguu8i0ygIs6mlBAAAA HTTP/1.1" 200 -
+2022-08-03 10:26:26,416 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/socket.py', reloading
+2022-08-03 10:26:26,708 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:26:28,051 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/socket.py', reloading
+2022-08-03 10:26:28,199 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:26:28] "GET /socket.io/?EIO=4&transport=polling&t=O9Y0ZM3 HTTP/1.1" 200 -
+2022-08-03 10:26:28,206 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:26:28] "POST /socket.io/?EIO=4&transport=polling&t=O9Y0ZMA&sid=4ha7_W-wAp5jf0FsAAAA HTTP/1.1" 200 -
+2022-08-03 10:26:28,207 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:26:28] "GET /socket.io/?EIO=4&transport=polling&t=O9Y0ZMA.0&sid=4ha7_W-wAp5jf0FsAAAA HTTP/1.1" 200 -
+2022-08-03 10:26:28,350 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:26:29,120 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:26:29] "GET /socket.io/?EIO=4&transport=polling&t=O9Y0ZaT HTTP/1.1" 200 -
+2022-08-03 10:26:29,128 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:26:29] "POST /socket.io/?EIO=4&transport=polling&t=O9Y0ZaY&sid=izpAxLxafqGxmjFjAAAA HTTP/1.1" 200 -
+2022-08-03 10:26:29,128 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:26:29] "GET /socket.io/?EIO=4&transport=polling&t=O9Y0ZaZ&sid=izpAxLxafqGxmjFjAAAA HTTP/1.1" 200 -
+2022-08-03 10:26:29,688 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/socket.py', reloading
+2022-08-03 10:26:30,009 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:26:30,572 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:26:30] "GET /socket.io/?EIO=4&transport=polling&t=O9Y0Zx9 HTTP/1.1" 200 -
+2022-08-03 10:26:30,579 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:26:30] "POST /socket.io/?EIO=4&transport=polling&t=O9Y0ZxF&sid=NcrOxk03oPehNKzwAAAA HTTP/1.1" 200 -
+2022-08-03 10:26:30,580 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:26:30] "GET /socket.io/?EIO=4&transport=polling&t=O9Y0ZxG&sid=NcrOxk03oPehNKzwAAAA HTTP/1.1" 200 -
+2022-08-03 10:26:31,340 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/socket.py', reloading
+2022-08-03 10:26:31,659 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:26:33,133 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:26:33] "GET /socket.io/?EIO=4&transport=polling&t=O9Y0aZ4 HTTP/1.1" 200 -
+2022-08-03 10:26:33,155 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:26:33] "POST /socket.io/?EIO=4&transport=polling&t=O9Y0aZL&sid=YacZbKl7juUzyggKAAAA HTTP/1.1" 200 -
+2022-08-03 10:26:33,157 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:26:33] "GET /socket.io/?EIO=4&transport=polling&t=O9Y0aZO&sid=YacZbKl7juUzyggKAAAA HTTP/1.1" 200 -
+2022-08-03 10:26:34,022 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/socket.py', reloading
+2022-08-03 10:26:34,303 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:26:35,206 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:26:35] "GET /socket.io/?EIO=4&transport=polling&t=O9Y0b3Y HTTP/1.1" 200 -
+2022-08-03 10:26:35,215 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:26:35] "POST /socket.io/?EIO=4&transport=polling&t=O9Y0b3f&sid=3cb7YE62GD1vitOyAAAA HTTP/1.1" 200 -
+2022-08-03 10:26:35,216 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:26:35] "GET /socket.io/?EIO=4&transport=polling&t=O9Y0b3h&sid=3cb7YE62GD1vitOyAAAA HTTP/1.1" 200 -
+2022-08-03 10:27:39,302 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/socket.py', reloading
+2022-08-03 10:27:39,528 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:27:41,417 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:27:41] "GET /socket.io/?EIO=4&transport=polling&t=O9Y0rE6 HTTP/1.1" 200 -
+2022-08-03 10:27:41,423 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:27:41] "POST /socket.io/?EIO=4&transport=polling&t=O9Y0rEC&sid=OTbnM5iPkM47XhPfAAAA HTTP/1.1" 200 -
+2022-08-03 10:27:41,425 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:27:41] "GET /socket.io/?EIO=4&transport=polling&t=O9Y0rEC.0&sid=OTbnM5iPkM47XhPfAAAA HTTP/1.1" 200 -
+2022-08-03 10:27:55,039 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/socket.py', reloading
+2022-08-03 10:27:55,227 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:27:56,418 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:27:56] "GET /socket.io/?EIO=4&transport=polling&t=O9Y0uuU HTTP/1.1" 200 -
+2022-08-03 10:27:56,423 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:27:56] "POST /socket.io/?EIO=4&transport=polling&t=O9Y0uua&sid=5af1hEHyQ8-RmL59AAAA HTTP/1.1" 200 -
+2022-08-03 10:27:56,425 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:27:56] "GET /socket.io/?EIO=4&transport=polling&t=O9Y0uub&sid=5af1hEHyQ8-RmL59AAAA HTTP/1.1" 200 -
+2022-08-03 10:28:05,687 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/socket.py', reloading
+2022-08-03 10:28:05,900 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:28:07,418 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:28:07] "GET /socket.io/?EIO=4&transport=polling&t=O9Y0xaM HTTP/1.1" 200 -
+2022-08-03 10:28:07,425 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:28:07] "POST /socket.io/?EIO=4&transport=polling&t=O9Y0xaS&sid=UN3qL1gYSkBclG-VAAAA HTTP/1.1" 200 -
+2022-08-03 10:28:07,425 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:28:07] "GET /socket.io/?EIO=4&transport=polling&t=O9Y0xaT&sid=UN3qL1gYSkBclG-VAAAA HTTP/1.1" 200 -
+2022-08-03 10:28:13,323 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/socket.py', reloading
+2022-08-03 10:28:13,526 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:28:15,425 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:28:15] "GET /socket.io/?EIO=4&transport=polling&t=O9Y0zXN HTTP/1.1" 200 -
+2022-08-03 10:28:15,443 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:28:15] "POST /socket.io/?EIO=4&transport=polling&t=O9Y0zXe&sid=Tth_8nb-a8yyoiSEAAAA HTTP/1.1" 200 -
+2022-08-03 10:28:15,443 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:28:15] "GET /socket.io/?EIO=4&transport=polling&t=O9Y0zXh&sid=Tth_8nb-a8yyoiSEAAAA HTTP/1.1" 200 -
+2022-08-03 10:28:15,853 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/socket.py', reloading
+2022-08-03 10:28:16,152 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:28:17,426 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:28:17] "GET /socket.io/?EIO=4&transport=polling&t=O9Y0-0d HTTP/1.1" 200 -
+2022-08-03 10:28:17,441 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:28:17] "POST /socket.io/?EIO=4&transport=polling&t=O9Y0-0w&sid=C7QkoA-iMqTBJUO1AAAA HTTP/1.1" 200 -
+2022-08-03 10:28:17,444 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:28:17] "GET /socket.io/?EIO=4&transport=polling&t=O9Y0-0y&sid=C7QkoA-iMqTBJUO1AAAA HTTP/1.1" 200 -
+2022-08-03 10:28:17,492 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/socket.py', reloading
+2022-08-03 10:28:17,788 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:28:19,125 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/socket.py', reloading
+2022-08-03 10:28:19,436 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:28:19,938 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:28:19] "GET /socket.io/?EIO=4&transport=polling&t=O9Y0-Vs HTTP/1.1" 200 -
+2022-08-03 10:28:19,945 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:28:19] "POST /socket.io/?EIO=4&transport=polling&t=O9Y0-e5&sid=B2s93MxnsT1INPUiAAAA HTTP/1.1" 200 -
+2022-08-03 10:28:19,946 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:28:19] "GET /socket.io/?EIO=4&transport=polling&t=O9Y0-e6&sid=B2s93MxnsT1INPUiAAAA HTTP/1.1" 200 -
+2022-08-03 10:28:22,793 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/socket.py', reloading
+2022-08-03 10:28:23,061 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:28:24,423 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:28:24] "GET /socket.io/?EIO=4&transport=polling&t=O9Y0_j- HTTP/1.1" 200 -
+2022-08-03 10:28:24,433 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:28:24] "POST /socket.io/?EIO=4&transport=polling&t=O9Y0_kC&sid=ZAcPdsjW8WlZFJ8NAAAA HTTP/1.1" 200 -
+2022-08-03 10:28:24,435 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:28:24] "GET /socket.io/?EIO=4&transport=polling&t=O9Y0_kE&sid=ZAcPdsjW8WlZFJ8NAAAA HTTP/1.1" 200 -
+2022-08-03 10:28:35,510 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/socket.py', reloading
+2022-08-03 10:28:35,739 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:28:36,428 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:28:36] "GET /socket.io/?EIO=4&transport=polling&t=O9Y12fX HTTP/1.1" 200 -
+2022-08-03 10:28:36,451 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:28:36] "POST /socket.io/?EIO=4&transport=polling&t=O9Y12fp&sid=7VlGnv96j3Oan3BUAAAA HTTP/1.1" 200 -
+2022-08-03 10:28:36,453 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:28:36] "GET /socket.io/?EIO=4&transport=polling&t=O9Y12fs&sid=7VlGnv96j3Oan3BUAAAA HTTP/1.1" 200 -
+2022-08-03 10:28:39,088 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/socket.py', reloading
+2022-08-03 10:28:39,363 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:28:40,690 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/socket.py', reloading
+2022-08-03 10:28:41,016 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:28:41,570 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:28:41] "GET /socket.io/?EIO=4&transport=polling&t=O9Y13tc HTTP/1.1" 200 -
+2022-08-03 10:28:41,577 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:28:41] "POST /socket.io/?EIO=4&transport=polling&t=O9Y13w4&sid=_Lybj3QFuAhNOsfgAAAA HTTP/1.1" 200 -
+2022-08-03 10:28:41,578 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:28:41] "GET /socket.io/?EIO=4&transport=polling&t=O9Y13w5&sid=_Lybj3QFuAhNOsfgAAAA HTTP/1.1" 200 -
+2022-08-03 10:28:52,549 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/socket.py', reloading
+2022-08-03 10:28:52,722 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:28:53,426 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:28:53] "GET /socket.io/?EIO=4&transport=polling&t=O9Y16p7 HTTP/1.1" 200 -
+2022-08-03 10:28:53,448 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:28:53] "POST /socket.io/?EIO=4&transport=polling&t=O9Y16pP&sid=rh11OlG-oCxYxmP6AAAA HTTP/1.1" 200 -
+2022-08-03 10:28:53,451 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 10:28:53] "GET /socket.io/?EIO=4&transport=polling&t=O9Y16pS&sid=rh11OlG-oCxYxmP6AAAA HTTP/1.1" 200 -
+2022-08-03 10:29:09,252 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 10:29:09,409 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:29:11,852 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:29:14,304 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:29:16,830 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:29:18,252 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:29:19,708 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:29:25,197 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:29:28,655 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:29:36,144 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:29:39,602 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:29:49,156 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:30:12,821 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:30:15,254 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:30:20,752 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:30:23,203 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:30:39,835 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:30:53,418 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:31:00,903 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 10:31:12,477 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:00:00,786 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-08-03 12:00:00,825 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:02:13,723 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 12:02:14,060 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:02:42,728 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 12:02:43,166 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:02:46,549 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 12:02:46,738 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:02:48,139 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 12:02:48,375 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:02:49,749 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 12:02:49,948 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:02:51,337 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 12:02:51,533 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:02:55,956 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 12:02:56,150 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:02:59,534 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 12:02:59,710 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:03:02,087 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 12:03:02,275 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:03:05,682 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 12:03:05,862 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:03:08,241 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 12:03:08,478 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:03:10,850 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 12:03:11,051 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:03:13,426 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 12:03:13,607 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:03:21,248 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-08-03 12:03:21,249 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:03:28,695 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:03:28] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2022-08-03 12:03:28,811 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:03:28] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-08-03 12:03:28,811 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:03:28] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-08-03 12:03:28,817 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:03:28] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-08-03 12:03:28,867 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:03:28] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-08-03 12:03:29,007 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:03:29] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-08-03 12:05:35,357 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 12:05:35,968 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:05:37,344 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 12:05:37,536 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:05:40,941 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 12:05:41,109 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:05:42,466 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 12:05:42,670 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:05:51,106 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 12:05:51,265 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:05:56,299 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:05:56] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2022-08-03 12:05:56,323 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:05:56] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-08-03 12:05:56,324 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:05:56] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-08-03 12:05:56,329 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:05:56] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-08-03 12:05:56,362 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:05:56] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-08-03 12:05:56,481 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:05:56] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-08-03 12:06:04,746 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 12:06:05,332 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:06:10,197 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:06:10] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2022-08-03 12:06:10,218 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:06:10] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-08-03 12:06:10,218 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:06:10] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-08-03 12:06:10,223 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:06:10] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-08-03 12:06:10,261 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:06:10] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-08-03 12:06:10,394 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:06:10] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-08-03 12:06:30,951 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 12:06:31,433 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:06:37,804 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:06:37] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2022-08-03 12:06:37,838 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:06:37] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-08-03 12:06:37,842 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:06:37] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-08-03 12:06:37,848 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:06:37] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-08-03 12:06:37,876 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:06:37] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-08-03 12:06:37,995 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:06:37] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-08-03 12:06:51,975 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 12:06:52,525 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:06:53,879 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/__init__.py', reloading
+2022-08-03 12:06:54,082 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:06:59,706 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:06:59] "GET / HTTP/1.1" 200 -
+2022-08-03 12:08:26,550 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/auth.py', reloading
+2022-08-03 12:08:26,749 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:08:32,314 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:08:34,980 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:08:46,059 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:08:50,642 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:09:27,467 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/auth.py', reloading
+2022-08-03 12:09:27,762 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:09:41,284 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/database.py', reloading
+2022-08-03 12:09:41,878 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:09:46,274 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/database.py', reloading
+2022-08-03 12:09:46,433 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:10:18,211 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/database.py', reloading
+2022-08-03 12:10:18,524 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:10:21,890 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/database.py', reloading
+2022-08-03 12:10:22,083 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:10:23,455 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/database.py', reloading
+2022-08-03 12:10:23,645 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:10:45,217 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/database.py', reloading
+2022-08-03 12:10:45,742 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:10:49,104 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/database.py', reloading
+2022-08-03 12:10:49,296 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:10:56,740 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/auth.py', reloading
+2022-08-03 12:10:56,880 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:11:02,319 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/auth.py', reloading
+2022-08-03 12:11:02,475 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:11:04,977 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:11:12,420 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/auth.py', reloading
+2022-08-03 12:11:12,561 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:11:14,957 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/auth.py', reloading
+2022-08-03 12:11:15,153 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:11:27,713 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:11:34,119 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/auth.py', reloading
+2022-08-03 12:11:34,284 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:11:37,670 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/auth.py', reloading
+2022-08-03 12:11:37,871 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:11:40,350 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:11:47,889 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:11:49,265 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/auth.py', reloading
+2022-08-03 12:11:49,461 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:11:53,859 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/auth.py', reloading
+2022-08-03 12:11:54,011 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:11:56,445 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/auth.py', reloading
+2022-08-03 12:11:56,629 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:11:57,718 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:12:02,106 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/auth.py', reloading
+2022-08-03 12:12:02,310 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:12:03,668 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/auth.py', reloading
+2022-08-03 12:12:03,864 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:12:07,261 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/auth.py', reloading
+2022-08-03 12:12:07,444 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:12:08,818 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/auth.py', reloading
+2022-08-03 12:12:09,014 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:12:20,608 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:12:24,011 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/auth.py', reloading
+2022-08-03 12:12:24,204 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:12:58,979 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/auth.py', reloading
+2022-08-03 12:12:59,320 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:13:04,885 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:13:06,336 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:13:09,848 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:13:12,332 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:13:20,908 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:13:22,361 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:13:26,769 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/auth.py', reloading
+2022-08-03 12:13:26,930 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:13:29,306 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/auth.py', reloading
+2022-08-03 12:13:29,499 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:13:30,872 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/auth.py', reloading
+2022-08-03 12:13:31,091 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:13:40,557 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/auth.py', reloading
+2022-08-03 12:13:41,140 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:13:44,519 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/auth.py', reloading
+2022-08-03 12:13:44,713 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:13:48,068 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/auth.py', reloading
+2022-08-03 12:13:48,260 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:13:50,645 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/auth.py', reloading
+2022-08-03 12:13:50,853 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:13:53,264 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/auth.py', reloading
+2022-08-03 12:13:53,460 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:14:03,892 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/auth.py', reloading
+2022-08-03 12:14:04,012 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:14:07,379 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/auth.py', reloading
+2022-08-03 12:14:07,597 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:14:08,964 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/auth.py', reloading
+2022-08-03 12:14:09,175 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:14:13,554 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/auth.py', reloading
+2022-08-03 12:14:13,711 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:14:27,220 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/auth.py', reloading
+2022-08-03 12:14:27,795 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:14:29,178 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/auth.py', reloading
+2022-08-03 12:14:29,389 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:16:29,090 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:16:29] "GET /apidocs HTTP/1.1" 200 -
+2022-08-03 12:16:29,221 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:16:29] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 -
+2022-08-03 12:16:29,224 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:16:29] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+2022-08-03 12:16:29,226 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:16:29] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 -
+2022-08-03 12:16:29,239 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:16:29] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2022-08-03 12:16:29,303 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:16:29] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 -
+2022-08-03 12:16:29,316 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:16:29] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+2022-08-03 12:16:29,718 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:16:29] "GET /apispec.json HTTP/1.1" 200 -
+2022-08-03 12:16:29,816 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:16:29] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 -
+2022-08-03 12:16:36,539 INFO src Thread-12 (process_request_thread) : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Content-Length: 75
+Sec-Ch-Ua: ".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"
+Accept: application/json
+Content-Type: application/json
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "Linux"
+Origin: http://127.0.0.1:5000
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:5000/apidocs
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+
+
+2022-08-03 12:16:36,539 DEBUG src Thread-12 (process_request_thread) : Body: b'{\n  "firstName": "Jeeven",\n  "gender": "male",\n  "lastName": "Lamichhane"\n}'
+2022-08-03 12:16:36,539 INFO src Thread-12 (process_request_thread) : Content-Type: application/json
+Content-Length: 75
+Access-Control-Allow-Origin: http://127.0.0.1:5000
+Vary: Origin
+
+
+2022-08-03 12:16:36,539 DEBUG src Thread-12 (process_request_thread) : b'{\n  "message": "Unauthorized.", \n  "status": false, \n  "statusCode": 401\n}\n'
+2022-08-03 12:16:36,540 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:16:36] "[31m[1mPUT /api/v1/auth/my-profile HTTP/1.1[0m" 401 -
+2022-08-03 12:16:53,519 INFO src Thread-13 (process_request_thread) : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Content-Length: 76
+Sec-Ch-Ua: ".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"
+Accept: application/json
+Content-Type: application/json
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "Linux"
+Origin: http://127.0.0.1:5000
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:5000/apidocs
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+
+
+2022-08-03 12:16:53,519 DEBUG src Thread-13 (process_request_thread) : Body: b'{\n  "countryCode": "+977",\n  "password": "123456",\n  "phone": "9803610971"\n}'
+2022-08-03 12:16:53,685 INFO src Thread-13 (process_request_thread) : Content-Type: application/json
+Content-Length: 1021
+
+
+2022-08-03 12:16:53,686 DEBUG src Thread-13 (process_request_thread) : b'{\n  "data": {\n    "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY1OTUwODMxMywianRpIjoiMmNiZTVmYTktMDA3Ni00M2FhLWEwNGQtZDZhN2ZkYTRhMmI0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjYyZTI1NDE3YmU2OGE1ODc0ZmQwOTFlYSIsIm5iZiI6MTY1OTUwODMxMywiZXhwIjoxNjU5NTA5MjEzfQ.3mmSvPz9Ea9DOvwP1HE5Y-R66x4wP3I9m70Ld7fvVmA", \n    "address": "", \n    "createdAt": "2022-07-28 15:02:10.425000", \n    "email": "lamichhaneaj@gmail.com", \n    "firstName": "Jeeven", \n    "id": "62e25417be68a5874fd091ea", \n    "lastName": "Lamichhane", \n    "phone": "9803610971", \n    "refreshToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY1OTUwODMxMywianRpIjoiMGYxNDRkYWMtODVmYi00Njk2LWEzODgtMTg3MWVjYmVmYWVlIiwidHlwZSI6InJlZnJlc2giLCJzdWIiOiI2MmUyNTQxN2JlNjhhNTg3NGZkMDkxZWEiLCJuYmYiOjE2NTk1MDgzMTMsImV4cCI6MTY2MjEwMDMxM30.Fl4p7ML5l5QgAHRmV7y90oOVyb4TuglBjQqA4iZ1zLY", \n    "tokenType": "bearer", \n    "verified": true\n  }, \n  "message": "Login Successfully.", \n  "status": true, \n  "statusCode": 200\n}\n'
+2022-08-03 12:16:53,686 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:16:53] "POST /api/v1/auth/login HTTP/1.1" 200 -
+2022-08-03 12:17:13,008 INFO src Thread-14 (process_request_thread) : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Content-Length: 75
+Sec-Ch-Ua: ".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"
+Accept: application/json
+Content-Type: application/json
+Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY1OTUwODMxMywianRpIjoiMmNiZTVmYTktMDA3Ni00M2FhLWEwNGQtZDZhN2ZkYTRhMmI0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjYyZTI1NDE3YmU2OGE1ODc0ZmQwOTFlYSIsIm5iZiI6MTY1OTUwODMxMywiZXhwIjoxNjU5NTA5MjEzfQ.3mmSvPz9Ea9DOvwP1HE5Y-R66x4wP3I9m70Ld7fvVmA
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "Linux"
+Origin: http://127.0.0.1:5000
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:5000/apidocs
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+
+
+2022-08-03 12:17:13,008 DEBUG src Thread-14 (process_request_thread) : Body: b'{\n  "firstName": "Jeeven",\n  "gender": "male",\n  "lastName": "Lamichhane"\n}'
+2022-08-03 12:17:13,009 INFO src Thread-14 (process_request_thread) : Content-Type: application/json
+Content-Length: 75
+Access-Control-Allow-Origin: http://127.0.0.1:5000
+Vary: Origin
+
+
+2022-08-03 12:17:13,009 DEBUG src Thread-14 (process_request_thread) : b'{\n  "message": "Unauthorized.", \n  "status": false, \n  "statusCode": 401\n}\n'
+2022-08-03 12:17:13,009 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:17:13] "[31m[1mPUT /api/v1/auth/my-profile HTTP/1.1[0m" 401 -
+2022-08-03 12:17:21,232 INFO src Thread-15 (process_request_thread) : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Content-Length: 75
+Sec-Ch-Ua: ".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"
+Accept: application/json
+Content-Type: application/json
+Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY1OTUwODMxMywianRpIjoiMmNiZTVmYTktMDA3Ni00M2FhLWEwNGQtZDZhN2ZkYTRhMmI0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjYyZTI1NDE3YmU2OGE1ODc0ZmQwOTFlYSIsIm5iZiI6MTY1OTUwODMxMywiZXhwIjoxNjU5NTA5MjEzfQ.3mmSvPz9Ea9DOvwP1HE5Y-R66x4wP3I9m70Ld7fvVmA
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "Linux"
+Origin: http://127.0.0.1:5000
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:5000/apidocs
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+
+
+2022-08-03 12:17:21,232 DEBUG src Thread-15 (process_request_thread) : Body: b'{\n  "firstName": "Jeeven",\n  "gender": "male",\n  "lastName": "Lamichhane"\n}'
+2022-08-03 12:17:21,232 INFO src Thread-15 (process_request_thread) : Content-Type: application/json
+Content-Length: 75
+Access-Control-Allow-Origin: http://127.0.0.1:5000
+Vary: Origin
+
+
+2022-08-03 12:17:21,233 DEBUG src Thread-15 (process_request_thread) : b'{\n  "message": "Unauthorized.", \n  "status": false, \n  "statusCode": 401\n}\n'
+2022-08-03 12:17:21,233 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:17:21] "[31m[1mPUT /api/v1/auth/my-profile HTTP/1.1[0m" 401 -
+2022-08-03 12:19:04,806 INFO src Thread-16 (process_request_thread) : Headers: Accept: application/json
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY1OTQzODI1MCwianRpIjoiYjk2ZGQ0NGYtZTdjMy00MmI0LThiMzAtMWY2ZWUzZTRlNGFmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjYyZTI1NDE3YmU2OGE1ODc0ZmQwOTFlYSIsIm5iZiI6MTY1OTQzODI1MCwiZXhwIjoxNjU5NDM5MTUwfQ.nMIQQbEOGJnRwQ8uCdShUqSZJnyBRjtejBVI4iVODAU
+User-Agent: PostmanRuntime/7.29.2
+Postman-Token: ebb38ae0-0148-4f18-90ed-1bb1cf504218
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 85
+
+
+2022-08-03 12:19:04,806 DEBUG src Thread-16 (process_request_thread) : Body: b'{\n    "firstName" : "Mac",\n    "lastName" : "Lamichhane",\n    "gender" : "male"    \n}'
+2022-08-03 12:19:04,806 INFO src Thread-16 (process_request_thread) : Content-Type: application/json
+Content-Length: 76
+Access-Control-Allow-Origin: *
+
+
+2022-08-03 12:19:04,806 DEBUG src Thread-16 (process_request_thread) : b'{\n  "message": "Token Expired.", \n  "status": false, \n  "statusCode": 401\n}\n'
+2022-08-03 12:19:04,807 INFO werkzeug Thread-16 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:19:04] "[31m[1mPUT /api/v1/auth/my-profile HTTP/1.1[0m" 401 -
+2022-08-03 12:19:08,454 INFO src Thread-17 (process_request_thread) : Headers: Accept: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY1OTAwNjMwMiwianRpIjoiNjE2MWY0NzUtNzc1ZS00YjE5LThiZGMtOTMwOTEyNDRlZjRlIiwidHlwZSI6InJlZnJlc2giLCJzdWIiOiI2MmUyNTQxN2JlNjhhNTg3NGZkMDkxZWEiLCJuYmYiOjE2NTkwMDYzMDIsImV4cCI6MTY2MTU5ODMwMn0.R7ybnckGGE-g0yQHI7hxPrZP8HmDkn9aC3QWCRVZhE8
+User-Agent: PostmanRuntime/7.29.2
+Postman-Token: b82c3d16-b74f-4773-b354-e6a916b779d0
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+2022-08-03 12:19:08,454 DEBUG src Thread-17 (process_request_thread) : Body: b''
+2022-08-03 12:19:08,455 INFO src Thread-17 (process_request_thread) : Content-Type: application/json
+Content-Length: 412
+
+
+2022-08-03 12:19:08,455 DEBUG src Thread-17 (process_request_thread) : b'{\n  "data": {\n    "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY1OTUwODQ0OCwianRpIjoiMjhmMjBmYzktMzA5NS00ZjAzLThkYmUtOGNhMTM1NzY3ZWY4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjYyZTI1NDE3YmU2OGE1ODc0ZmQwOTFlYSIsIm5iZiI6MTY1OTUwODQ0OCwiZXhwIjoxNjU5NTA5MzQ4fQ.9me62oNMtQi9D4W5CcN8H3QeMQKJVEXEqe8j3rTEWM8"\n  }, \n  "message": "Token Refreshed.", \n  "status": true, \n  "statusCode": 200\n}\n'
+2022-08-03 12:19:08,455 INFO werkzeug Thread-17 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:19:08] "GET /api/v1/auth/token/refresh HTTP/1.1" 200 -
+2022-08-03 12:19:10,579 INFO src Thread-18 (process_request_thread) : Headers: Accept: application/json
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY1OTUwODQ0OCwianRpIjoiMjhmMjBmYzktMzA5NS00ZjAzLThkYmUtOGNhMTM1NzY3ZWY4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjYyZTI1NDE3YmU2OGE1ODc0ZmQwOTFlYSIsIm5iZiI6MTY1OTUwODQ0OCwiZXhwIjoxNjU5NTA5MzQ4fQ.9me62oNMtQi9D4W5CcN8H3QeMQKJVEXEqe8j3rTEWM8
+User-Agent: PostmanRuntime/7.29.2
+Postman-Token: 1b191e7f-8ec8-435a-97b9-e81c30a75488
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 85
+
+
+2022-08-03 12:19:10,579 DEBUG src Thread-18 (process_request_thread) : Body: b'{\n    "firstName" : "Mac",\n    "lastName" : "Lamichhane",\n    "gender" : "male"    \n}'
+2022-08-03 12:19:10,581 INFO src Thread-18 (process_request_thread) : Content-Type: application/json
+Content-Length: 110
+Access-Control-Allow-Origin: *
+
+
+2022-08-03 12:19:10,582 DEBUG src Thread-18 (process_request_thread) : b'{\n  "message": {\n    "gender": [\n      "Unknown field."\n    ]\n  }, \n  "status": false, \n  "statusCode": 422\n}\n'
+2022-08-03 12:19:10,582 INFO werkzeug Thread-18 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:19:10] "[31m[1mPUT /api/v1/auth/my-profile HTTP/1.1[0m" 422 -
+2022-08-03 12:19:49,311 INFO src Thread-19 (process_request_thread) : Headers: Accept: application/json
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY1OTUwODQ0OCwianRpIjoiMjhmMjBmYzktMzA5NS00ZjAzLThkYmUtOGNhMTM1NzY3ZWY4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjYyZTI1NDE3YmU2OGE1ODc0ZmQwOTFlYSIsIm5iZiI6MTY1OTUwODQ0OCwiZXhwIjoxNjU5NTA5MzQ4fQ.9me62oNMtQi9D4W5CcN8H3QeMQKJVEXEqe8j3rTEWM8
+User-Agent: PostmanRuntime/7.29.2
+Postman-Token: 6680ea51-f68f-40ad-996c-29af87d7bbd5
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 97
+
+
+2022-08-03 12:19:49,311 DEBUG src Thread-19 (process_request_thread) : Body: b'{\n    "firstName" : "Mac",\n    "lastName" : "Lamichhane",\n    "address" : "Banepa-01,Kavre"    \n}'
+2022-08-03 12:19:49,334 INFO werkzeug Thread-19 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:19:49] "[35m[1mPUT /api/v1/auth/my-profile HTTP/1.1[0m" 500 -
+2022-08-03 12:20:36,904 INFO src Thread-20 (process_request_thread) : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Content-Length: 75
+Sec-Ch-Ua: ".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"
+Accept: application/json
+Content-Type: application/json
+Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY1OTUwODMxMywianRpIjoiMmNiZTVmYTktMDA3Ni00M2FhLWEwNGQtZDZhN2ZkYTRhMmI0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjYyZTI1NDE3YmU2OGE1ODc0ZmQwOTFlYSIsIm5iZiI6MTY1OTUwODMxMywiZXhwIjoxNjU5NTA5MjEzfQ.3mmSvPz9Ea9DOvwP1HE5Y-R66x4wP3I9m70Ld7fvVmA
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "Linux"
+Origin: http://127.0.0.1:5000
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:5000/apidocs
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+
+
+2022-08-03 12:20:36,904 DEBUG src Thread-20 (process_request_thread) : Body: b'{\n  "firstName": "Jeeven",\n  "gender": "male",\n  "lastName": "Lamichhane"\n}'
+2022-08-03 12:20:36,904 INFO src Thread-20 (process_request_thread) : Content-Type: application/json
+Content-Length: 75
+Access-Control-Allow-Origin: http://127.0.0.1:5000
+Vary: Origin
+
+
+2022-08-03 12:20:36,904 DEBUG src Thread-20 (process_request_thread) : b'{\n  "message": "Unauthorized.", \n  "status": false, \n  "statusCode": 401\n}\n'
+2022-08-03 12:20:36,905 INFO werkzeug Thread-20 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:20:36] "[31m[1mPUT /api/v1/auth/my-profile HTTP/1.1[0m" 401 -
+2022-08-03 12:21:02,183 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/auth.py', reloading
+2022-08-03 12:21:02,412 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:21:05,222 INFO src Thread-3 (process_request_thread) : Headers: Accept: application/json
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY1OTUwODQ0OCwianRpIjoiMjhmMjBmYzktMzA5NS00ZjAzLThkYmUtOGNhMTM1NzY3ZWY4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjYyZTI1NDE3YmU2OGE1ODc0ZmQwOTFlYSIsIm5iZiI6MTY1OTUwODQ0OCwiZXhwIjoxNjU5NTA5MzQ4fQ.9me62oNMtQi9D4W5CcN8H3QeMQKJVEXEqe8j3rTEWM8
+User-Agent: PostmanRuntime/7.29.2
+Postman-Token: 1f2a2fbb-6294-4e80-b4e3-14c7f4d86724
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 97
+
+
+2022-08-03 12:21:05,222 DEBUG src Thread-3 (process_request_thread) : Body: b'{\n    "firstName" : "Mac",\n    "lastName" : "Lamichhane",\n    "address" : "Banepa-01,Kavre"    \n}'
+2022-08-03 12:21:05,231 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:21:05] "[35m[1mPUT /api/v1/auth/my-profile HTTP/1.1[0m" 500 -
+2022-08-03 12:21:16,923 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/auth.py', reloading
+2022-08-03 12:21:17,531 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:21:20,456 INFO src Thread-3 (process_request_thread) : Headers: Accept: application/json
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY1OTUwODQ0OCwianRpIjoiMjhmMjBmYzktMzA5NS00ZjAzLThkYmUtOGNhMTM1NzY3ZWY4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjYyZTI1NDE3YmU2OGE1ODc0ZmQwOTFlYSIsIm5iZiI6MTY1OTUwODQ0OCwiZXhwIjoxNjU5NTA5MzQ4fQ.9me62oNMtQi9D4W5CcN8H3QeMQKJVEXEqe8j3rTEWM8
+User-Agent: PostmanRuntime/7.29.2
+Postman-Token: 6a109ffc-2f74-48e3-b0f5-b28a368f69d8
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 97
+
+
+2022-08-03 12:21:20,457 DEBUG src Thread-3 (process_request_thread) : Body: b'{\n    "firstName" : "Mac",\n    "lastName" : "Lamichhane",\n    "address" : "Banepa-01,Kavre"    \n}'
+2022-08-03 12:21:20,460 INFO src Thread-3 (process_request_thread) : Content-Type: application/json
+Content-Length: 453
+
+
+2022-08-03 12:21:20,460 DEBUG src Thread-3 (process_request_thread) : b'{\n  "data": {\n    "accessToken": "", \n    "address": "Banepa-01,Kavre", \n    "createdAt": "2022-07-28 15:02:10.425000", \n    "email": "lamichhaneaj@gmail.com", \n    "firstName": "Mac", \n    "id": "62e25417be68a5874fd091ea", \n    "lastName": "Lamichhane", \n    "phone": "9803610971", \n    "refreshToken": "", \n    "tokenType": "bearer", \n    "verified": true\n  }, \n  "message": "Your profile has been updated.", \n  "status": true, \n  "statusCode": 200\n}\n'
+2022-08-03 12:21:20,461 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:21:20] "PUT /api/v1/auth/my-profile HTTP/1.1" 200 -
+2022-08-03 12:21:29,423 INFO src Thread-4 (process_request_thread) : Headers: Accept: application/json
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY1OTUwODQ0OCwianRpIjoiMjhmMjBmYzktMzA5NS00ZjAzLThkYmUtOGNhMTM1NzY3ZWY4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjYyZTI1NDE3YmU2OGE1ODc0ZmQwOTFlYSIsIm5iZiI6MTY1OTUwODQ0OCwiZXhwIjoxNjU5NTA5MzQ4fQ.9me62oNMtQi9D4W5CcN8H3QeMQKJVEXEqe8j3rTEWM8
+User-Agent: PostmanRuntime/7.29.2
+Postman-Token: 82221e10-c42a-4d05-b549-98707ba005bb
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 105
+
+
+2022-08-03 12:21:29,423 DEBUG src Thread-4 (process_request_thread) : Body: b'{\n    "firstName" : "MacAlistair",\n    "lastName" : "Lamichhane",\n    "address" : "Banepa-01,Kavre"    \n}'
+2022-08-03 12:21:29,426 INFO src Thread-4 (process_request_thread) : Content-Type: application/json
+Content-Length: 453
+
+
+2022-08-03 12:21:29,426 DEBUG src Thread-4 (process_request_thread) : b'{\n  "data": {\n    "accessToken": "", \n    "address": "Banepa-01,Kavre", \n    "createdAt": "2022-07-28 15:02:10.425000", \n    "email": "lamichhaneaj@gmail.com", \n    "firstName": "Mac", \n    "id": "62e25417be68a5874fd091ea", \n    "lastName": "Lamichhane", \n    "phone": "9803610971", \n    "refreshToken": "", \n    "tokenType": "bearer", \n    "verified": true\n  }, \n  "message": "Your profile has been updated.", \n  "status": true, \n  "statusCode": 200\n}\n'
+2022-08-03 12:21:29,426 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:21:29] "PUT /api/v1/auth/my-profile HTTP/1.1" 200 -
+2022-08-03 12:21:31,465 INFO src Thread-5 (process_request_thread) : Headers: Accept: application/json
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY1OTUwODQ0OCwianRpIjoiMjhmMjBmYzktMzA5NS00ZjAzLThkYmUtOGNhMTM1NzY3ZWY4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjYyZTI1NDE3YmU2OGE1ODc0ZmQwOTFlYSIsIm5iZiI6MTY1OTUwODQ0OCwiZXhwIjoxNjU5NTA5MzQ4fQ.9me62oNMtQi9D4W5CcN8H3QeMQKJVEXEqe8j3rTEWM8
+User-Agent: PostmanRuntime/7.29.2
+Postman-Token: 77027b36-dcba-4e47-903b-70292e36e981
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 105
+
+
+2022-08-03 12:21:31,466 DEBUG src Thread-5 (process_request_thread) : Body: b'{\n    "firstName" : "MacAlistair",\n    "lastName" : "Lamichhane",\n    "address" : "Banepa-01,Kavre"    \n}'
+2022-08-03 12:21:31,468 INFO src Thread-5 (process_request_thread) : Content-Type: application/json
+Content-Length: 461
+
+
+2022-08-03 12:21:31,468 DEBUG src Thread-5 (process_request_thread) : b'{\n  "data": {\n    "accessToken": "", \n    "address": "Banepa-01,Kavre", \n    "createdAt": "2022-07-28 15:02:10.425000", \n    "email": "lamichhaneaj@gmail.com", \n    "firstName": "MacAlistair", \n    "id": "62e25417be68a5874fd091ea", \n    "lastName": "Lamichhane", \n    "phone": "9803610971", \n    "refreshToken": "", \n    "tokenType": "bearer", \n    "verified": true\n  }, \n  "message": "Your profile has been updated.", \n  "status": true, \n  "statusCode": 200\n}\n'
+2022-08-03 12:21:31,469 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:21:31] "PUT /api/v1/auth/my-profile HTTP/1.1" 200 -
+2022-08-03 12:21:46,256 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/auth.py', reloading
+2022-08-03 12:21:46,642 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:21:51,141 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:21:55,562 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/auth.py', reloading
+2022-08-03 12:21:55,715 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:21:58,616 INFO src Thread-3 (process_request_thread) : Headers: Accept: application/json
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY1OTUwODQ0OCwianRpIjoiMjhmMjBmYzktMzA5NS00ZjAzLThkYmUtOGNhMTM1NzY3ZWY4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjYyZTI1NDE3YmU2OGE1ODc0ZmQwOTFlYSIsIm5iZiI6MTY1OTUwODQ0OCwiZXhwIjoxNjU5NTA5MzQ4fQ.9me62oNMtQi9D4W5CcN8H3QeMQKJVEXEqe8j3rTEWM8
+User-Agent: PostmanRuntime/7.29.2
+Postman-Token: e640a163-357e-420d-a349-bbc72beae64a
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 105
+
+
+2022-08-03 12:21:58,616 DEBUG src Thread-3 (process_request_thread) : Body: b'{\n    "firstName" : "MacAlistair",\n    "lastName" : "Lamichhane",\n    "address" : "Banepa-01,Kavre"    \n}'
+2022-08-03 12:21:58,621 INFO src Thread-3 (process_request_thread) : Content-Type: application/json
+Content-Length: 461
+
+
+2022-08-03 12:21:58,622 DEBUG src Thread-3 (process_request_thread) : b'{\n  "data": {\n    "accessToken": "", \n    "address": "Banepa-01,Kavre", \n    "createdAt": "2022-07-28 15:02:10.425000", \n    "email": "lamichhaneaj@gmail.com", \n    "firstName": "MacAlistair", \n    "id": "62e25417be68a5874fd091ea", \n    "lastName": "Lamichhane", \n    "phone": "9803610971", \n    "refreshToken": "", \n    "tokenType": "bearer", \n    "verified": true\n  }, \n  "message": "Your profile has been updated.", \n  "status": true, \n  "statusCode": 200\n}\n'
+2022-08-03 12:21:58,622 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:21:58] "PUT /api/v1/auth/my-profile HTTP/1.1" 200 -
+2022-08-03 12:22:08,912 INFO src Thread-4 (process_request_thread) : Headers: Accept: application/json
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY1OTUwODQ0OCwianRpIjoiMjhmMjBmYzktMzA5NS00ZjAzLThkYmUtOGNhMTM1NzY3ZWY4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjYyZTI1NDE3YmU2OGE1ODc0ZmQwOTFlYSIsIm5iZiI6MTY1OTUwODQ0OCwiZXhwIjoxNjU5NTA5MzQ4fQ.9me62oNMtQi9D4W5CcN8H3QeMQKJVEXEqe8j3rTEWM8
+User-Agent: PostmanRuntime/7.29.2
+Postman-Token: 851d8f4d-7df3-4a69-8edc-2be3f72d9980
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 114
+
+
+2022-08-03 12:22:08,912 DEBUG src Thread-4 (process_request_thread) : Body: b'{\n    "firstName" : "MacAlistair",\n    "lastName" : "Lamichhane",\n    "address" : "Banepa-01,Kavrepalanchok"    \n}'
+2022-08-03 12:22:08,916 INFO src Thread-4 (process_request_thread) : Content-Type: application/json
+Content-Length: 470
+
+
+2022-08-03 12:22:08,916 DEBUG src Thread-4 (process_request_thread) : b'{\n  "data": {\n    "accessToken": "", \n    "address": "Banepa-01,Kavrepalanchok", \n    "createdAt": "2022-07-28 15:02:10.425000", \n    "email": "lamichhaneaj@gmail.com", \n    "firstName": "MacAlistair", \n    "id": "62e25417be68a5874fd091ea", \n    "lastName": "Lamichhane", \n    "phone": "9803610971", \n    "refreshToken": "", \n    "tokenType": "bearer", \n    "verified": true\n  }, \n  "message": "Your profile has been updated.", \n  "status": true, \n  "statusCode": 200\n}\n'
+2022-08-03 12:22:08,917 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:22:08] "PUT /api/v1/auth/my-profile HTTP/1.1" 200 -
+2022-08-03 12:22:17,342 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/auth.py', reloading
+2022-08-03 12:22:17,821 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:22:19,458 INFO src Thread-3 (process_request_thread) : Headers: Accept: application/json
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY1OTUwODQ0OCwianRpIjoiMjhmMjBmYzktMzA5NS00ZjAzLThkYmUtOGNhMTM1NzY3ZWY4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjYyZTI1NDE3YmU2OGE1ODc0ZmQwOTFlYSIsIm5iZiI6MTY1OTUwODQ0OCwiZXhwIjoxNjU5NTA5MzQ4fQ.9me62oNMtQi9D4W5CcN8H3QeMQKJVEXEqe8j3rTEWM8
+User-Agent: PostmanRuntime/7.29.2
+Postman-Token: a11e0601-51ec-4a91-9db1-080958f3d862
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 114
+
+
+2022-08-03 12:22:19,458 DEBUG src Thread-3 (process_request_thread) : Body: b'{\n    "firstName" : "MacAlistair",\n    "lastName" : "Lamichhane",\n    "address" : "Banepa-01,Kavrepalanchok"    \n}'
+2022-08-03 12:22:19,463 INFO src Thread-3 (process_request_thread) : Content-Type: application/json
+Content-Length: 470
+
+
+2022-08-03 12:22:19,463 DEBUG src Thread-3 (process_request_thread) : b'{\n  "data": {\n    "accessToken": "", \n    "address": "Banepa-01,Kavrepalanchok", \n    "createdAt": "2022-07-28 15:02:10.425000", \n    "email": "lamichhaneaj@gmail.com", \n    "firstName": "MacAlistair", \n    "id": "62e25417be68a5874fd091ea", \n    "lastName": "Lamichhane", \n    "phone": "9803610971", \n    "refreshToken": "", \n    "tokenType": "bearer", \n    "verified": true\n  }, \n  "message": "Your profile has been updated.", \n  "status": true, \n  "statusCode": 200\n}\n'
+2022-08-03 12:22:19,464 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:22:19] "PUT /api/v1/auth/my-profile HTTP/1.1" 200 -
+2022-08-03 12:22:31,358 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/auth.py', reloading
+2022-08-03 12:22:31,936 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-03 12:42:06,726 INFO src Thread-3 (process_request_thread) : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Content-Length: 75
+Sec-Ch-Ua: ".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"
+Accept: application/json
+Content-Type: application/json
+Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY1OTUwODMxMywianRpIjoiMmNiZTVmYTktMDA3Ni00M2FhLWEwNGQtZDZhN2ZkYTRhMmI0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjYyZTI1NDE3YmU2OGE1ODc0ZmQwOTFlYSIsIm5iZiI6MTY1OTUwODMxMywiZXhwIjoxNjU5NTA5MjEzfQ.3mmSvPz9Ea9DOvwP1HE5Y-R66x4wP3I9m70Ld7fvVmA
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "Linux"
+Origin: http://127.0.0.1:5000
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:5000/apidocs
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+
+
+2022-08-03 12:42:06,736 DEBUG src Thread-3 (process_request_thread) : Body: b'{\n  "firstName": "Jeeven",\n  "gender": "male",\n  "lastName": "Lamichhane"\n}'
+2022-08-03 12:42:06,738 INFO src Thread-3 (process_request_thread) : Content-Type: application/json
+Content-Length: 75
+Access-Control-Allow-Origin: http://127.0.0.1:5000
+Vary: Origin
+
+
+2022-08-03 12:42:06,738 DEBUG src Thread-3 (process_request_thread) : b'{\n  "message": "Unauthorized.", \n  "status": false, \n  "statusCode": 401\n}\n'
+2022-08-03 12:42:06,739 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:42:06] "[31m[1mPUT /api/v1/auth/my-profile HTTP/1.1[0m" 401 -
+2022-08-03 12:43:33,792 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:43:33] "GET / HTTP/1.1" 200 -
+2022-08-03 12:45:22,109 INFO src Thread-6 (process_request_thread) : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Content-Length: 75
+Sec-Ch-Ua: ".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"
+Accept: application/json
+Content-Type: application/json
+Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY1OTUwODMxMywianRpIjoiMmNiZTVmYTktMDA3Ni00M2FhLWEwNGQtZDZhN2ZkYTRhMmI0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjYyZTI1NDE3YmU2OGE1ODc0ZmQwOTFlYSIsIm5iZiI6MTY1OTUwODMxMywiZXhwIjoxNjU5NTA5MjEzfQ.3mmSvPz9Ea9DOvwP1HE5Y-R66x4wP3I9m70Ld7fvVmA
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "Linux"
+Origin: http://127.0.0.1:5000
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://127.0.0.1:5000/apidocs
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+
+
+2022-08-03 12:45:22,110 DEBUG src Thread-6 (process_request_thread) : Body: b'{\n  "firstName": "Jeeven",\n  "gender": "male",\n  "lastName": "Lamichhane"\n}'
+2022-08-03 12:45:22,110 INFO src Thread-6 (process_request_thread) : Content-Type: application/json
+Content-Length: 75
+Access-Control-Allow-Origin: http://127.0.0.1:5000
+Vary: Origin
+
+
+2022-08-03 12:45:22,110 DEBUG src Thread-6 (process_request_thread) : b'{\n  "message": "Unauthorized.", \n  "status": false, \n  "statusCode": 401\n}\n'
+2022-08-03 12:45:22,110 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 12:45:22] "[31m[1mPUT /api/v1/auth/my-profile HTTP/1.1[0m" 401 -
+2022-08-03 12:45:31,202 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/src/database.py', reloading
+2022-08-03 12:45:31,665 INFO werkzeug MainThread :  * Restarting with stat

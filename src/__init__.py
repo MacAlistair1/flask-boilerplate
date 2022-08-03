@@ -1,4 +1,4 @@
-from flask import Flask, config, redirect, jsonify, request, abort
+from flask import Flask, jsonify, request, abort
 from os import environ
 from werkzeug.exceptions import HTTPException, InternalServerError
 from flask_cors import CORS
@@ -8,7 +8,7 @@ from flask_jwt_extended import JWTManager
 from flask_jwt_extended.exceptions import NoAuthorizationError
 import logging
 from flasgger import Swagger
-from flask_mail import Mail
+from flask_mail import Mail, Message
 
 from src.database import db
 from src.auth import auth
@@ -37,11 +37,11 @@ def create_app(test_config=None):
             "port": 27017,
         }
 
-        app.config['MAIL_SERVER'] = 'smtp.mailtrap.io'
-        app.config['MAIL_PORT'] = 2525
-        app.config['MAIL_USERNAME'] = '3e8f4d52a62a2a'
-        app.config['MAIL_PASSWORD'] = '5badb2a5c8bf03'
-        app.config['MAIL_USE_TLS'] = True
+        app.config['MAIL_SERVER'] = environ.get('MAIL_SERVER')
+        app.config['MAIL_PORT'] = environ.get('MAIL_PORT')
+        app.config['MAIL_USERNAME'] = environ.get('MAIL_USERNAME')
+        app.config['MAIL_PASSWORD'] = environ.get('MAIL_PASSWORD')
+        app.config['MAIL_USE_TLS'] = bool(environ.get('MAIL_USE_TLS'))
         app.config['MAIL_USE_SSL'] = False
 
     else:
@@ -88,7 +88,7 @@ def create_app(test_config=None):
             app.logger.debug('Body: %s', request.get_data())
 
         # d nothing for swagger end points
-        if request.path == "/apispec.json" or request.path == "/apidocs" or "flasgger_static" in request.path:
+        if request.path == "/apispec.json" or request.path == "/apidocs" or "flasgger_static" in request.path or request.path == "/" or request.path == "/echo":
             pass
         else:
             # return 404 if the accept header is not json except for the swagger json path
@@ -116,5 +116,17 @@ def create_app(test_config=None):
     @jwt.expired_token_loader
     def my_expired_token_callback(jwt_header, jwt_payload):
         return jsonify({"status": False, "message": "Token Expired.", "statusCode": HTTP_401_UNAUTHORIZED}), HTTP_401_UNAUTHORIZED
+
+    @app.get('/')
+    def send_mail():
+        msg = Message(
+            'Hello',
+            sender=environ.get('MAIL_DEFAULT_SENDER'),
+            recipients=['lamichhaneaj@gmail.com']
+        )
+        msg.body = 'Hello Flask message sent from Flask-Mail'
+        mail.send(msg)
+
+        return "Message Sent", 200
 
     return app
