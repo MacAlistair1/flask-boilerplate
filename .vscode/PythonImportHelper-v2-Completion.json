@@ -24,14 +24,6 @@
         "documentation": {}
     },
     {
-        "label": "environ",
-        "importPath": "os",
-        "description": "os",
-        "isExtraImport": true,
-        "detail": "os",
-        "documentation": {}
-    },
-    {
         "label": "Blueprint",
         "importPath": "flask",
         "description": "flask",
@@ -427,22 +419,6 @@
         "documentation": {}
     },
     {
-        "label": "Message",
-        "importPath": "flask_mail",
-        "description": "flask_mail",
-        "isExtraImport": true,
-        "detail": "flask_mail",
-        "documentation": {}
-    },
-    {
-        "label": "Message",
-        "importPath": "flask_mail",
-        "description": "flask_mail",
-        "isExtraImport": true,
-        "detail": "flask_mail",
-        "documentation": {}
-    },
-    {
         "label": "User",
         "importPath": "src.database",
         "description": "src.database",
@@ -468,6 +444,14 @@
     },
     {
         "label": "LoginSchema",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateProfileSchema",
         "importPath": "src.database",
         "description": "src.database",
         "isExtraImport": true,
@@ -548,6 +532,30 @@
     },
     {
         "label": "db",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "Bookmark",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "Restaurant",
         "importPath": "src.database",
         "description": "src.database",
         "isExtraImport": true,
@@ -882,31 +890,6 @@
         "importPath": "math",
         "description": "math",
         "detail": "math",
-        "documentation": {}
-    },
-    {
-        "label": "send_async_email",
-        "importPath": "src.tasks",
-        "description": "src.tasks",
-        "isExtraImport": true,
-        "detail": "src.tasks",
-        "documentation": {}
-    },
-    {
-        "label": "Celery",
-        "importPath": "celery",
-        "description": "celery",
-        "isExtraImport": true,
-        "detail": "celery",
-        "documentation": {}
-    },
-    {
-        "label": "src",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "src",
-        "description": "src",
-        "detail": "src",
         "documentation": {}
     },
     {
@@ -1526,7 +1509,16 @@
         "kind": 2,
         "importPath": "src.auth",
         "description": "src.auth",
-        "peekOfCode": "def me():\n    user_id = get_jwt_identity()\n    user = User.objects(id=user_id).first()\n    return jsonify({\n        \"data\": user.user_profile(),\n        \"status\": True,\n        \"message\": \"\",\n        \"statusCode\": HTTP_200_OK\n    }), HTTP_200_OK\n# generate  new access token using refresh token sent in login",
+        "peekOfCode": "def me():\n    user_id = get_jwt_identity()\n    user = User.objects(id=user_id).first()\n    return jsonify({\n        \"data\": user.user_profile(),\n        \"status\": True,\n        \"message\": \"\",\n        \"statusCode\": HTTP_200_OK\n    }), HTTP_200_OK\n# update user profile",
+        "detail": "src.auth",
+        "documentation": {}
+    },
+    {
+        "label": "update_profile",
+        "kind": 2,
+        "importPath": "src.auth",
+        "description": "src.auth",
+        "peekOfCode": "def update_profile():\n    user = User.objects(id=get_jwt_identity()).first()\n    body = request.get_json()\n    schema = UpdateProfileSchema()\n    try:\n        data = schema.load(body)\n        newUser = user.update(**data)\n        newUser = User.objects(id=get_jwt_identity()).first()\n        return jsonify({\n            \"data\": newUser.user_profile(),",
         "detail": "src.auth",
         "documentation": {}
     },
@@ -1621,6 +1613,15 @@
         "documentation": {}
     },
     {
+        "label": "UpdateProfileSchema",
+        "kind": 6,
+        "importPath": "src.database",
+        "description": "src.database",
+        "peekOfCode": "class UpdateProfileSchema(Schema):\n    firstName = fields.String(required=True)\n    lastName = fields.String(required=True)   \n    address = fields.String(required=False)\nclass VerifyOtpSchema(Schema):\n    countryCode = fields.Str(\n        required=True, validate=[validate.Length(min=1, max=5)], load_only=True\n    )\n    phone = fields.Str(\n        required=True, validate=[validate.Length(min=10, max=10)], load_only=True",
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
         "label": "VerifyOtpSchema",
         "kind": 6,
         "importPath": "src.database",
@@ -1711,15 +1712,6 @@
         "documentation": {}
     },
     {
-        "label": "send_mail",
-        "kind": 2,
-        "importPath": "src.restaurant",
-        "description": "src.restaurant",
-        "peekOfCode": "def send_mail():\n    data = {\n        'subject': 'Hello from the other side!',\n        'to': [\"lamichhaneaj@gmail.com\"],\n        'body': 'Hey Paul, sending you this email from my Flask app, lmk if it works'\n    }\n    task = send_async_email.delay(data)\n    return \"send mail worker started. Task id:\"+task.id, 200",
-        "detail": "src.restaurant",
-        "documentation": {}
-    },
-    {
         "label": "restaurant",
         "kind": 5,
         "importPath": "src.restaurant",
@@ -1729,48 +1721,12 @@
         "documentation": {}
     },
     {
-        "label": "send_async_email",
+        "label": "test_new_user",
         "kind": 2,
-        "importPath": "src.tasks",
-        "description": "src.tasks",
-        "peekOfCode": "def send_async_email(data):\n    msg = Message(data['subject'],\n                  sender=environ.get(\"MAIL_DEFAULT_SENDER\"),\n                  recipients=data['to'])\n    msg.body = data['body']\n    mail.send(msg)\n    return True",
-        "detail": "src.tasks",
-        "documentation": {}
-    },
-    {
-        "label": "mail",
-        "kind": 5,
-        "importPath": "src.tasks",
-        "description": "src.tasks",
-        "peekOfCode": "mail = src.create_app\ncelery = Celery(__name__)\ncelery.conf.broker_url = environ.get(\n    \"CELERY_BROKER_URL\", \"redis://localhost:6379\")\ncelery.conf.result_backend = environ.get(\n    \"CELERY_RESULT_BACKEND\", \"redis://localhost:6379\")\n@celery.task(name=\"send_async_email\")\ndef send_async_email(data):\n    msg = Message(data['subject'],\n                  sender=environ.get(\"MAIL_DEFAULT_SENDER\"),",
-        "detail": "src.tasks",
-        "documentation": {}
-    },
-    {
-        "label": "celery",
-        "kind": 5,
-        "importPath": "src.tasks",
-        "description": "src.tasks",
-        "peekOfCode": "celery = Celery(__name__)\ncelery.conf.broker_url = environ.get(\n    \"CELERY_BROKER_URL\", \"redis://localhost:6379\")\ncelery.conf.result_backend = environ.get(\n    \"CELERY_RESULT_BACKEND\", \"redis://localhost:6379\")\n@celery.task(name=\"send_async_email\")\ndef send_async_email(data):\n    msg = Message(data['subject'],\n                  sender=environ.get(\"MAIL_DEFAULT_SENDER\"),\n                  recipients=data['to'])",
-        "detail": "src.tasks",
-        "documentation": {}
-    },
-    {
-        "label": "celery.conf.broker_url",
-        "kind": 5,
-        "importPath": "src.tasks",
-        "description": "src.tasks",
-        "peekOfCode": "celery.conf.broker_url = environ.get(\n    \"CELERY_BROKER_URL\", \"redis://localhost:6379\")\ncelery.conf.result_backend = environ.get(\n    \"CELERY_RESULT_BACKEND\", \"redis://localhost:6379\")\n@celery.task(name=\"send_async_email\")\ndef send_async_email(data):\n    msg = Message(data['subject'],\n                  sender=environ.get(\"MAIL_DEFAULT_SENDER\"),\n                  recipients=data['to'])\n    msg.body = data['body']",
-        "detail": "src.tasks",
-        "documentation": {}
-    },
-    {
-        "label": "celery.conf.result_backend",
-        "kind": 5,
-        "importPath": "src.tasks",
-        "description": "src.tasks",
-        "peekOfCode": "celery.conf.result_backend = environ.get(\n    \"CELERY_RESULT_BACKEND\", \"redis://localhost:6379\")\n@celery.task(name=\"send_async_email\")\ndef send_async_email(data):\n    msg = Message(data['subject'],\n                  sender=environ.get(\"MAIL_DEFAULT_SENDER\"),\n                  recipients=data['to'])\n    msg.body = data['body']\n    mail.send(msg)\n    return True",
-        "detail": "src.tasks",
+        "importPath": "tests.unit.test_models",
+        "description": "tests.unit.test_models",
+        "peekOfCode": "def test_new_user():\n    \"\"\"\n    GIVEN a User model\n    WHEN a new User is created\n    THEN check the fields are defined correctly\n    \"\"\"\n    user = User(firstName=\"Test\", lastName=\"User\",\n                countryCode=\"+977\", phone=\"9860463471\", password=\"123456\")\n    assert user.firstName == 'Test'\n    assert user.lastName == 'User'",
+        "detail": "tests.unit.test_models",
         "documentation": {}
     }
 ]

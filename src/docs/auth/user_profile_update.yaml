@@ -1,0 +1,38 @@
+User Profile Update
+---
+tags:
+  - Authentication
+security:
+  - Bearer: []
+
+parameters:
+  - name: body
+    description: The body should contain the user profile data
+    in: body
+    required: true
+    schema:
+      type: object
+      required:
+        - "firstName"
+        - "lastName"
+        - "gender"
+      properties:
+        firstName:
+          type: "string"
+          example: "Jeeven"
+        lastName:
+          type: "string"
+          example: "Lamichhane"
+        address:
+          type: "string"
+          example: "my-address"
+
+responses:
+  200:
+    description: When a accessToken valid returns the user Profile data
+
+  401:
+    description: Fails due to invalid accessToken or accessToken expire
+
+  422:
+    description: Fails to update profile due to validation error

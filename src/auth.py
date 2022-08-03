@@ -10,10 +10,9 @@ import requests
 from flask_jwt_extended.exceptions import NoAuthorizationError, InvalidHeaderError
 from functools import wraps
 from flasgger import swag_from
-from flask_mail import Message
 
 
-from src.database import User, UserSchema, VerifyOtpSchema, LoginSchema, db
+from src.database import User, UserSchema, VerifyOtpSchema, LoginSchema, UpdateProfileSchema, db
 from src.constants.http_status_codes import HTTP_200_OK, HTTP_201_CREATED, HTTP_409_CONFLICT, HTTP_422_UNPROCESSABLE_ENTITY, HTTP_404_NOT_FOUND, HTTP_403_FORBIDDEN, HTTP_503_SERVICE_UNAVAILABLE
 
 auth = Blueprint("auth", __name__, url_prefix='/api/v1/auth')
@@ -159,8 +158,34 @@ def me():
         "statusCode": HTTP_200_OK
     }), HTTP_200_OK
 
+# update user profile
+
+
+@auth.put("/my-profile")
+@app_jwt_required()
+@swag_from('./docs/auth/user_profile_update.yaml')
+def update_profile():
+    user = User.objects(id=get_jwt_identity()).first()
+    body = request.get_json()
+    schema = UpdateProfileSchema()
+    try:
+        data = schema.load(body)
+        newUser = user.update(**data)
+        newUser = User.objects(id=get_jwt_identity()).first()
+
+        return jsonify({
+            "data": newUser.user_profile(),
+            "status": True,
+            "message": "Your profile has been updated.",
+            "statusCode": HTTP_200_OK
+        }), HTTP_200_OK
+
+    except ValidationError as error:
+        abort(422, error.messages)
 
 # generate  new access token using refresh token sent in login
+
+
 @auth.get('/token/refresh')
 @jwt_required(refresh=True)
 def refresh_users_token():
@@ -210,5 +235,3 @@ def send_mail(user):
         pass
     else:
         pass
-
-

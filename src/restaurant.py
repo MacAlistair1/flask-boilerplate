@@ -9,7 +9,6 @@ from src.database import User, Restaurant, RestaurantSchema, db
 from src.constants.http_status_codes import HTTP_200_OK, HTTP_201_CREATED, HTTP_409_CONFLICT, HTTP_422_UNPROCESSABLE_ENTITY, HTTP_404_NOT_FOUND, HTTP_403_FORBIDDEN, HTTP_503_SERVICE_UNAVAILABLE
 
 from common import paginator_service, errorResponse
-from src.tasks import send_async_email
 
 restaurant = Blueprint("restaurant", __name__, url_prefix="/api/v1/restaurant")
 
@@ -62,16 +61,3 @@ def create():
         }), HTTP_201_CREATED
     except ValidationError as err:
         abort(HTTP_422_UNPROCESSABLE_ENTITY, err.messages)
-
-    return ""
-
-
-@restaurant.route('/send-mail')
-def send_mail():
-    data = {
-        'subject': 'Hello from the other side!',
-        'to': ["lamichhaneaj@gmail.com"],
-        'body': 'Hey Paul, sending you this email from my Flask app, lmk if it works'
-    }
-    task = send_async_email.delay(data)
-    return "send mail worker started. Task id:"+task.id, 200

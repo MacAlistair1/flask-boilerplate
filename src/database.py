@@ -108,6 +108,12 @@ class LoginSchema(Schema):
         required=True, validate=[validate.Length(min=6, max=36)], load_only=True
     )
 
+class UpdateProfileSchema(Schema):
+    firstName = fields.String(required=True)
+    lastName = fields.String(required=True)   
+    address = fields.String(required=False)
+
+
 
 class VerifyOtpSchema(Schema):
     countryCode = fields.Str(
