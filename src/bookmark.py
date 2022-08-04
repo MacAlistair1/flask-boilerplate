@@ -30,7 +30,7 @@ def bookmark_list():
         'currentPage') != None else 1
 
     paginator = Pagination(Bookmark.objects(
-        user=get_jwt_identity()).order_by('+createdAt', '-name'), int(current_page), int(per_page))
+        user=get_jwt_identity()), int(current_page), int(per_page))
     items = [Bookmark.object(item) for item in paginator.items]
     return paginator_service(paginator, items)
 

@@ -1,8 +1,10 @@
 from flask import Response, request, Blueprint, jsonify, abort
 from flask_jwt_extended import get_jwt_identity
 from marshmallow import ValidationError
-from flask_mongoengine import Pagination
+from flask_mongoengine import MongoEngine, Pagination
 from flasgger import swag_from
+from mongoengine.errors import ValidationError as VError
+from bson import ObjectId
 
 from src.auth import app_jwt_required
 from src.database import User, Restaurant, RestaurantSchema, db
@@ -59,5 +61,37 @@ def create():
             "message": "New Restaurant has been added.",
             "statusCode": HTTP_201_CREATED
         }), HTTP_201_CREATED
+    except ValidationError as err:
+        abort(HTTP_422_UNPROCESSABLE_ENTITY, err.messages)
+
+
+@restaurant.put("/<restaurant_id>")
+@app_jwt_required()
+@swag_from("./docs/restaurant/update.yaml")
+def update(restaurant_id):
+    body = request.get_json()
+    schema = RestaurantSchema()
+    
+    valid_id = ObjectId.is_valid(restaurant_id)
+    
+    if valid_id:
+            try:
+                restro = Restaurant.objects.get(pk=restaurant_id)
+            except VError as error:
+                print(error)
+                abort(HTTP_404_NOT_FOUND, "Restaurant not found.")
+    else:
+        abort(HTTP_422_UNPROCESSABLE_ENTITY, "Object Id is invalid.")
+    
+    try:
+        data = schema.load(body)
+        update_ok = restro.update(**data)
+        restro = Restaurant.objects(id=restaurant_id).first()
+        return jsonify({
+            "data": restro.object(),
+            "status": True,
+            "message": "Restaurant has been updated.",
+            "statusCode": HTTP_200_OK
+        }), HTTP_200_OK
     except ValidationError as err:
         abort(HTTP_422_UNPROCESSABLE_ENTITY, err.messages)

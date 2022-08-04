@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, request, abort
 from os import environ
-from werkzeug.exceptions import HTTPException, InternalServerError
+from werkzeug.exceptions import HTTPException, InternalServerError, BadRequest, NotFound, MethodNotAllowed
 from flask_cors import CORS
 from flask_bcrypt import Bcrypt
 from flask_limiter import Limiter, RateLimitExceeded
@@ -17,7 +17,7 @@ from src.bookmark import bookmark
 from src.restaurant import restaurant
 from src.constants.http_status_codes import HTTP_401_UNAUTHORIZED
 from src.config.swagger import template, swagger_config
-
+from common import errorResponse
 
 def create_app(test_config=None):
     app = Flask(__name__, instance_relative_config=True)
@@ -110,7 +110,7 @@ def create_app(test_config=None):
 
      # Error Handler method
 
-    @app.errorhandler(HTTPException or RateLimitExceeded or InternalServerError or NoAuthorizationError)
+    @app.errorhandler(HTTPException or RateLimitExceeded or InternalServerError or NoAuthorizationError or BadRequest or MethodNotAllowed or NotFound)
     def handle_exception(e):
         return jsonify({"status": False, "message": e.description, "statusCode": e.code}), e.code
 
@@ -120,23 +120,32 @@ def create_app(test_config=None):
 
     @app.get('/')
     def send_mail():
-        # msg = Message(
-        #     'Hello',
-        #     sender=environ.get('MAIL_DEFAULT_SENDER'),
-        #     recipients=['lamichhaneaj@gmail.com']
-        # )
-        # msg.body = 'Hello Flask message sent from Flask-Mail'
-        # mail.send(msg)
-        data = {
-            "email": "lamichhaneaj@gmail.com",
-            "message": "sending mail"
-        }
+        
+        try:
+            url = environ.get("JOBS_BASE_URL")+"/send-mail"
+            
+            data = {
+            "subject" : "Mail Subject",
+            "body": "Hello Flask message sent from Flask-Mail",
+            "recipients": ["lamichhaneaj@gmail.com", "lamichhaneaj1@gmail.com", 
+                           "lamichhaneaj2@gmail.com", "lamichhaneaj3@gmail.com", 
+                           "lamichhaneaj4@gmail.com", "lamichhaneaj5@gmail.com", 
+                           "lamichhaneaj6@gmail.com", "lamichhaneaj7@gmail.com", 
+                           "lamichhaneaj8@gmail.com", "lamichhaneaj9@gmail.com", 
+                           "lamichhaneaj10@gmail.com", "lamichhaneaj11@gmail.com"],
+            }
+            
+            headers = {
+                'Content-Type': "application/json",
+                'Accept': "application/json",
+            }
+            response = requests.request("POST", url, headers=headers, json=data)
+            print(response)
+            
+            return "Message Sent", 200
+            
 
-        response = requests.post("http://127.0.0.1:5001/send-mail",
-                                 headers={"Content-Type": "application/json"}, data=data)
-
-        print(response)
-
-        return "Message Sent", 200
+        except Exception as e:
+            return errorResponse("Connection Failure!!", 503)
 
     return app

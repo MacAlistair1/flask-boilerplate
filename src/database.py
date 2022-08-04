@@ -163,6 +163,10 @@ class Bookmark(db.Document):
             "createdAt": (str(self.createdAt)),
             "updatedAt": (str(self.updatedAt)),
         }
+        
+    meta = {
+        'ordering': ['-updatedAt', '+name']
+    }
 
 
 class BookmarkSchema(Schema):
