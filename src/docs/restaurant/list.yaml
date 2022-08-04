@@ -5,6 +5,17 @@ tags:
 security:
   - Bearer: []
 
+parameters:
+  - name: lat
+    description: Latitute
+    in: query
+    required: true
+
+  - name: lng
+    description: Longitude
+    in: query
+    required: true
+
 responses:
   200:
     description: When a accessToken valid returns Restaurant List Resource

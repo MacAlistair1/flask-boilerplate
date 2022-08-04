@@ -201,6 +201,14 @@
         "documentation": {}
     },
     {
+        "label": "CORS",
+        "importPath": "flask_cors",
+        "description": "flask_cors",
+        "isExtraImport": true,
+        "detail": "flask_cors",
+        "documentation": {}
+    },
+    {
         "label": "environ",
         "importPath": "os",
         "description": "os",
@@ -836,6 +844,14 @@
         "documentation": {}
     },
     {
+        "label": "MongoEngine",
+        "importPath": "flask_mongoengine",
+        "description": "flask_mongoengine",
+        "isExtraImport": true,
+        "detail": "flask_mongoengine",
+        "documentation": {}
+    },
+    {
         "label": "Pagination",
         "importPath": "flask_mongoengine",
         "description": "flask_mongoengine",
@@ -974,11 +990,27 @@
         "documentation": {}
     },
     {
+        "label": "ValidationError",
+        "importPath": "mongoengine.errors",
+        "description": "mongoengine.errors",
+        "isExtraImport": true,
+        "detail": "mongoengine.errors",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
         "label": "index",
         "kind": 2,
         "importPath": "jobs.app",
         "description": "jobs.app",
-        "peekOfCode": "def index():\n    if request.method == 'GET':\n        return render_template('index.html')\n    elif request.method == 'POST':\n        data = {}\n        data['email'] = request.form['email']\n        data['first_name'] = request.form['first_name']\n        data['last_name'] = request.form['last_name']\n        data['message'] = request.form['message']\n        duration = int(request.form['duration'])",
+        "peekOfCode": "def index():\n    if request.method == 'GET':\n        return render_template('index.html')\n    elif request.method == 'POST':\n        data = {}\n        data['recipients'] = [request.form['email']]\n        data['first_name'] = request.form['first_name']\n        data['last_name'] = request.form['last_name']\n        data['subject'] = \"Ping!!\"\n        data['body'] = request.form['message']",
         "detail": "jobs.app",
         "documentation": {}
     },
@@ -996,7 +1028,7 @@
         "kind": 2,
         "importPath": "jobs.app",
         "description": "jobs.app",
-        "peekOfCode": "def send_mail(data):\n    \"\"\" Function to send emails.\n    \"\"\"\n    with app.app_context():\n        msg = Message(\"Ping!\",\n                      sender=\"admin.ping\",\n                      recipients=[data['email']])\n        msg.body = data['message']\n        mail.send(msg)\nif __name__ == '__main__':",
+        "peekOfCode": "def send_mail(data):\n    \"\"\" Function to send emails.\n    \"\"\"\n    with app.app_context():\n        msg = Message(data['subject'],\n                      recipients=data['recipients'])\n        msg.body = data['body']\n        data['action'] = url_for('index', _external=True)\n        msg.html = render_template(\"mail/test.html\", data=data)\n        mail.send(msg)",
         "detail": "jobs.app",
         "documentation": {}
     },
@@ -1005,7 +1037,7 @@
         "kind": 5,
         "importPath": "jobs.app",
         "description": "jobs.app",
-        "peekOfCode": "app = Flask(__name__)\napp.config.from_object(\"config\")\napp.secret_key = app.config['SECRET_KEY']\n# set up Flask-Mail Integration\nmail = Mail(app)\n# Set up celery client\nclient = Celery(app.name, broker=app.config['CELERY_BROKER_URL'])\nclient.conf.update(app.config)\n# For Logging on Debug Mode\nlogging.basicConfig(filename='jobs.log', level=logging.DEBUG,",
+        "peekOfCode": "app = Flask(__name__)\napp.config.from_object(\"config\")\napp.secret_key = app.config['SECRET_KEY']\n # cors init\n# cors = CORS(app)\n# set up Flask-Mail Integration\nmail = Mail(app)\n# Set up celery client\nclient = Celery(app.name, broker=app.config['CELERY_BROKER_URL'])\nclient.conf.update(app.config)",
         "detail": "jobs.app",
         "documentation": {}
     },
@@ -1014,7 +1046,7 @@
         "kind": 5,
         "importPath": "jobs.app",
         "description": "jobs.app",
-        "peekOfCode": "app.secret_key = app.config['SECRET_KEY']\n# set up Flask-Mail Integration\nmail = Mail(app)\n# Set up celery client\nclient = Celery(app.name, broker=app.config['CELERY_BROKER_URL'])\nclient.conf.update(app.config)\n# For Logging on Debug Mode\nlogging.basicConfig(filename='jobs.log', level=logging.DEBUG,\n                    format=f'%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')\n@app.route('/', methods=['GET', 'POST'])",
+        "peekOfCode": "app.secret_key = app.config['SECRET_KEY']\n # cors init\n# cors = CORS(app)\n# set up Flask-Mail Integration\nmail = Mail(app)\n# Set up celery client\nclient = Celery(app.name, broker=app.config['CELERY_BROKER_URL'])\nclient.conf.update(app.config)\n# For Logging on Debug Mode\nlogging.basicConfig(filename='jobs.log', level=logging.DEBUG,",
         "detail": "jobs.app",
         "documentation": {}
     },
@@ -1041,7 +1073,7 @@
         "kind": 5,
         "importPath": "jobs.config",
         "description": "jobs.config",
-        "peekOfCode": "MAIL_SERVER = 'smtp.mailtrap.io'\nMAIL_PORT = 2525\nMAIL_USE_TLS = True\nMAIL_USERNAME = '3e8f4d52a62a2a'\nMAIL_PASSWORD = '5badb2a5c8bf03'\n#celery redis\nCELERY_BROKER_URL = 'redis://localhost:6379/0'\nCELERY_BACKEND_URL = 'redis://localhost:6379/0'",
+        "peekOfCode": "MAIL_SERVER = 'smtp.mailtrap.io'\nMAIL_PORT = 2525\nMAIL_USE_TLS = True\nMAIL_USERNAME = '3e8f4d52a62a2a'\nMAIL_PASSWORD = '5badb2a5c8bf03'\nMAIL_DEFAULT_SENDER='info@boilerplate.com'\n#celery redis\nCELERY_BROKER_URL = 'redis://localhost:6379/0'\nCELERY_BACKEND_URL = 'redis://localhost:6379/0'",
         "detail": "jobs.config",
         "documentation": {}
     },
@@ -1050,7 +1082,7 @@
         "kind": 5,
         "importPath": "jobs.config",
         "description": "jobs.config",
-        "peekOfCode": "MAIL_PORT = 2525\nMAIL_USE_TLS = True\nMAIL_USERNAME = '3e8f4d52a62a2a'\nMAIL_PASSWORD = '5badb2a5c8bf03'\n#celery redis\nCELERY_BROKER_URL = 'redis://localhost:6379/0'\nCELERY_BACKEND_URL = 'redis://localhost:6379/0'",
+        "peekOfCode": "MAIL_PORT = 2525\nMAIL_USE_TLS = True\nMAIL_USERNAME = '3e8f4d52a62a2a'\nMAIL_PASSWORD = '5badb2a5c8bf03'\nMAIL_DEFAULT_SENDER='info@boilerplate.com'\n#celery redis\nCELERY_BROKER_URL = 'redis://localhost:6379/0'\nCELERY_BACKEND_URL = 'redis://localhost:6379/0'",
         "detail": "jobs.config",
         "documentation": {}
     },
@@ -1059,7 +1091,7 @@
         "kind": 5,
         "importPath": "jobs.config",
         "description": "jobs.config",
-        "peekOfCode": "MAIL_USE_TLS = True\nMAIL_USERNAME = '3e8f4d52a62a2a'\nMAIL_PASSWORD = '5badb2a5c8bf03'\n#celery redis\nCELERY_BROKER_URL = 'redis://localhost:6379/0'\nCELERY_BACKEND_URL = 'redis://localhost:6379/0'",
+        "peekOfCode": "MAIL_USE_TLS = True\nMAIL_USERNAME = '3e8f4d52a62a2a'\nMAIL_PASSWORD = '5badb2a5c8bf03'\nMAIL_DEFAULT_SENDER='info@boilerplate.com'\n#celery redis\nCELERY_BROKER_URL = 'redis://localhost:6379/0'\nCELERY_BACKEND_URL = 'redis://localhost:6379/0'",
         "detail": "jobs.config",
         "documentation": {}
     },
@@ -1068,7 +1100,7 @@
         "kind": 5,
         "importPath": "jobs.config",
         "description": "jobs.config",
-        "peekOfCode": "MAIL_USERNAME = '3e8f4d52a62a2a'\nMAIL_PASSWORD = '5badb2a5c8bf03'\n#celery redis\nCELERY_BROKER_URL = 'redis://localhost:6379/0'\nCELERY_BACKEND_URL = 'redis://localhost:6379/0'",
+        "peekOfCode": "MAIL_USERNAME = '3e8f4d52a62a2a'\nMAIL_PASSWORD = '5badb2a5c8bf03'\nMAIL_DEFAULT_SENDER='info@boilerplate.com'\n#celery redis\nCELERY_BROKER_URL = 'redis://localhost:6379/0'\nCELERY_BACKEND_URL = 'redis://localhost:6379/0'",
         "detail": "jobs.config",
         "documentation": {}
     },
@@ -1077,7 +1109,7 @@
         "kind": 5,
         "importPath": "jobs.config",
         "description": "jobs.config",
-        "peekOfCode": "MAIL_PASSWORD = '5badb2a5c8bf03'\n#celery redis\nCELERY_BROKER_URL = 'redis://localhost:6379/0'\nCELERY_BACKEND_URL = 'redis://localhost:6379/0'",
+        "peekOfCode": "MAIL_PASSWORD = '5badb2a5c8bf03'\nMAIL_DEFAULT_SENDER='info@boilerplate.com'\n#celery redis\nCELERY_BROKER_URL = 'redis://localhost:6379/0'\nCELERY_BACKEND_URL = 'redis://localhost:6379/0'",
         "detail": "jobs.config",
         "documentation": {}
     },
@@ -1770,7 +1802,7 @@
         "kind": 2,
         "importPath": "src.bookmark",
         "description": "src.bookmark",
-        "peekOfCode": "def bookmark_list():\n    per_page = request.args.get('perPage') if request.args.get(\n        'perPage') != None else 10\n    current_page = request.args.get('currentPage') if request.args.get(\n        'currentPage') != None else 1\n    paginator = Pagination(Bookmark.objects(\n        user=get_jwt_identity()).order_by('+createdAt', '-name'), int(current_page), int(per_page))\n    items = [Bookmark.object(item) for item in paginator.items]\n    return paginator_service(paginator, items)\n@bookmark.post(\"/\")",
+        "peekOfCode": "def bookmark_list():\n    per_page = request.args.get('perPage') if request.args.get(\n        'perPage') != None else 10\n    current_page = request.args.get('currentPage') if request.args.get(\n        'currentPage') != None else 1\n    paginator = Pagination(Bookmark.objects(\n        user=get_jwt_identity()), int(current_page), int(per_page))\n    items = [Bookmark.object(item) for item in paginator.items]\n    return paginator_service(paginator, items)\n@bookmark.post(\"/\")",
         "detail": "src.bookmark",
         "documentation": {}
     },
@@ -1915,6 +1947,15 @@
         "importPath": "src.restaurant",
         "description": "src.restaurant",
         "peekOfCode": "def create():\n    user = User.objects(id=get_jwt_identity()).first()\n    body = request.get_json()\n    schema = RestaurantSchema()\n    try:\n        data = schema.load(body)\n        restaurant = Restaurant(**body).save()\n        return jsonify({\n            \"data\": restaurant.object(),\n            \"status\": True,",
+        "detail": "src.restaurant",
+        "documentation": {}
+    },
+    {
+        "label": "update",
+        "kind": 2,
+        "importPath": "src.restaurant",
+        "description": "src.restaurant",
+        "peekOfCode": "def update(restaurant_id):\n    body = request.get_json()\n    schema = RestaurantSchema()\n    valid_id = ObjectId.is_valid(restaurant_id)\n    if valid_id:\n            try:\n                restro = Restaurant.objects.get(pk=restaurant_id)\n            except VError as error:\n                print(error)\n                abort(HTTP_404_NOT_FOUND, \"Restaurant not found.\")",
         "detail": "src.restaurant",
         "documentation": {}
     },

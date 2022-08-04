@@ -1,10 +1,203 @@
-2022-08-03 18:02:13,908 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/jobs/app.py', reloading
-2022-08-03 18:02:13,937 INFO werkzeug MainThread :  * Restarting with stat
-2022-08-03 18:02:14,116 WARNING werkzeug MainThread :  * Debugger is active!
-2022-08-03 18:02:14,116 INFO werkzeug MainThread :  * Debugger PIN: 103-562-638
-2022-08-03 18:02:16,136 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/jobs/app.py', reloading
-2022-08-03 18:02:16,194 INFO werkzeug MainThread :  * Restarting with stat
-2022-08-03 18:02:16,366 WARNING werkzeug MainThread :  * Debugger is active!
-2022-08-03 18:02:16,367 INFO werkzeug MainThread :  * Debugger PIN: 103-562-638
-2022-08-03 18:02:21,991 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 18:02:21] "[31m[1mPOST /send-mail HTTP/1.1[0m" 400 -
-2022-08-03 18:02:55,198 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [03/Aug/2022 18:02:55] "[31m[1mPOST /send-mail HTTP/1.1[0m" 400 -
+2022-08-04 10:44:48,661 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 10:44:48] "[31m[1mPOST /send-mail HTTP/1.1[0m" 400 -
+2022-08-04 10:45:14,085 INFO app Thread-3 (process_request_thread) : {'subject': 'Mail Subject', 'body': 'Hello Flask message sent from Flask-Mail', 'recipients': ['lamichhaneaj@gmail.com']}
+2022-08-04 10:45:14,085 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 10:45:14] "POST /send-mail HTTP/1.1" 200 -
+2022-08-04 10:45:26,044 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/jobs/app.py', reloading
+2022-08-04 10:45:26,077 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 10:45:26,253 WARNING werkzeug MainThread :  * Debugger is active!
+2022-08-04 10:45:26,254 INFO werkzeug MainThread :  * Debugger PIN: 145-181-962
+2022-08-04 10:45:29,266 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/jobs/app.py', reloading
+2022-08-04 10:45:29,296 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 10:45:29,482 WARNING werkzeug MainThread :  * Debugger is active!
+2022-08-04 10:45:29,482 INFO werkzeug MainThread :  * Debugger PIN: 145-181-962
+2022-08-04 10:45:33,434 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 10:45:33] "POST /send-mail HTTP/1.1" 200 -
+2022-08-04 10:46:27,828 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/jobs/app.py', reloading
+2022-08-04 10:46:27,882 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 10:46:28,081 WARNING werkzeug MainThread :  * Debugger is active!
+2022-08-04 10:46:28,081 INFO werkzeug MainThread :  * Debugger PIN: 145-181-962
+2022-08-04 10:46:29,088 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/jobs/app.py', reloading
+2022-08-04 10:46:29,127 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 10:46:45,257 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5001 (Press CTRL+C to quit)
+2022-08-04 10:46:45,258 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 10:46:45,421 WARNING werkzeug MainThread :  * Debugger is active!
+2022-08-04 10:46:45,421 INFO werkzeug MainThread :  * Debugger PIN: 145-181-962
+2022-08-04 10:46:50,933 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 10:46:50] "POST /send-mail HTTP/1.1" 200 -
+2022-08-04 10:47:30,687 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/jobs/app.py', reloading
+2022-08-04 10:47:30,728 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 10:47:30,911 WARNING werkzeug MainThread :  * Debugger is active!
+2022-08-04 10:47:30,911 INFO werkzeug MainThread :  * Debugger PIN: 145-181-962
+2022-08-04 10:47:32,930 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/jobs/app.py', reloading
+2022-08-04 10:47:32,991 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 10:47:33,166 WARNING werkzeug MainThread :  * Debugger is active!
+2022-08-04 10:47:33,166 INFO werkzeug MainThread :  * Debugger PIN: 145-181-962
+2022-08-04 10:47:36,184 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/jobs/app.py', reloading
+2022-08-04 10:47:36,220 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 10:47:36,393 WARNING werkzeug MainThread :  * Debugger is active!
+2022-08-04 10:47:36,393 INFO werkzeug MainThread :  * Debugger PIN: 145-181-962
+2022-08-04 10:47:41,422 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/jobs/app.py', reloading
+2022-08-04 10:47:41,468 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 10:47:41,643 WARNING werkzeug MainThread :  * Debugger is active!
+2022-08-04 10:47:41,644 INFO werkzeug MainThread :  * Debugger PIN: 145-181-962
+2022-08-04 10:47:43,658 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/jobs/app.py', reloading
+2022-08-04 10:47:43,689 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 10:47:43,862 WARNING werkzeug MainThread :  * Debugger is active!
+2022-08-04 10:47:43,862 INFO werkzeug MainThread :  * Debugger PIN: 145-181-962
+2022-08-04 10:47:53,926 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/jobs/app.py', reloading
+2022-08-04 10:47:53,962 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 10:47:54,130 WARNING werkzeug MainThread :  * Debugger is active!
+2022-08-04 10:47:54,131 INFO werkzeug MainThread :  * Debugger PIN: 145-181-962
+2022-08-04 10:48:54,465 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/jobs/config.py', reloading
+2022-08-04 10:48:54,498 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 10:48:54,679 WARNING werkzeug MainThread :  * Debugger is active!
+2022-08-04 10:48:54,679 INFO werkzeug MainThread :  * Debugger PIN: 145-181-962
+2022-08-04 10:49:07,745 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/jobs/app.py', reloading
+2022-08-04 10:49:07,803 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 10:49:07,974 WARNING werkzeug MainThread :  * Debugger is active!
+2022-08-04 10:49:07,975 INFO werkzeug MainThread :  * Debugger PIN: 145-181-962
+2022-08-04 10:49:54,217 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/jobs/app.py', reloading
+2022-08-04 10:49:54,268 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 10:51:13,800 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5001 (Press CTRL+C to quit)
+2022-08-04 10:51:13,800 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 10:51:13,965 WARNING werkzeug MainThread :  * Debugger is active!
+2022-08-04 10:51:13,966 INFO werkzeug MainThread :  * Debugger PIN: 145-181-962
+2022-08-04 10:51:25,079 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 10:51:25] "POST /send-mail HTTP/1.1" 200 -
+2022-08-04 10:51:49,156 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/jobs/app.py', reloading
+2022-08-04 10:51:49,203 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 10:51:49,376 WARNING werkzeug MainThread :  * Debugger is active!
+2022-08-04 10:51:49,377 INFO werkzeug MainThread :  * Debugger PIN: 145-181-962
+2022-08-04 10:51:55,596 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 10:51:55] "POST /send-mail HTTP/1.1" 200 -
+2022-08-04 10:52:28,894 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5001 (Press CTRL+C to quit)
+2022-08-04 10:52:28,895 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 10:52:29,059 WARNING werkzeug MainThread :  * Debugger is active!
+2022-08-04 10:52:29,059 INFO werkzeug MainThread :  * Debugger PIN: 145-181-962
+2022-08-04 10:52:37,203 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 10:52:37] "POST /send-mail HTTP/1.1" 200 -
+2022-08-04 10:55:59,450 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 10:55:59] "POST /send-mail HTTP/1.1" 200 -
+2022-08-04 10:56:13,561 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5001 (Press CTRL+C to quit)
+2022-08-04 10:56:13,561 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 10:56:13,724 WARNING werkzeug MainThread :  * Debugger is active!
+2022-08-04 10:56:13,725 INFO werkzeug MainThread :  * Debugger PIN: 145-181-962
+2022-08-04 10:56:20,350 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 10:56:20] "POST /send-mail HTTP/1.1" 200 -
+2022-08-04 10:58:37,922 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5001 (Press CTRL+C to quit)
+2022-08-04 10:58:37,923 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 10:58:38,089 WARNING werkzeug MainThread :  * Debugger is active!
+2022-08-04 10:58:38,089 INFO werkzeug MainThread :  * Debugger PIN: 145-181-962
+2022-08-04 10:58:41,241 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 10:58:41] "POST /send-mail HTTP/1.1" 200 -
+2022-08-04 10:58:56,201 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/jobs/config.py', reloading
+2022-08-04 10:58:56,241 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 10:58:56,412 WARNING werkzeug MainThread :  * Debugger is active!
+2022-08-04 10:58:56,412 INFO werkzeug MainThread :  * Debugger PIN: 145-181-962
+2022-08-04 10:59:04,454 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/jobs/config.py', reloading
+2022-08-04 10:59:04,485 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 10:59:04,655 WARNING werkzeug MainThread :  * Debugger is active!
+2022-08-04 10:59:04,655 INFO werkzeug MainThread :  * Debugger PIN: 145-181-962
+2022-08-04 10:59:08,678 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/jobs/config.py', reloading
+2022-08-04 10:59:08,719 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 10:59:08,893 WARNING werkzeug MainThread :  * Debugger is active!
+2022-08-04 10:59:08,893 INFO werkzeug MainThread :  * Debugger PIN: 145-181-962
+2022-08-04 10:59:14,497 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5001 (Press CTRL+C to quit)
+2022-08-04 10:59:14,498 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 10:59:14,659 WARNING werkzeug MainThread :  * Debugger is active!
+2022-08-04 10:59:14,659 INFO werkzeug MainThread :  * Debugger PIN: 145-181-962
+2022-08-04 10:59:22,437 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 10:59:22] "POST /send-mail HTTP/1.1" 200 -
+2022-08-04 10:59:51,888 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/jobs/app.py', reloading
+2022-08-04 10:59:51,928 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 10:59:52,124 WARNING werkzeug MainThread :  * Debugger is active!
+2022-08-04 10:59:52,124 INFO werkzeug MainThread :  * Debugger PIN: 145-181-962
+2022-08-04 11:00:22,879 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5001 (Press CTRL+C to quit)
+2022-08-04 11:00:22,880 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 11:00:23,042 WARNING werkzeug MainThread :  * Debugger is active!
+2022-08-04 11:00:23,043 INFO werkzeug MainThread :  * Debugger PIN: 145-181-962
+2022-08-04 11:00:46,285 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 11:00:46] "POST /send-mail HTTP/1.1" 200 -
+2022-08-04 11:02:25,210 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5001 (Press CTRL+C to quit)
+2022-08-04 11:02:25,211 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 11:02:25,371 WARNING werkzeug MainThread :  * Debugger is active!
+2022-08-04 11:02:25,371 INFO werkzeug MainThread :  * Debugger PIN: 145-181-962
+2022-08-04 11:02:33,735 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 11:02:33] "POST /send-mail HTTP/1.1" 200 -
+2022-08-04 11:03:05,599 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/jobs/app.py', reloading
+2022-08-04 11:03:05,668 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 11:03:05,869 WARNING werkzeug MainThread :  * Debugger is active!
+2022-08-04 11:03:05,870 INFO werkzeug MainThread :  * Debugger PIN: 145-181-962
+2022-08-04 11:03:36,036 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5001 (Press CTRL+C to quit)
+2022-08-04 11:03:36,036 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 11:03:36,199 WARNING werkzeug MainThread :  * Debugger is active!
+2022-08-04 11:03:36,200 INFO werkzeug MainThread :  * Debugger PIN: 145-181-962
+2022-08-04 11:03:42,527 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 11:03:42] "POST /send-mail HTTP/1.1" 200 -
+2022-08-04 11:04:46,489 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 11:04:46] "POST /send-mail HTTP/1.1" 200 -
+2022-08-04 11:07:24,326 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5001 (Press CTRL+C to quit)
+2022-08-04 11:07:24,326 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 11:07:24,490 WARNING werkzeug MainThread :  * Debugger is active!
+2022-08-04 11:07:24,490 INFO werkzeug MainThread :  * Debugger PIN: 145-181-962
+2022-08-04 11:07:30,007 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 11:07:30] "POST /send-mail HTTP/1.1" 200 -
+2022-08-04 11:09:07,072 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/jobs/app.py', reloading
+2022-08-04 11:09:07,127 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 11:09:07,304 WARNING werkzeug MainThread :  * Debugger is active!
+2022-08-04 11:09:07,305 INFO werkzeug MainThread :  * Debugger PIN: 145-181-962
+2022-08-04 11:09:21,377 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/jobs/app.py', reloading
+2022-08-04 11:09:21,422 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 11:09:21,601 WARNING werkzeug MainThread :  * Debugger is active!
+2022-08-04 11:09:21,601 INFO werkzeug MainThread :  * Debugger PIN: 145-181-962
+2022-08-04 11:09:29,658 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/jobs/app.py', reloading
+2022-08-04 11:09:29,701 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 11:10:55,283 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5001 (Press CTRL+C to quit)
+2022-08-04 11:10:55,283 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 11:10:55,456 WARNING werkzeug MainThread :  * Debugger is active!
+2022-08-04 11:10:55,456 INFO werkzeug MainThread :  * Debugger PIN: 145-181-962
+2022-08-04 11:11:09,200 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 11:11:09] "POST /send-mail HTTP/1.1" 200 -
+2022-08-04 11:11:31,649 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/jobs/app.py', reloading
+2022-08-04 11:11:31,689 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 11:11:31,858 WARNING werkzeug MainThread :  * Debugger is active!
+2022-08-04 11:11:31,858 INFO werkzeug MainThread :  * Debugger PIN: 145-181-962
+2022-08-04 11:11:33,871 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/jobs/app.py', reloading
+2022-08-04 11:11:33,925 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 11:11:44,470 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5001 (Press CTRL+C to quit)
+2022-08-04 11:11:44,471 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 11:11:44,631 WARNING werkzeug MainThread :  * Debugger is active!
+2022-08-04 11:11:44,631 INFO werkzeug MainThread :  * Debugger PIN: 145-181-962
+2022-08-04 11:11:47,848 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 11:11:47] "POST /send-mail HTTP/1.1" 200 -
+2022-08-04 11:11:58,721 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/jobs/app.py', reloading
+2022-08-04 11:11:58,773 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 11:11:58,939 WARNING werkzeug MainThread :  * Debugger is active!
+2022-08-04 11:11:58,940 INFO werkzeug MainThread :  * Debugger PIN: 145-181-962
+2022-08-04 11:12:08,997 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/jobs/app.py', reloading
+2022-08-04 11:12:09,038 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 11:18:23,834 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5001 (Press CTRL+C to quit)
+2022-08-04 11:18:23,835 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 11:18:23,999 WARNING werkzeug MainThread :  * Debugger is active!
+2022-08-04 11:18:24,000 INFO werkzeug MainThread :  * Debugger PIN: 145-181-962
+2022-08-04 11:18:26,774 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 11:18:26] "POST /send-mail HTTP/1.1" 200 -
+2022-08-04 11:18:56,476 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 11:18:56] "GET / HTTP/1.1" 200 -
+2022-08-04 11:18:56,800 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 11:18:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-08-04 11:19:08,269 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/jobs/app.py', reloading
+2022-08-04 11:19:08,318 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 11:19:20,070 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5001 (Press CTRL+C to quit)
+2022-08-04 11:19:20,071 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 11:19:20,232 WARNING werkzeug MainThread :  * Debugger is active!
+2022-08-04 11:19:20,233 INFO werkzeug MainThread :  * Debugger PIN: 145-181-962
+2022-08-04 11:19:26,357 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 11:19:26] "POST /send-mail HTTP/1.1" 200 -
+2022-08-04 11:20:31,714 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5001 (Press CTRL+C to quit)
+2022-08-04 11:20:31,714 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 11:20:31,876 WARNING werkzeug MainThread :  * Debugger is active!
+2022-08-04 11:20:31,876 INFO werkzeug MainThread :  * Debugger PIN: 145-181-962
+2022-08-04 11:20:34,038 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 11:20:34] "POST /send-mail HTTP/1.1" 200 -
+2022-08-04 11:20:46,950 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/jobs/app.py', reloading
+2022-08-04 11:20:47,004 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 11:20:47,183 WARNING werkzeug MainThread :  * Debugger is active!
+2022-08-04 11:20:47,184 INFO werkzeug MainThread :  * Debugger PIN: 145-181-962
+2022-08-04 11:21:03,276 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/jobs/app.py', reloading
+2022-08-04 11:21:03,307 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 11:21:03,481 WARNING werkzeug MainThread :  * Debugger is active!
+2022-08-04 11:21:03,481 INFO werkzeug MainThread :  * Debugger PIN: 145-181-962
+2022-08-04 11:21:14,347 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5001 (Press CTRL+C to quit)
+2022-08-04 11:21:14,347 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 11:21:14,516 WARNING werkzeug MainThread :  * Debugger is active!
+2022-08-04 11:21:14,516 INFO werkzeug MainThread :  * Debugger PIN: 145-181-962
+2022-08-04 11:21:17,566 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 11:21:17] "POST /send-mail HTTP/1.1" 200 -
+2022-08-04 11:21:35,662 INFO werkzeug MainThread :  * Detected change in '/home/mac/Documents/flask/boilerplate/jobs/app.py', reloading
+2022-08-04 11:21:35,730 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 11:21:35,914 WARNING werkzeug MainThread :  * Debugger is active!
+2022-08-04 11:21:35,914 INFO werkzeug MainThread :  * Debugger PIN: 145-181-962
+2022-08-04 11:23:47,752 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5001 (Press CTRL+C to quit)
+2022-08-04 11:23:47,753 INFO werkzeug MainThread :  * Restarting with stat
+2022-08-04 11:23:47,915 WARNING werkzeug MainThread :  * Debugger is active!
+2022-08-04 11:23:47,915 INFO werkzeug MainThread :  * Debugger PIN: 145-181-962
+2022-08-04 11:23:52,060 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 11:23:52] "POST /send-mail HTTP/1.1" 200 -
+2022-08-04 11:26:30,579 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [04/Aug/2022 11:26:30] "POST /send-mail HTTP/1.1" 200 -

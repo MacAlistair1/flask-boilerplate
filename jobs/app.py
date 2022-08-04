@@ -2,10 +2,16 @@ from flask import Flask, flash, render_template, request, redirect, url_for
 from flask_mail import Mail, Message
 from celery import Celery
 import logging
+from flask_cors import CORS
 
 app = Flask(__name__)
 app.config.from_object("config")
 app.secret_key = app.config['SECRET_KEY']
+
+
+ # cors init
+# cors = CORS(app)
+
 
 # set up Flask-Mail Integration
 mail = Mail(app)
@@ -18,7 +24,6 @@ client.conf.update(app.config)
 logging.basicConfig(filename='jobs.log', level=logging.DEBUG,
                     format=f'%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')
 
-
 @app.route('/', methods=['GET', 'POST'])
 def index():
     if request.method == 'GET':
@@ -26,10 +31,11 @@ def index():
 
     elif request.method == 'POST':
         data = {}
-        data['email'] = request.form['email']
+        data['recipients'] = [request.form['email']]
         data['first_name'] = request.form['first_name']
         data['last_name'] = request.form['last_name']
-        data['message'] = request.form['message']
+        data['subject'] = "Ping!!"
+        data['body'] = request.form['message']
         duration = int(request.form['duration'])
         duration_unit = request.form['duration_unit']
 
@@ -45,6 +51,7 @@ def index():
             f"Email will be sent to {data['email']} in {request.form['duration']} {duration_unit}")
 
         return redirect(url_for('index'))
+
 
 
 @app.post('/send-mail')
@@ -64,12 +71,12 @@ def send_mail(data):
     """ Function to send emails.
     """
     with app.app_context():
-        msg = Message("Ping!",
-                      sender="admin.ping",
-                      recipients=[data['email']])
-        msg.body = data['message']
+        msg = Message(data['subject'],
+                      recipients=data['recipients'])
+        msg.body = data['body']
+        data['action'] = url_for('index', _external=True)
+        msg.html = render_template("mail/test.html", data=data)
         mail.send(msg)
-
 
 if __name__ == '__main__':
     app.run(debug=True, port=5001)

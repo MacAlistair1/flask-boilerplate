@@ -1,0 +1,39 @@
+Restaurant Update
+---
+tags:
+  - Restaurant
+security:
+  - Bearer: []
+parameters:
+  - name: body
+    description: The body should contain the Restaurant data
+    in: body
+    required: true
+    schema:
+      type: object
+      required:
+        - "name"
+        - "point"
+      properties:
+        name:
+          type: "string"
+          example: "New Restaurant in Town"
+        point:
+          type: "array"
+          items:
+            type: float
+          example: [27.678678, 85.234234]
+  - name: restaurant_id
+    description: Restaurant Object Id
+    in: path
+    required: true
+
+responses:
+  200:
+    description: When a restaurant stores return restaurant object
+
+  400:
+    description: Fails due to bad request data
+
+  422:
+    description: Fails due to validation error
