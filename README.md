@@ -33,7 +33,7 @@
 
   `https://www.getpostman.com/collections/407d175592d6730053da` **_Import using this url in postman_**
 
-- Major Dependencies: `flask` `flask_cors` `flask_bcrypt` `flask_limiter` `flask_jwt_extended` `flasgger` `marshmallow` `flask_mongoengine` `celery` `redis` `flower`
+- Major Dependencies: `flask` `flask_cors` `flask_bcrypt` `flask_limiter` `flask_jwt_extended` `flasgger` `marshmallow` `flask_mongoengine` `celery` `redis` `flower` `requests` 
 
 <p align="center">
                    
